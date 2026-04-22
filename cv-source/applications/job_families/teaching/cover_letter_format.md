@@ -24,8 +24,8 @@ Choose one story. Examples: PhysAssist, public demonstrations, workshops, studen
 
 ## Paragraph 4
 
-Close by connecting teaching, advising, laboratory support, outreach, and student success to the department's needs.
+Close by connecting teaching, student support, laboratory support, outreach, and student success to the department's needs.
 
 ## Cautions
 
-Do not overstate course ownership. Research should support teaching breadth and undergraduate mentoring, not dominate the letter unless the role is research-teaching balanced.
+Do not overstate course ownership, formal academic advising, or instructor-of-record status. Research should support teaching breadth, undergraduate-accessible projects, laboratory activities, or course-connected examples; it should not dominate the letter unless the role is research-teaching balanced.

@@ -5,6 +5,7 @@ description: >
   Research by David Beckwitt on X-ray diffraction, layered van der Waals thin films,
   and computational analysis of disorder.
 permalink: /research/
+accent_image: /assets/img/research-sidebar-bg.jpg
 ---
 
 My research focuses on quantitative X-ray diffraction and GIWAXS analysis of layered van der Waals thin films. These materials often sit between the textbook limits of a single crystal and a fully random powder: the layer normal remains aligned to the substrate, while the in-plane orientation, mosaic spread, and stacking disorder create complex two-dimensional detector images.

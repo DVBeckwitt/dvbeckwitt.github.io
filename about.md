@@ -1,167 +1,49 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
+image: /assets/img/logo.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  David Beckwitt is a Physics Ph.D. candidate at the University of Missouri
+  working in quantitative X-ray scattering, thin-film materials
+  characterization, and Python-based modeling.
 hide_description: true
-redirect_from:
-  - /download/
 ---
 
-# About
+# David Beckwitt
 
-<!--author-->
+![David Beckwitt](/assets/img/logo.jpg){:.lead width="800" height="1200" loading="lazy"}
 
-## Hydejack
-
-A boutique Jekyll theme for hackers, nerds, and academics.  
+I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, studying disorder in van der Waals thin films. My work sits at the intersection of quantitative X-ray scattering, thin-film materials characterization, custom instrument operation, Python-based modeling, and machine-learning-assisted structure analysis.
 {:.lead}
 
-1. this list will be replaced by the toc
-{:toc .large-only}
+## Research
 
-![Screenshot](/assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
+As a Graduate Research Assistant at the University of Missouri, I operate and maintain custom-built in-house X-ray diffraction and reflectivity systems for materials characterization. My dissertation work, _Investigating Disorder in van der Waals Thin Films_, uses diffraction data to connect thin-film structure, orientation, disorder, and growth conditions.
 
-Hydejack's cover page on a variety of screen sizes.
-{:.figcaption}
+My recent work includes Python-based GIWAXS modeling frameworks for extracting site occupancies, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from scattering data. I also model diffuse scattering from stacking faults, quantify defect densities, grow phase-controlled PbI2 films by chemical vapor deposition, and develop PyTorch convolutional neural networks on simulated GIWAXS data for automated structure analysis.
 
+## Applied Tools
 
-**Hydejack** is a boutique [Jekyll] theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
+- [2D_Mosaic_Sim](https://github.com/DVBeckwitt/2D_Mosaic_Sim): X-ray diffraction simulation tools for visualizing diffraction patterns from materials with specified crystal orientations.
+- [ra_sim](https://github.com/DVBeckwitt/ra_sim): crystal analysis software for simulating and analyzing diffraction data from R-Axis IV++ detectors.
+- [OSC_Reader](https://github.com/DVBeckwitt/OSC_Reader): a detector-data converter that makes proprietary detector files accessible for inspection and analysis without commercial software.
 
-It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
+## Teaching and Outreach
 
-> Your complete presence on the web — A [blog], [portfolio], and [resume].
-{:.lead}
+Teaching is a central part of my academic work. I have tutored undergraduate physics at the University of Missouri, taught and assisted courses ranging from small sections to 200+ students, and supported introductory mechanics, electricity and magnetism, and classical mechanics. My teaching emphasizes clear expectations, student-centered support, active learning, collaborative problem solving, inquiry-based tutorials, demonstrations, simulations, and peer instruction.
 
+I have also served in graduate and physics communities through PAGSA leadership, PhysAssist, CGW Diversity Officer work, Graduate Professional Council service, Sigma Pi Sigma judging, X-ray and machine-learning workshops, and public STEM outreach through MU Extension eclipse events, STEM Cubs, Moberly Correctional Center, and Columbia Young Scientist Expo.
 
-## A Personal Site That Won't Disappear
+## Background
 
-**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
+I earned an M.S. in Physics from the University of Missouri in 2022 and a B.S. in Physics from Missouri State University in 2020, with minors in Mathematics and Chemistry. Before my current graduate research, I worked on graphene and thin-film materials through the NASA Space Consortium, designed and built a pulsed laser deposition system at Missouri State University, and developed biomedical testing software and hardware automation as an R&D intern at Dynatek Labs.
 
-Hydejack is all static sites. _HTML_. All you need is a web server — any web server — to have a professional web presence that lasts a lifetime.
+## Selected Recognition
 
+- Research and Creative Activity Forum Award, 2025.
+- NSSA Outstanding Student Research Prize, 2023.
+- ACNS invited talk, 2023.
+- Green Chalk Teaching Award, 2022-2023.
+- GPC Excellence in Student Leadership, 2022-2023.
 
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
-
-
-## A Printable Resume
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](/assets/Resume.pdf).
-
-[![Resume PDF](/assets/img/blog/resume.png){:.lead width="884" height="632" loading="lazy"}][resume]{:.no-hover.no-mark}
-
-Front and center page of a print resume generated by Hydejack.
-{:.figcaption}
-
-
-## Just Markdown
-Write all content with Markdown. __Hydejack__ gives you [additional CSS classes](docs/writing.md) to stylize your content, without losing compatibility with other Jekyll themes.
-
-
-## Just Markup
-**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a _plain old web page_ at its core. It works without JavaScript and you can even view it in a text-based browser like `w3m`:
-
-![w3m Screenshot](/assets/img/blog/w3m.png){:.tail width="1920" height="1260" loading="lazy"}
-
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figcaption}
-
-
-## Syntax Highlighting
-**Hydejack** features syntax highlighting, powered by [Rouge].
-
-```html
-<!-- file: `_includes/my-body.html` -->
-<script type="module">
-  document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
-    const supportsCodeHighlights = false; // TBD!!
-  });
-</script>
-```
-
-Code blocks can have a filename and a caption.
-{:.figcaption}
-
-
-## Beautiful Math
-They say math is beautiful — and with **Hydejack**'s [math support][math] it's guaranteed to also look beautiful:
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
-
-Hydejack uses KaTeX to efficiently render math.
-{:.figcaption}
-
-
-## Features
-
-{% include features.md %}
-
-
-## Download
-
-{% include table.md %}
-
-
-## Get It Now
-
-Use the the form below to purchase Hydejack PRO:
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-[jekyll]: https://jekyllrb.com
-
-[blog]: /
-[portfolio]: https://hydejack.com/examples/
-[resume]: https://hydejack.com/resume/
-[download]: https://hydejack.com/download/
-[welcome]: https://hydejack.com/
-[forms]: https://hydejack.com/forms-by-example/
-
-[features]: #features
-[news]: #build-an-audience
-[syntax]: #syntax-highlighting
-[latex]: #beautiful-math
-[dark]: https://hydejack.com/blog/hydejack/2018-09-01-introducing-dark-mode/
-[search]: https://hydejack.com/#_search-input
-[grid]: https://hydejack.com/blog/hydejack/
-
-[lic]: LICENSE.md
-[pro]: licenses/PRO.md
-[docs]: docs/README.md
-[ofln]: docs/advanced.md#enabling-offline-support
-[math]: docs/writing.md#adding-math
-
-[kit]: https://github.com/hydecorp/hydejack-starter-kit/releases
-[src]: https://github.com/hydecorp/hydejack
-[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
-[buy]: https://gum.co/nuOluY
-
-[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2Fdocs%2F
-[rouge]: http://rouge.jneen.net
-[katex]: https://khan.github.io/KaTeX/
-[mathjax]: https://www.mathjax.org/
+[View my CV](/cv/){:.btn}
+[Teaching philosophy](/teaching-philosophy/){:.btn}

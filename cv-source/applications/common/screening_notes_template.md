@@ -23,10 +23,16 @@
 ## Resume length recommendation
 
 
+## Resume format branch
+
+
 ## Cover letter angle
 
 
 ## Teaching-specific materials required, if any
+
+
+## Teaching-specific caution flags, if any
 
 
 ## Keywords to include naturally

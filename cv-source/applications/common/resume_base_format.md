@@ -13,6 +13,8 @@ Do not include private phone numbers or addresses unless David provides them for
 
 Use 2 to 3 lines. Name the role family, strongest technical evidence, and one differentiator. Do not use generic adjectives.
 
+For teaching roles, choose the correct branch before drafting: teaching-focused lecturer resume, general teaching resume, tutoring or learning-support resume, outreach or education-program resume, two-page teaching resume, or teaching-focused CV.
+
 ## Skills
 
 Group skills by employer need. Put the most relevant group first.
@@ -32,6 +34,8 @@ Use when software, modeling, data analysis, or instrumentation work is central t
 ## Publications or presentations
 
 Include for scientific, academic, scattering, metrology, and research-heavy roles. Omit or compress for general industry roles unless credibility matters.
+
+For one-page teaching-focused resumes, include publications only when a publication is central to the role or requested. Do not let publications crowd out direct teaching evidence.
 
 ## Education
 

@@ -25,6 +25,13 @@ TEACHING_TEX = (
     / "teaching"
     / "teaching_philosophy_example.tex"
 )
+TEACHING_MD = (
+    CV_ROOT
+    / "applications"
+    / "examples"
+    / "teaching"
+    / "teaching_philosophy_example.md"
+)
 TEACHING_PUBLIC = ASSET_DIR / "teaching-philosophy.pdf"
 TEACHING_INCLUDE = INCLUDE_DIR / "teaching-philosophy.md"
 
@@ -82,42 +89,85 @@ def run_latex_passes(tex_path: Path, build_dir: Path, with_biber: bool) -> Path:
     return build_dir / f"{tex_path.stem}.pdf"
 
 
-def replace_textbf(text: str) -> str:
-    pattern = re.compile(r"\\textbf\{([^{}]*)\}")
-    previous = None
-    while previous != text:
-        previous = text
-        text = pattern.sub(r"**\1**", text)
-    return text
+def teaching_source_text(markdown: str) -> str:
+    fence_match = re.search(r"```(?:text)?\s*(.*?)```", markdown, re.S)
+    if fence_match is not None:
+        return fence_match.group(1).strip()
 
-
-def teaching_tex_to_markdown(tex: str) -> str:
-    body_match = re.search(r"\\begin\{document\}(.*)\\end\{document\}", tex, re.S)
-    if body_match is None:
-        raise ValueError(f"Could not find document body in {TEACHING_TEX}")
-
-    body = body_match.group(1)
-    body = re.sub(r"\\href\{([^{}]+)\}\{([^{}]+)\}\\\\", r"[\2](\1)", body)
-    body = re.sub(r"\\section\*\{[^{}]+\}", "", body)
-    body = body.replace(r"\begin{enumerate}[label=\arabic*.]", "")
-    body = body.replace(r"\end{enumerate}", "")
-    body = re.sub(r"\s*\\item\s+", "\n1. ", body)
-    body = body.replace(r"\pagebreak", "")
-    body = replace_textbf(body)
-    body = body.replace(r"\\", "\n")
-    body = body.replace(r"\&", "&")
-    body = re.sub(r"\{([^{}\n]+)\}", r"\1", body)
-    body = re.sub(r"\n{3,}", "\n\n", body)
-
-    lines: list[str] = []
-    for line in body.splitlines():
+    lines = []
+    for line in markdown.splitlines():
         stripped = line.strip()
-        if stripped == "Phone: [phone omitted]":
+        if stripped.startswith("#") or stripped.startswith("Source note:"):
             continue
-        lines.append(stripped)
+        lines.append(line)
+    return "\n".join(lines).strip()
 
-    content = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
-    return f"{content}\n"
+
+def add_meta_block(blocks: list[str], line: str) -> None:
+    if blocks and ("Beckwitt" in blocks[-1] or blocks[-1].startswith("Email:")):
+        blocks[-1] += f"\n{line}"
+        return
+    blocks.append(line)
+
+
+def teaching_markdown_to_site_markdown(markdown: str) -> str:
+    text = teaching_source_text(markdown)
+    blocks: list[str] = []
+    paragraph = ""
+    keep_hyphenated_words = {("student", "centered")}
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph
+        if paragraph:
+            blocks.append(paragraph)
+            paragraph = ""
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            flush_paragraph()
+            continue
+        if line in {"Teaching Philosophy", "Phone: [phone omitted]"}:
+            continue
+        if re.fullmatch(r"\d+", line):
+            continue
+        if line.startswith("David V. Beckwitt") or line.startswith("Email:"):
+            flush_paragraph()
+            add_meta_block(blocks, line)
+            continue
+        numbered_item = re.match(r"\d+\.\s+(.*)", line)
+        if numbered_item is not None:
+            flush_paragraph()
+            item = f"1. {numbered_item.group(1)}"
+            if blocks and blocks[-1].startswith("1. "):
+                blocks[-1] += f"\n{item}"
+            else:
+                blocks.append(item)
+            continue
+
+        if paragraph and re.search(r"[.!?]$", paragraph) and line[:1].isupper():
+            flush_paragraph()
+
+        if paragraph.endswith("-"):
+            previous_word = re.search(r"([A-Za-z]+)-$", paragraph)
+            next_word = re.match(r"([A-Za-z]+)", line)
+            keep_hyphen = (
+                previous_word is not None
+                and next_word is not None
+                and (previous_word.group(1).lower(), next_word.group(1).lower())
+                in keep_hyphenated_words
+            )
+            if keep_hyphen:
+                paragraph = f"{paragraph}{line}"
+            else:
+                paragraph = f"{paragraph[:-1]}{line}"
+        elif paragraph:
+            paragraph = f"{paragraph} {line}"
+        else:
+            paragraph = line
+
+    flush_paragraph()
+    return f"{'\n\n'.join(blocks).strip()}\n"
 
 
 def build_cv_pdf() -> None:
@@ -165,7 +215,7 @@ def build_teaching_pdf() -> None:
 
 
 def build_teaching_include() -> None:
-    markdown = teaching_tex_to_markdown(TEACHING_TEX.read_text(encoding="utf-8"))
+    markdown = teaching_markdown_to_site_markdown(TEACHING_MD.read_text(encoding="utf-8"))
     TEACHING_INCLUDE.write_text(markdown, encoding="utf-8", newline="\n")
     print(f"Wrote {TEACHING_INCLUDE.relative_to(ROOT).as_posix()}")
 
