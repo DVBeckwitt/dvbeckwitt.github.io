@@ -32,4 +32,10 @@ Job families:
 
 Examples are archived under `examples/`. They are writing references, not automatic evidence sources.
 
+Current example folders:
+
+- `examples/data_science/` for data analysis, analytics, technical analyst, and People Analytics resume and cover-letter examples.
+- `examples/metrology/` for metrology resume examples.
+- `examples/teaching/` for teaching resume, cover-letter, and teaching-philosophy examples.
+
 Use `job_families/data_science/` for data science, analytics, data analyst, technical analyst, and People Analytics roles; apply the evidence-control cautions in `AGENTS.md` before using employer-domain keywords as candidate claims.
