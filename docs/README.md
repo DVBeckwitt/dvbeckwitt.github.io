@@ -30,6 +30,7 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 {:.related-posts.faded}
 
 ## Other
+* [Project Status]{:.heading.flip-title} --- Current notes on completed work, feature status, and validation.
 * [LICENSE]{:.heading.flip-title} --- The license of this project.
 * [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
@@ -44,6 +45,7 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 [build]: build.md
 [deploy]: deploy.md
 [advanced]: advanced.md
+[Project Status]: project-status.md
 [LICENSE]: ../LICENSE.md
 [NOTICE]: ../NOTICE.md
 [CHANGELOG]: ../CHANGELOG.md
