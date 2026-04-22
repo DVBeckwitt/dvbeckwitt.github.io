@@ -30,6 +30,7 @@
 - Feature complete: merged the resume and cover-letter targeting philosophy for analytics, data science, technical analyst, and People Analytics roles into `AGENTS.md`, reusable data-science formats, the application README, and the application quality checklist.
 - Feature complete: added evidence-control cautions for unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
 - Feature complete: recorded the EquipmentShare Data Analyst - People positioning and screening-answer cautions for future application work.
+- Documentation checkpoint complete: project docs now record the analytics and People Analytics agent update, the controlled HR-domain claim risks, current validation status, and known local-tool limitations.
 - Current local status: `python scripts/check_repo.py` passes on this Windows machine with LaTeX skipped because MiKTeX finds `latexmk` but lacks the Perl script engine. Strict LaTeX validation remains expected to fail until Perl or the LaTeX toolchain is fixed.
 - Current local limitation: Docker and `actionlint` are not installed on PATH, so the Gitleaks Docker scan and workflow lint could not be executed locally.
 

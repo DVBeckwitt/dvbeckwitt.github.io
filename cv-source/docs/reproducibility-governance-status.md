@@ -26,6 +26,7 @@ Last reviewed: 2026-04-22.
 - Agent and application-format guidance now includes the resume and cover-letter targeting philosophy for analytics, data science, technical analyst, and People Analytics roles.
 - Evidence-control rules now explicitly block unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
 - EquipmentShare Data Analyst - People positioning and screening-answer cautions are recorded for future application work.
+- Project status docs now explicitly record the completed agent-guidance update, controlled bug/error/feature status, validation result, and known local-tool limitations.
 
 ## Bug, error, and feature status
 
@@ -49,6 +50,7 @@ Last reviewed: 2026-04-22.
 | Feature: secret scanning | Added | Gitleaks scans the current checkout in CI with the direct Docker CLI path; local validation requires Docker or Gitleaks on PATH. |
 | Feature: industry analytics application-agent guidance | Added | `AGENTS.md`, data-science resume and cover-letter formats, the application README, and the application quality checklist now carry the People Analytics and evidence-control update. |
 | Error status: unsupported HR-domain claims in future applications | Controlled | Agent rules now require those claims to remain gaps unless David provides direct evidence. |
+| Feature: project documentation status checkpoint | Added | `changes_summary.md` and this governance status file now record what changed, current validation, controlled risks, and remaining local limitations. |
 
 ## Latest local verification
 
