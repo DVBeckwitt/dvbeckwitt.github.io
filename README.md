@@ -67,7 +67,7 @@ See `docs/project-status.md` for the latest project status note.
 
 Most recent documented change:
 
-- **Feature:** Merged identity-first metadata, profile-first homepage, post archive copy, Projects page, five project detail pages, and local project card images.
-- **Status:** Done.
-- **Bug/error status:** The `/projects/` navigation target is now present and Hydejack starter homepage/archive metadata has been replaced.
-- **Validation:** YAML and asset-path checks passed. Full Jekyll build is blocked in this shell because Ruby/Bundler are not available on PATH.
+- **Bug/error:** Repository-support and theme documentation files were being eligible for public site output.
+- **Status:** Fixed.
+- **Feature/status:** `_config.yml` now excludes theme docs, license folders, repository metadata pages, old blog/doc image folders, and `_featured_categories`; footer legal links to LICENSE, NOTICE, and CHANGELOG were removed.
+- **Validation:** `_config.yml` parses as YAML, requested exclusions are present, actual content pages remain included, and visible config links to LICENSE/NOTICE/CHANGELOG are gone. Full Jekyll build is blocked in this shell because Bundler is not available on PATH.

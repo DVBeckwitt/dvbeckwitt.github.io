@@ -60,16 +60,6 @@ menu:
   - title:             About
     url:               /about/
 
-# Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
-
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2026 David Beckwitt. All rights reserved.
 
@@ -310,10 +300,20 @@ collections:
 exclude:
   - .jekyll-cache
   - example
+  - docs
+  - licenses
   - .sass-cache
   - .ruby-lsp
   - .wrangler
   - '*.toml'
+  - AGENTS.md
+  - README.md
+  - CHANGELOG.md
+  - NOTICE.md
+  - LICENSE.md
+  - _featured_categories
+  - assets/img/blog
+  - assets/img/docs
   - cv-source
   - scripts
   - vendor
@@ -323,7 +323,6 @@ exclude:
 include:
   - _routes.json
   - .well-known
-  - LICENSE.md
 
 
 # Plugins

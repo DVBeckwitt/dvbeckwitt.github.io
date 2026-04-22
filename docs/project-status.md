@@ -16,6 +16,8 @@ This page records recent maintenance work, feature status, and validation notes 
 
 | Type | Item | Status | Notes |
 | --- | --- | --- | --- |
+| Bug/error | Repository-support files exposed as site pages | Fixed | Added Jekyll exclusions for `docs/`, `licenses/`, root repository-support Markdown files, `_featured_categories/`, and old blog/doc image folders. Removed footer legal links to LICENSE, NOTICE, and CHANGELOG, and removed `LICENSE.md` from forced includes. |
+| Feature | Public output boundary for professional site | Done | The site build config now favors actual website pages, research/project content, generated public docs, and assets meant for the public site. Root repo documentation remains in the repository but is excluded from Jekyll output. |
 | Feature | Profile-first homepage | Done | Replaced the starter blog homepage with `index.md`, a profile-first landing page for research, projects, CV, and teaching. |
 | Content | Notes archive metadata | Done | Replaced the starter `posts.md` metadata and added holding archive copy with useful links while public posts are pending. |
 | Feature | Projects page and project collection | Done | Added `projects.md`, five project detail pages in `_projects/`, and local project card images under `assets/img/projects/`. |
@@ -33,8 +35,11 @@ This page records recent maintenance work, feature status, and validation notes 
 - Confirmed `index.md`, `posts.md`, `projects.md`, and all `_projects/*.md` files have valid YAML front matter.
 - Confirmed project image paths exist under `assets/img/projects/`.
 - Confirmed `_config.yml` and `_data/authors.yml` parse as YAML and that referenced local images exist.
+- Confirmed `_config.yml` contains all requested public-output exclusions.
+- Confirmed actual content pages and `_projects/` are not excluded.
+- Confirmed `_config.yml` no longer defines visible footer legal links to LICENSE, NOTICE, or CHANGELOG.
 - Confirmed `cv-source/AGENTS.md` was not modified.
-- Build status for this update: blocked because Ruby/Bundler/Jekyll are not available on PATH in this shell.
+- Build status for this update: blocked because Bundler is not available on PATH in this shell.
 
 ## Follow-up
 
