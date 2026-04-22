@@ -27,8 +27,9 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    linkedin:        DVBeckwitt
-    github:          DVBeckwitt
+    linkedin:        https://www.linkedin.com/in/DVBeckwitt/
+    github:          https://github.com/DVBeckwitt
+    substack:        https://substack.com/@scatterguy
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -75,6 +76,7 @@ author1:
     # gitlab:          <username>
     # line:            <username>
     # medium:          <path>
+    # substack:        https://substack.com/@<username>
     # xbox:            <gamer-tag>
     # wechat:          https://<url>
     # discord:         <invite-code>
@@ -93,5 +95,4 @@ author2:
     Open `_data/authors.yml` to edit this text.
 
   picture:           https://placehold.it/128x128
-  twitter:           <username>
   github:            <username>

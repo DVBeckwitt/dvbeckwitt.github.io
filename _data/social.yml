@@ -63,6 +63,9 @@ sina-weibo:
 rss:
   name: RSS
   icon: icon-rss2
+substack:
+  name: Substack
+  icon: icon-rss2
 youtube:
   name: YouTube
   icon: icon-youtube
