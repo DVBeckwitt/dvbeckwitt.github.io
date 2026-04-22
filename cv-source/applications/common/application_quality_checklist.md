@@ -11,6 +11,8 @@ Use this before finalizing a job-specific package.
 - Unsupported requirements are listed in the evidence matrix as gaps.
 - No private phone number, address, or references are included unless specifically approved for that application.
 - No unsupported metrics, certifications, sales claims, neutron beamline operation, instructor-of-record claims, formal advising claims, course-ownership claims, postdoctoral claims, PI claims, funding-award claims, modern physics or optics teaching ownership, reference contact details, or student outcome metrics are included.
+- For analytics, data analyst, data science, technical analyst, or People Analytics roles, David is positioned as a quantitative Python analyst with a physics research background; the employer's domain is treated as target context, not unsupported experience.
+- No unsupported People Analytics, compensation analytics, labor capitalization reporting, workforce planning, quality-of-hire modeling, employee-listening analytics, HR dashboard ownership, R programming, 4+ years in compensation, or 2+ years advanced professional SQL claims are included.
 - Cover letter uses the exact role and employer name.
 - Cover letter gives one employer-specific reason, not generic praise.
 - Final application documents are `.docx` files, not Markdown drafts.

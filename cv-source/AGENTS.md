@@ -7,7 +7,7 @@ This project generates targeted resumes and cover letters for David Beckwitt fro
 Use this file as the operating guide for any agent working in the repository. The goal is to create accurate, concise, company-specific application materials for these target job families:
 
 1. Metrology
-2. Data science
+2. Data science, analytics, and People Analytics
 3. Scientific sales
 4. Teaching
 5. Neutron and X-ray scattering
@@ -39,6 +39,7 @@ Default checks may skip only missing or incomplete optional LaTeX tooling. Use `
 - Safe commands: `python scripts/check_repo.py`, `python -m pytest`, `python -m pytest --cov=scripts --cov-report=term-missing`, `python -m ruff check .`, `python -m ruff format --check .`, and `python -m mypy .`.
 - Do not edit casually: source CV facts, `data/cv_master.json`, publication/date/affiliation text, `sections/referee.tex`, private drafts, generated exports, compiled PDFs, evidence-control policies, claim ledgers, or final verification records.
 - Validation checklist: repository check, tests, coverage command, lint, format check, typecheck, ATS parse gate, application quality eval when relevant, and strict LaTeX only when a full TeX plus Perl toolchain is expected.
+- Non-physics analyst roles: present David as a quantitative Python analyst with a physics Ph.D. research background; translate scientific work into business-readable data work without inventing direct domain ownership.
 
 ## Non-negotiable rules
 
@@ -63,6 +64,8 @@ Use plain, ATS-friendly formatting for resumes. Avoid graphics, photos, columns,
 For `.docx` application documents, keep the internal structure AI-legible: one column, normal document text, semantic headings, short paragraphs, hyphen bullets, simple tables only when they clarify an evidence matrix, and no embedded images or decorative layout.
 
 Use exact job-title and company terminology where natural. Do not keyword-stuff.
+
+For roles outside a direct academic physics lane, including analytics, data analyst, data science, technical analyst, and People Analytics roles, use employer language as target context. Do not convert role-domain keywords into candidate experience unless the evidence matrix directly supports them.
 
 
 ## Source precedence and conflict handling
@@ -755,6 +758,7 @@ Rules:
 - Confirm approval thresholds are met.
 - Confirm that the prose still sounds human after verification edits.
 - For requested one-page resumes, fail the document if a second page contains real content.
+- For industry analyst and People Analytics resumes, fail the document if unsupported HR-domain experience, compensation ownership, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R, or advanced-professional-SQL-duration claims appear.
 - For teaching-focused lecturer resumes, fail the document if unsupported advising, instructor-of-record, course-ownership, postdoctoral, PI, funding-award, student-outcome, modern-physics ownership, optics-ownership, or reference-contact claims appear.
 
 ## Prompt templates for agentic writing
@@ -960,7 +964,7 @@ Check:
 - Every candidate claim is supported and mapped to a claim ID.
 - Degree status is correct.
 - Company and role title are correct.
-- No unsupported metrics, credentials, sales claims, beamline claims, or teaching claims appear.
+- No unsupported metrics, credentials, sales, beamline, teaching, People Analytics, compensation, HR analytics, R, or advanced-professional-SQL-duration claims appear.
 - Knockout risks are listed in screening notes.
 - The ATS and document parse gate passed.
 - Formatting is ATS-friendly and `.docx`-ready.
@@ -985,6 +989,25 @@ Sound like a measurement scientist, not a general researcher. Use plain verbs su
 
 Sound like a scientific modeler who can move into data work. Keep the math, Python, simulation, image-like detector data, optimization, and machine learning evidence concrete. Avoid overclaiming production ML, cloud deployment, MLOps, A/B testing, or business analytics.
 
+### Industry analytics and People Analytics
+
+Sound like a quantitative Python analyst translating rigorous scientific-data work into the employer's analytics language. Lead with Python, exploratory analysis, data wrangling, model development, visualization, documentation, statistical judgment, and disciplined communication.
+
+Use the role domain as the target, not as unsupported experience. For People Analytics roles, David may be positioned as a Columbia-based quantitative Python analyst entering People Analytics honestly when the location and posting make that relevant. Do not claim direct People Analyst, HR analytics, compensation, workforce planning, employee-listening, quality-of-hire, or labor-capitalization ownership unless David provides new evidence.
+
+Preferred translations:
+
+- Complex detector and scattering data: messy, high-dimensional scientific data.
+- GIWAXS parameter extraction: extracting interpretable metrics from complex measurements.
+- SciPy, optimization, and model development: statistical judgment and model-based analysis.
+- Detector-file conversion and plotting tools: data wrangling and practical workflow building.
+- PyTorch CNNs on simulated GIWAXS data: machine-learning workflow familiarity, not production ML ownership.
+- Workshops, presentations, peer review, PAGSA, PhysAssist, CGW, and GPC service: technical communication, leadership, service, and collaboration, not people-management ownership.
+
+For one-page industry analyst resumes, prioritize readability over completeness. Preferred order: Header, Targeted Summary, Skills, Data Projects, Research and Technical Experience, Communication and Leadership, Education. Put Data Projects before Research when applied data wrangling, modeling, and tools matter more than academic chronology.
+
+For the EquipmentShare Data Analyst - People role specifically, the correct positioning is: Columbia-based quantitative Python analyst entering People Analytics honestly, with supported evidence in Python, exploratory analysis, model development, data wrangling, documentation, and technical communication. Do not answer yes to 4+ years in compensation or 2+ years advanced SQL and Python in a professional environment unless David directly confirms those requirements. Visa sponsorship, background or drug test, non-compete, work environment preference, phone number, and base pay expectation require David's direct answers.
+
 ### Scientific sales
 
 Sound like a technically credible scientist who can explain complex tools to customers. Use human examples from teaching, workshops, invited talks, and instrument use. Avoid pretending to have quota ownership, CRM responsibility, territory management, or revenue results.
@@ -1008,6 +1031,10 @@ Metrology cover letter sentence:
 Data science summary sentence:
 
 `Quantitative physicist with 7+ years of Python experience building simulation, optimization, and machine-learning workflows for image-like scientific detector data.`
+
+Industry analytics summary sentence:
+
+`Quantitative Python analyst with a physics Ph.D. research background in modeling, exploratory analysis, data wrangling, visualization, and extracting interpretable metrics from complex scientific data.`
 
 Scientific sales sentence:
 
@@ -1319,9 +1346,9 @@ Example metrology resume bullets:
 - Built Python analysis workflows for GIWAXS area-detector data, extracting site occupancy, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from complex diffraction patterns.
 - Developed detector-data tools that convert proprietary image files into accessible formats for inspection, plotting, and analysis without commercial software.
 
-### Data science roles
+### Data science, analytics, and People Analytics roles
 
-Target titles may include data scientist, scientific data scientist, machine learning scientist, research data scientist, data analyst, computational scientist, and analytics engineer.
+Target titles may include data scientist, scientific data scientist, machine learning scientist, research data scientist, data analyst, technical analyst, People Analytics analyst, computational scientist, and analytics engineer.
 
 Lead with:
 
@@ -1333,6 +1360,8 @@ Lead with:
 - Data visualization with Matplotlib, Plotly, Jupyter, Dash, and MATLAB.
 - Complex image-like scientific data from detectors.
 - Optimization and parameter extraction.
+- Data wrangling, documentation, and communication when the role is outside physics.
+- Transferable statistical judgment, not unsupported business-domain ownership.
 
 Use these CV-backed phrases when relevant:
 
@@ -1340,6 +1369,8 @@ Use these CV-backed phrases when relevant:
 - `built Python-based GIWAXS framework for quantitative parameter extraction`
 - `simulates and analyzes diffraction data from R-Axis IV++ detectors`
 - `model development and exploratory data analysis`
+- `built Python-based workflows to extract interpretable parameters from complex scattering data`
+- `built tools for diffraction simulation, detector-data analysis, custom plotting, and proprietary detector-file conversion`
 - `NumPy, pandas, SciPy, PyTorch, TensorFlow, SQL, Git, MPI`
 
 Be careful with:
@@ -1351,14 +1382,18 @@ Be careful with:
 - Business analytics.
 - Large language model product work.
 - Direct customer data.
+- R programming.
+- Advanced professional SQL duration.
+- Direct People Analyst, HR analytics, compensation analytics, workforce planning, quality-of-hire, employee-listening, labor capitalization, or HR dashboard ownership.
 
-Only claim these if David provides evidence. If a role requires them, present David as a scientific ML and modeling candidate with fast-transfer technical skills.
+Only claim these if David provides evidence. If a role requires them, present David as a scientific ML, modeling, and Python analyst candidate with fast-transfer technical skills. For People Analytics roles, state that his strongest fit is as a quantitative Python analyst who can learn the People Analytics domain with discipline; do not write that he lacks HR experience in a self-defeating way.
 
 Example data science resume bullets:
 
 - Built physics-informed Python models for GIWAXS data, using simulation and optimization to convert area-detector patterns into quantitative structural parameters.
 - Developing PyTorch CNN workflows trained on simulated scattering patterns for automated thin-film structure analysis.
 - Created scientific data tools for detector-image conversion, plotting, and inspection, improving access to proprietary diffraction data for downstream analysis.
+- Used pandas, NumPy, SciPy, optimization, and visualization workflows to analyze complex scientific data and communicate interpretable results.
 
 ### Scientific sales roles
 
@@ -1565,6 +1600,7 @@ For each application, complete this workflow before drafting.
 
 7. Choose the resume strategy.
    - One-page resume for most industry applications.
+   - One-page resume for industry analyst and People Analytics roles unless David explicitly asks for a fuller CV-style document.
    - One-page resume for teaching-focused lecturer, instructor, visiting lecturer, one-year lecturer, and undergraduate-faculty roles when David asks for a resume or one-page resume.
    - Two-page resume for highly technical Ph.D., scattering, metrology, teaching, or research-heavy roles when the evidence density justifies it and no one-page teaching-focused override applies.
    - Teaching-focused CV when the posting asks for publications, presentations, teaching philosophy, evidence of teaching effectiveness, or academic review.
@@ -1573,6 +1609,7 @@ For each application, complete this workflow before drafting.
 8. Choose section order.
    - Technical roles: Summary, Technical Skills, Research or Technical Experience, Projects, Publications or Selected Presentations, Education.
    - Data science roles: Summary, Technical Skills, Data Science Projects, Research Experience, Publications or Selected Presentations, Education.
+   - Industry analyst and People Analytics roles: Header, Targeted Summary, Skills, Data Projects, Research and Technical Experience, Communication and Leadership, Education.
    - Scientific sales roles: Summary, Technical Expertise, Communication and Customer-Relevant Experience, Research Experience, Leadership and Teaching, Education.
    - Teaching-focused lecturer one-page resumes: Summary, Education, Teaching Experience, Research and Undergraduate Project Fit, Service and Outreach, Selected Skills.
    - Other teaching roles: Summary, Education, Teaching Experience, Course Coverage, Teaching Methods and Student Support, Research or Technical Expertise, Outreach and Service, Awards, Skills.
@@ -1592,6 +1629,7 @@ For each application, complete this workflow before drafting.
    - Explain acronyms on first use when likely needed.
    - Keep academic terms only when they help the role.
    - Translate research details into employer outcomes.
+   - For roles outside physics, compress domain-specific physics detail and connect each technical claim to a transferable data capability.
    - Replace generic AI-sounding language with concrete evidence.
    - Avoid keyword stuffing.
 
@@ -1625,7 +1663,7 @@ For each application, complete this workflow before drafting.
 
 ## Cover letter workflow
 
-A cover letter should be one page. Use 3 or 4 concise paragraphs. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
+A cover letter should be one page. Use 3 or 4 concise paragraphs. A 5-paragraph letter is acceptable when an industry transition needs one short, honest transition paragraph. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
 
 Every substantive cover-letter paragraph must map to one or more claim IDs. Do not use the letter to hide unsupported knockout requirements or to convert adjacent experience into direct experience.
 
@@ -1654,6 +1692,13 @@ Paragraph 4:
 - Close with the contribution David can make.
 - Keep it direct.
 - Do not use exaggerated enthusiasm.
+
+Industry analyst and People Analytics transition paragraph:
+
+- Acknowledge the domain transition without underselling.
+- Prefer: `I do not want to overstate domain experience I have not yet had; my strongest fit is as a quantitative Python analyst who can learn the domain with discipline.`
+- Do not write a self-defeating gap statement such as `I lack HR experience`.
+- Pair the transition with supported evidence in Python, messy data, model development, visualization, documentation, and communication.
 
 Avoid:
 
@@ -1934,6 +1979,10 @@ Data science:
 
 `Quantitative physicist and scientific data practitioner with 7+ years of Python experience, combining simulation, optimization, machine learning, and visualization to extract structure-property information from complex detector data.`
 
+Industry analytics and People Analytics:
+
+`Quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication, translating complex measurement data into interpretable, decision-ready analysis.`
+
 Scientific sales:
 
 `Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience, strong technical communication skills, and a record of translating complex materials-characterization workflows through teaching, workshops, invited talks, and outreach.`
@@ -1967,6 +2016,16 @@ Data science skills:
 `Methods: simulation, optimization, exploratory data analysis, model development, CNNs, scientific image analysis, parameter extraction`
 
 `Tools: Git, Jupyter, Dash, MPI, LaTeX`
+
+Industry analyst skills:
+
+`Data and analysis: Python, SQL when relevant, pandas, NumPy, SciPy, exploratory data analysis, data wrangling`
+
+`Machine learning and modeling: model development, optimization, simulation, PyTorch, TensorFlow, CNN workflow familiarity`
+
+`Visualization and workflow: Matplotlib, Plotly, Jupyter, Dash, Git, documentation, custom plotting, detector-file conversion`
+
+`Communication: technical writing, presentations, peer review, workshops, cross-functional explanation`
 
 Scientific sales skills:
 
@@ -2027,6 +2086,16 @@ Do not claim:
 - Production-scale software engineering.
 - Managed employees.
 - Led a commercial team.
+- Direct People Analyst experience.
+- Compensation analytics experience.
+- Labor capitalization reporting experience.
+- Workforce planning ownership.
+- Quality-of-hire modeling ownership.
+- Employee-listening analytics ownership.
+- HR analytics dashboard ownership.
+- R programming.
+- 4+ years in compensation.
+- 2+ years advanced professional SQL.
 
 Adjacent experience may be stated carefully when relevant. Example:
 
@@ -2058,18 +2127,21 @@ Evidence and claims:
 - The claim ledger includes source location and allowed phrasing.
 - Technical keywords match real CV evidence.
 - Unsupported keywords are not listed as skills.
+- For non-physics analyst roles, the role domain is used as target context rather than unsupported experience.
 - Acronyms are expanded when needed.
 - Dates match the CV.
 - Degree status is accurate.
 - No unsupported metrics were added.
 - No unsupported certifications were added.
 - No unsupported sales claims were added.
+- No unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, or advanced-professional-SQL-duration claims were added.
 - No unsupported neutron or beamline operation claims were added.
 - No unsupported teaching-license, instructor-of-record, course-ownership, classroom-management, or student-outcome claims were added.
 
 Role fit and writing:
 
 - The strongest evidence appears in the top third of the resume.
+- For industry analyst and People Analytics roles, Data Projects appear before Research when applied data work is the main fit.
 - Teaching role materials put course coverage, teaching scale, active-learning methods, and teaching evidence in the top third when teaching is the main job family.
 - Bullets are concise and evidence-based.
 - The resume avoids dense academic prose.

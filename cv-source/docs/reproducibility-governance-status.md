@@ -23,6 +23,9 @@ Last reviewed: 2026-04-22.
 - Gitleaks CI now uses the pinned Docker CLI image directly with `gitleaks dir` instead of unsupported action arguments.
 - Local uv and virtual-environment directories are ignored through `.gitignore`.
 - `.gitattributes` pins YAML files and `.gitignore` to LF line endings to avoid workflow and ignore-file churn across platforms.
+- Agent and application-format guidance now includes the resume and cover-letter targeting philosophy for analytics, data science, technical analyst, and People Analytics roles.
+- Evidence-control rules now explicitly block unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
+- EquipmentShare Data Analyst - People positioning and screening-answer cautions are recorded for future application work.
 
 ## Bug, error, and feature status
 
@@ -44,6 +47,8 @@ Last reviewed: 2026-04-22.
 | Feature: dependency governance | Added | Dependabot tracks pip and GitHub Actions ecosystems. |
 | Feature: ownership metadata | Added | `.github/CODEOWNERS` assigns default review ownership to `@DVBeckwitt`. |
 | Feature: secret scanning | Added | Gitleaks scans the current checkout in CI with the direct Docker CLI path; local validation requires Docker or Gitleaks on PATH. |
+| Feature: industry analytics application-agent guidance | Added | `AGENTS.md`, data-science resume and cover-letter formats, the application README, and the application quality checklist now carry the People Analytics and evidence-control update. |
+| Error status: unsupported HR-domain claims in future applications | Controlled | Agent rules now require those claims to remain gaps unless David provides direct evidence. |
 
 ## Latest local verification
 
@@ -58,6 +63,7 @@ Last reviewed: 2026-04-22.
 - PASS: `python -m mypy .`
 - PASS: workflow YAML parsing for `.github/workflows/*.yml`
 - PASS: `git diff --check`
+- PASS: `python scripts/check_repo.py` after the industry analytics and People Analytics agent-guidance update, with LaTeX skipped for missing Perl.
 - PASS: `git diff --name-only -- bib sections exports settings.sty main.tex data` returned no CV source, bibliography, settings, data, or generated-export churn.
 - SKIP local execution: `make check`, `make build`, `make coverage`, and `make typecheck` because `make` is not installed on the current Windows PATH.
 - SKIP local execution: `docker run --rm -v "$PWD:/repo" -w /repo ghcr.io/gitleaks/gitleaks:v8.30.1 dir --redact --verbose --config .gitleaks.toml .` because Docker is not installed on the current Windows PATH.

@@ -31,3 +31,5 @@ Job families:
 - `job_families/neutron_xray_scattering/`
 
 Examples are archived under `examples/`. They are writing references, not automatic evidence sources.
+
+Use `job_families/data_science/` for data science, analytics, data analyst, technical analyst, and People Analytics roles; apply the evidence-control cautions in `AGENTS.md` before using employer-domain keywords as candidate claims.

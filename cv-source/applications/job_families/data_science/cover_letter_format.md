@@ -1,10 +1,12 @@
 # Data Science Cover Letter Format
 
-Use one page. Translate physics research into data, modeling, and decision-support language without overstating production experience.
+Use one page. Translate physics research into data, modeling, and decision-support language without overstating production experience or unsupported business-domain ownership.
 
 ## Paragraph 1
 
 State the role and company. Position David as a quantitative physicist with 7+ years of Python, scientific modeling, detector-data analysis, and machine-learning-assisted structure analysis.
+
+For industry analyst or People Analytics roles, position David as a quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication. Use the role domain as the target context, not as direct experience unless newly supported.
 
 Template:
 
@@ -26,6 +28,10 @@ Use PyTorch CNNs trained on simulated GIWAXS data, OSC_Reader, ra_sim, 2D_Mosaic
 
 Close by connecting scientific rigor, data quality, modeling judgment, and communication to the employer's data work.
 
+For People Analytics or other career-transition analyst letters, include a short honest-transition paragraph when useful. Preferred frame: David does not want to overstate domain experience he has not yet had; his strongest fit is as a quantitative Python analyst who can learn the domain with discipline. Do not write this as a self-defeating `I lack HR experience` paragraph.
+
 ## Cautions
 
 If the posting centers production pipelines or cloud infrastructure, frame David as strong in scientific modeling and Python with adjacent software habits. Do not imply MLOps ownership.
+
+Do not claim direct People Analyst experience, compensation analytics, labor capitalization reporting, workforce planning ownership, quality-of-hire modeling, employee-listening analytics, HR dashboard ownership, R programming, 4+ years in compensation, or 2+ years advanced professional SQL unless David provides direct evidence.
