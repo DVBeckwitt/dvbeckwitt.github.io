@@ -25,25 +25,25 @@ title:                 David Beckwitt
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  David Beckwitt is a Physics Ph.D. candidate working on quantitative X-ray scattering,
+  thin-film disorder, detector-space modeling, and scientific Python tools.
 
 # A shorter description for the sidebar.
-tagline:               Physicist and Data Scientist
+tagline:               Scattering physicist and data scientist
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [X-ray scattering, GIWAXS, thin films, van der Waals materials, Python, materials characterization]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.jpg`
+logo:                  /assets/img/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <David> <Beckwitt>
-  email:               <david.beckwitt@proton.me>
+  name:                David Beckwitt
+  email:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -71,7 +71,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2026 David Beckwitt. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -96,7 +96,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/research-sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -309,6 +309,7 @@ collections:
 
 exclude:
   - .jekyll-cache
+  - example
   - .sass-cache
   - .ruby-lsp
   - .wrangler
@@ -366,11 +367,13 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                David Beckwitt
+  links:
+    - https://github.com/DVBeckwitt
+    - https://www.linkedin.com/in/DVBeckwitt/
+    - https://www.researchgate.net/profile/David-Beckwitt-3
+    - https://substack.com/@scatterguy
 
 
 # Plugin Configs
@@ -407,24 +410,21 @@ jekyll_compose:
     drafts:
       layout: post
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        Draft note by David Beckwitt. Replace with a specific one-sentence description before publishing.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/research-sidebar-bg.jpg
     posts:
       layout: post
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        Post by David Beckwitt on scattering, thin-film materials, scientific Python, teaching, or research workflow.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/research-sidebar-bg.jpg
     projects:
       layout: project
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        Project by David Beckwitt involving scientific software, scattering analysis, instrumentation, or teaching.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/projects/detector-space-refinement.png
       links:
-        - title: Project Link
-          url: https://example.com
+        - title: Research context
+          url: /research/

@@ -108,7 +108,7 @@ Reference URLs for maintainers:
 Root site files:
 
 - `_config.yml` controls site metadata, menu links, collections, defaults, plugins, and Hydejack settings.
-- `index.html` is currently the home/blog page using `layout: blog`.
+- `index.md` is currently the profile-first home page using `layout: page`.
 - `posts.md` is the post archive page using `layout: list`.
 - `about.md` is the public biography page using `layout: about`.
 - `research.md` is the research overview page.
@@ -120,13 +120,12 @@ Root site files:
 - `_sass/my-inline.scss` is for CSS inlined into each document.
 - `_includes/my-head.html` and `_includes/my-body.html` add custom HTML and scripts.
 
-Important current gaps:
+Important current facts:
 
-- `_config.yml` still contains Hydejack starter text in the site description. Replace it with David-specific metadata before release-quality work.
-- `_config.yml` has a `Projects` menu link to `/projects/`, but the root project index and `_projects/` collection content are not present yet.
-- `index.html` still has starter blog metadata. Replace it before treating the home page as final.
-- `posts.md` still has starter description text. Replace it before treating the archive as final.
-- `_data/authors.yml` contains placeholder author text. Replace it or hide author blocks that pull from it.
+- `_config.yml` uses David-specific site metadata and a `Projects` menu link to `/projects/`.
+- `index.md` is a profile-first landing page. Revisit the homepage strategy only after the post library is credible.
+- `posts.md` is a holding archive page for future public writing, with links back to research, projects, CV, and teaching.
+- `_data/authors.yml` contains David-specific author text and public profile links.
 - Check `_config.yml` for accidental punctuation in asset paths before build. The logo path should not contain a trailing backtick.
 
 ## Build and validation workflow
@@ -283,9 +282,9 @@ description: >
 
 ## Home and blog page instructions
 
-Current file: `index.html`.
+Current file: `index.md`.
 
-The home page currently uses Hydejack's `blog` layout. That means the page itself is mostly metadata and the visible content comes from posts. This only works well if the site has real posts with strong titles, descriptions, images, and excerpts.
+The home page currently uses a profile-first `page` layout because the site does not yet have enough public posts for a blog-first homepage. If the post library becomes credible, reassess whether the homepage should become `layout: blog`.
 
 Do not leave the homepage with generic Hydejack starter metadata.
 
@@ -782,7 +781,7 @@ Use this as a fast routing guide:
 
 - Site identity and menu: `_config.yml`.
 - Author/sidebar identity: `_data/authors.yml` and `_data/social.yml`.
-- Home/blog landing: `index.html`.
+- Home/blog landing: `index.md`.
 - Post archive: `posts.md`.
 - Individual posts: `_posts/YYYY-MM-DD-slug.md`.
 - Research overview: `research.md`.

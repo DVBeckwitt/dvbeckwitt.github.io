@@ -14,8 +14,8 @@ Public academic and professional website for David Beckwitt. The site is built w
 ## Repository Layout
 
 - `_config.yml` controls site metadata, navigation, Hydejack settings, defaults, and plugins.
-- `index.html`, `about.md`, `research.md`, `cv.md`, `posts.md`, and `teaching-philosophy.md` are root public pages.
-- `_includes/`, `_sass/`, `_data/`, and `assets/` hold theme customizations, generated includes, metadata, images, and public documents.
+- `index.md`, `about.md`, `research.md`, `projects.md`, `cv.md`, `posts.md`, and `teaching-philosophy.md` are root public pages.
+- `_projects/` contains project detail pages. `_includes/`, `_sass/`, `_data/`, and `assets/` hold theme customizations, generated includes, metadata, images, and public documents.
 - `docs/` contains site documentation and project status notes.
 - `scripts/build_public_docs.py` regenerates public CV and teaching exports from source material.
 - `cv-source/` contains CV, resume, cover-letter, teaching, and application-source material with its own nested agent instructions.
@@ -67,7 +67,7 @@ See `docs/project-status.md` for the latest project status note.
 
 Most recent documented change:
 
-- **Feature:** Added root `AGENTS.md` for public website agent guidance.
+- **Feature:** Merged identity-first metadata, profile-first homepage, post archive copy, Projects page, five project detail pages, and local project card images.
 - **Status:** Done.
-- **Bug/error status:** No active bug or runtime error was part of this change.
-- **Validation:** Copy verification passed; Jekyll build is blocked in this shell because Ruby/Bundler are not available on PATH.
+- **Bug/error status:** The `/projects/` navigation target is now present and Hydejack starter homepage/archive metadata has been replaced.
+- **Validation:** YAML and asset-path checks passed. Full Jekyll build is blocked in this shell because Ruby/Bundler are not available on PATH.
