@@ -29,6 +29,32 @@ jobs:
           ruby-version-file: .ruby-version
           bundler-cache: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install CV dependencies
+        working-directory: cv-source
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt -e .
+
+      - name: Install LaTeX toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk \
+            biber \
+            texlive-bibtex-extra \
+            texlive-fonts-extra \
+            texlive-fonts-recommended \
+            texlive-latex-extra \
+            texlive-latex-recommended
+
+      - name: Build public CV and teaching documents
+        run: python scripts/build_public_docs.py
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

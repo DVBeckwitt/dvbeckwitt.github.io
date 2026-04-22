@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%
+
+\RequirePackage{silence}
+\WarningsOff[longtable]
+\WarningsOff[array]
+\RequirePackage{array}
+
+\usepackage{ifxetex,ifluatex}
+\newif\ifxetexorluatex
+\ifxetex
+  \xetexorluatextrue
+\else
+  \ifluatex
+    \xetexorluatextrue
+  \else
+    \xetexorluatexfalse
+  \fi
+\fi
+
+\RequirePackage{graphicx}
+\RequirePackage[hyphens]{url}
+\RequirePackage{babel}
+\raggedright
+\RequirePackage{hyperref}
+\RequirePackage[fixed]{fontawesome5}
+\RequirePackage{simpleicons}
+
+\newcommand{\smallcaps}[1]{\textsc{\lowercase{#1}}}
+
+\RequirePackage[a4paper,nohead,nofoot,left=2.75cm,right=2.25cm,vmargin=2cm]{geometry}
+\RequirePackage{relsize}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
+\RequirePackage{tikz}
+\usetikzlibrary{shapes,shadows}
+\definecolor{AltLinkColour}{HTML}{1F4E79} % dark‑blue accent for secondary links
+\newcommand{\altlink}[2]{\href{#1}{\textcolor{AltLinkColour}{#2}}}
+
+\RequirePackage{comment}
+\@ifundefined{description}{%
+  \newenvironment{description}
+    {\list{}{\labelwidth\z@ \itemindent-\leftmargin \let\makelabel\descriptionlabel}}
+    {\endlist}
+}{}
+\RequirePackage{enumitem}
+% Consistent bullet alignment across rubric sections
+% and a uniform key column width for all rubrics
+\newlength{\CVkeywidth}
+\AtBeginDocument{%
+  % set width based on the longest key/date used in the CV
+  \settowidth{\CVkeywidth}{May 2026 (expected)}%
+  % ensure all rubric tables share this width for the key column
+  % override column type used for the date/key field so every rubric
+  % reserves the same width; this keeps itemize bullets aligned across
+  % different rubrics
+  \newcolumntype{k}{>{\@keyfont}p{\CVkeywidth}}%
+  % consistent bullet indentation for itemize environments
+  \setlist[itemize]{align=parleft,leftmargin=2em,labelsep=0.5em,itemsep=0pt}
+}
+\definecolor{SwishLineColour}{HTML}{4A90E2}
+\definecolor{MarkerColour}{HTML}{F5A623}
+\newcommand{\RMPbadge}{%
+  \href{https://www.ratemyprofessors.com/professor/2686648}{%
+    {\small\color{MarkerColour!80!black}\textsc{Student Reviews}}%
+  }%
+}
+\setlist[itemize]{noitemsep,topsep=1pt,leftmargin=*}
+\usepackage{newunicodechar}             % after inputenc/fontspec
+\newunicodechar{ }{\,}                  % map U+202F → thin space
+% If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
+\RequirePackage{biblatex}
+\RequirePackage{csquotes}
+\RequirePackage{tikz}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+   \node[shape=circle,text=white,fill=MarkerColour!80!black,font=\sffamily\scriptsize\bfseries,inner sep=1pt,text height=1.35ex,minimum width=1.5em,text centered] (char) {#1};}}
+% Simple bullet icon used for bibliography labels
+\newcommand* \bibbullet{\tikz[baseline=(char.base)]{
+  \node[shape=circle,fill=MarkerColour!80!black,inner sep=.5pt,
+        text height=1ex,minimum width=1em] (char) {};
+}}
+% define once, near your other colours
+\definecolor{LinkColour}{HTML}{C57F1B} % dark‑orange, contrast ≈ 5.3 : 1
+
+\hypersetup{
+  colorlinks,
+  linkcolor  = LinkColour,
+  urlcolor   = LinkColour,
+  citecolor  = LinkColour,
+  breaklinks = true
+}
+
+% !TEX encoding = UTF-8
+%\renewcommand{\entry}[2][]{\noindent\textbf{#1} #2\\}
+\newcounter{bibitem}
+\AtBeginBibliography{\setcounter{bibitem}{1}}
+\iffieldformatundef{labelnumberwidth}{%
+  % if author-year style
+  \AtEveryBibitem{\makebox[2.5em][l]{\bibbullet}\stepcounter{bibitem}}%
+}{%
+  % if numeric style
+  \DeclareFieldFormat{labelnumberwidth}{\makebox[2.5em][l]{\bibbullet}}%
+  \setlength{\biblabelsep}{0pt}%
+  \AtEveryBibitem{\stepcounter{bibitem}}%
+}
+\AtEveryBibitem{\iffieldundef{doi}{}{\clearfield{url}}}
+
+% Suppress the default "n.d." placeholder for unpublished items.
+% If a year/date exists, it will still be printed.
+\DeclareBibliographyDriver{unpublished}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{title}%
+  \newunit\newblock
+  \printfield{note}%
+  \iffieldundef{url}{}{\newunit\newblock\printfield{url}}%
+  \iffieldundef{year}{}{\newunit\newblock\usebibmacro{date}}%
+  \usebibmacro{finentry}%
+}
+
+% \renewcommand{\bibfont}{\small}
+\setlength{\bibitemsep}{1.5ex}
+\setlength{\bibhang}{2.5em}
+\RequirePackage{xpatch}
+\xpretofieldformat{doi}
+  {\textcolor{MarkerColour!80!black}{\scriptsize\faLink}}
+  {}{}
+\xpretofieldformat{url}
+  {\textcolor{MarkerColour!80!black}{\scriptsize\faLink}}
+  {}{}
+
+
+\usepackage{xcolor}
+
+% Add this to your preamble
+\definecolor{AccentBlue}{HTML}{1F4E79}
+
+% Revised tagline macro for better spacing and readability
+\newcommand{\tagline}{%
+  \vspace{4pt} % increased vertical space from top contact details
+  {\large\sffamily\bfseries\color{AccentBlue}%
+   Computational Materials Science • Machine Learning • X-ray/Neutron Diffraction %
+  }\par\vspace{4pt}
+  {\small\sffamily\color{gray}%
+   Quantitative Diffraction Simulation• 2D Materials • Defect Engineering • Thin-Film Growth%
+  }%
+  \vspace{8pt} % additional bottom spacing
+}
+
+\headerscale{1}
+%\setlength{\headerspace}{6pt}
+\rubricfont{\Large\bfseries\sffamily}
+\setlength{\rubricspace}{0.3cm}
+%\setlength{\rubricafterspace}{-9pt}
+\setlength{\rubricafterspace}{-3pt}
+\setlength{\subrubricspace}{3pt}
+\setlength{\subrubricbeforespace}{4pt}
+\def\@@rubrichead#1{%
+  \begin{tikzpicture}[baseline]%\
+  \shade[left color=SwishLineColour!60!white, right color=white] rectangle (\@almosttextwidth,2.5pt);
+  \node[font={\@rubricfont},inner sep=0pt,text ragged,anchor=south west,text depth=.5ex,text height=1.5ex] at (1pt,2pt) {#1};
+  \end{tikzpicture}%
+  \vspace\rubricspace%
+}
+
+\subrubricfont{\large\bfseries\sffamily}
+\subrubricalignment{l}
+
+\newcommand{\makefield}[2]{\makebox[1.5em]{\color{MarkerColour!80!black}#1} #2\hspace{2em}}
+
+\keyalignment{r}
+\rubricalignment{l}
+\renewcommand{\arraystretch}{1.25}
+\urlstyle{tt}
+
+\newcommand{\prefixmarker}[1]{\def\@prefixmarker{#1}}
+\def\@prefixmarker{\relscale{.9}\faBookmark}
+
+% Align prefix markers and entry text regardless of marker width
+\prefix{%
+  \makebox[-5em][c]{\color{MarkerColour!80!black}\@prefixmarker}%
+  \hspace*{0.5em}%
+}
+
+\newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
+
+\defbibheading{subbibliography}{\vskip\subrubricbeforespace{\@subrubricfont\hspace{3pt}#1}\par}
+
+\defbibfilter{booksandchapters}{%
+( type=book or type=incollection )
+}
+
+\RequirePackage{pgffor}
+\newcommand{\mynames}[1]{\def\my@namelist{#1}}
+\newtoggle{boldname}
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \global\togglefalse{boldname}%
+  \foreach \my@fname / \my@gname in \my@namelist {%
+    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}}
+                 and
+                 test {\ifdefstrequal{\namepartgiven}{\my@gname}}}
+      {\global\toggletrue{boldname}}{}%
+  }%
+  \iftoggle{boldname}{\textbf{#1}}{#1}%
+}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \global\togglefalse{boldname}%
+  \foreach \my@fname / \my@gname in \my@namelist{%
+    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}}
+                 and
+                 test {\ifdefstrequal{\namepartgiven}{\my@gname}}}
+      {\global\toggletrue{boldname}\breakforeach}{}%
+  }%
+  \iftoggle{boldname}{\textbf{#1}}{#1}%
+}
+
+\DefineBibliographyStrings{english}{
+  nodate = {}
+}
+
+\renewbibmacro*{date+extradate}{%
+  \iffieldundef{year}
+    {}
+    {\printtext[parens]{\printdate}}%
+}

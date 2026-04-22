@@ -53,6 +53,10 @@ menu:
     url:               /research/
   - title:             Projects
     url:               /projects/
+  - title:             CV
+    url:               /cv/
+  - title:             Teaching
+    url:               /teaching-philosophy/
   - title:             About
     url:               /about/
 
@@ -309,6 +313,8 @@ exclude:
   - .ruby-lsp
   - .wrangler
   - '*.toml'
+  - cv-source
+  - scripts
   - vendor
   - Gemfile
   - Gemfile.lock

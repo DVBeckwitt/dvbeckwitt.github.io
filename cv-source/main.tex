@@ -1,0 +1,110 @@
+
+% Main CV document. Individual sections are stored in the sections/ directory
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+
+\PassOptionsToPackage{style=authoryear,sorting=ynt,uniquename=init,defernumbers=true}{biblatex}
+\usepackage{settings}
+\usepackage{multicol}
+
+\DefineBibliographyStrings{english}{url={\textsc{url}}}
+
+\addbibresource{bib/own-bib.bib}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+
+\mynames{Beckwitt/David}
+%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+\newcommand{\instgroup}[2]{%
+  \subrubric{#1}
+  #2
+}
+\newcommand{\cvbullet}[2]{\\\hspace*{1.5em}\textbullet\ \textbf{#1}: #2}
+% Change the fonts if you want
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\else % If you're using pdfLaTeX or latex
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
+% Change the page margins if you want
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily David Beckwitt, Ph.D. Candidate}
+
+  \makefield{\faEnvelope[regular]}{\href{mailto:David.Beckwitt@gmail.com}{\texttt{David.Beckwitt@gmail.com}}}
+  \makefield{\faGithub}{\href{https://github.com/DVBeckwitt}{\texttt{@DVBeckwitt}}}
+  \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/DVBeckwitt/}{\texttt{@DVBeckwitt}}}
+  \makefield{\faResearchgate}{\href{https://www.researchgate.net/profile/David-Beckwitt-3}{\texttt{DVBeckwitt}}}
+
+  \vspace{1em} % adjust spacing here
+
+\normalsize \textbf{Physics PhD candidate} (May 2026) focused on quantitative X-ray scattering for thin-film analysis.
+\\
+My work combines X-ray diffraction and reflectivity instrumentation with Python-based modeling and machine learning to study materials structure and disorder.}
+
+
+
+
+
+\rightheader{~}
+%\begin{fullonly}
+% Profile picture stored in images/
+%\photo[r]{images/photo}
+%\photoscale{0.13}
+%\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+%{\color{TaglineGrey}\tagline}
+\makerubric{sections/education}
+\makerubric{sections/currentjob}
+
+\makerubric{sections/employment}
+\pagebreak
+
+\input{sections/publications}
+
+
+\makerubric{sections/skills}
+
+\makerubric{sections/Projects}
+
+
+\makerubric{sections/teaching}
+
+\input{sections/community}
+\vspace{1.5em}
+
+\input{sections/awards}
+
+% Professional contacts are omitted by default per AGENTS.md.
+% Include this only when an application explicitly requests references:
+% \pagebreak
+% \input{sections/referee}
+
+\end{document}

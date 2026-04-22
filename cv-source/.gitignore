@@ -1,0 +1,69 @@
+# LaTeX/build outputs
+build/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+comment.cut
+
+# Local/private generated binary artifacts
+docs/compiled/*.pdf
+applications/examples/**/originals/
+
+# Python/cache outputs
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage/
+coverage.xml
+htmlcov/
+dist/
+*.egg-info/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
+# Local private drafts and scratch work
+scratch/
+tmp/
+temp/
+private/
+local/
+outputs/private/
+outputs/**/private/
+*.local.*
+*.draft.local.*
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

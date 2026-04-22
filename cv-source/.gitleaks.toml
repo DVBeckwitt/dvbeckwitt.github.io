@@ -1,0 +1,4 @@
+title = "Beckwitt CV Gitleaks configuration"
+
+[extend]
+useDefault = true

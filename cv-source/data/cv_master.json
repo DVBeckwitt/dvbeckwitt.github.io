@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "document_type": "machine_readable_cv_source",
+    "owner": "David Beckwitt",
+    "degree_status_required_phrase": "Ph.D. candidate, Physics, University of Missouri, expected May 2026",
+    "evidence_policy": "Use only claims supported by this file, source CV sections, teaching philosophy materials, user-provided updates, or job postings for employer needs.",
+    "privacy_policy": "No private phone number or address in default exports. Professional contacts are omitted by default."
+  },
+  "identity": {
+    "name": "David Beckwitt",
+    "current_positioning": "Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based modeling, and machine-learning-assisted structure analysis.",
+    "short_positioning": "Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, materials characterization, and technical communication.",
+    "email": "David.Beckwitt@gmail.com",
+    "github": "https://github.com/DVBeckwitt",
+    "linkedin": "https://www.linkedin.com/in/DVBeckwitt/",
+    "researchgate": "https://www.researchgate.net/profile/David-Beckwitt-3"
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Physics",
+      "status": "expected May 2026",
+      "institution": "University of Missouri",
+      "location": "Columbia, MO",
+      "dissertation": "Investigating Disorder in van der Waals Thin Films",
+      "advisor": "Paul F. Miceli"
+    },
+    {
+      "degree": "M.S. in Physics",
+      "date": "May 2022",
+      "institution": "University of Missouri",
+      "location": "Columbia, MO"
+    },
+    {
+      "degree": "B.S. in Physics",
+      "date": "May 2020",
+      "institution": "Missouri State University",
+      "location": "Springfield, MO",
+      "minors": [
+        "Mathematics",
+        "Chemistry"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Graduate Research Assistant",
+      "organization": "University of Missouri",
+      "location": "Columbia, MO",
+      "dates": "2021-present",
+      "focus": "X-ray diffraction instrumentation, GIWAXS modeling, thin-film growth, and machine-learning-based structure analysis.",
+      "supported_claims": [
+        "Operates and maintains custom-built in-house X-ray diffraction and reflectivity systems for materials characterization.",
+        "Builds Python-based GIWAXS modeling frameworks.",
+        "Extracts site occupancies, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from scattering data.",
+        "Models diffuse scattering from stacking faults and quantifies defect densities.",
+        "Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions.",
+        "Develops convolutional neural networks on simulated GIWAXS data using PyTorch for automated structure analysis."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "organization": "NASA Space Consortium",
+      "dates": "2019-2020",
+      "supported_claims": [
+        "Synthesized graphene films by PLD or PVD.",
+        "Characterized films with Raman spectroscopy and electron microscopy."
+      ]
+    },
+    {
+      "title": "Research Assistant",
+      "organization": "Missouri State University",
+      "location": "Springfield, MO",
+      "dates": "2017-2020",
+      "supported_claims": [
+        "Designed and built a pulsed laser deposition system.",
+        "Characterized thin films by XRD, Raman spectroscopy, SEM/EDS, and profilometry."
+      ]
+    },
+    {
+      "title": "R&D Intern",
+      "organization": "Dynatek Labs",
+      "dates": "2019",
+      "supported_claims": [
+        "Developed software for biomedical testing.",
+        "Automated hardware systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "2D_Mosaic_Sim",
+      "dates": "2025-present",
+      "type": "X-ray diffraction simulator",
+      "url": "https://github.com/DVBeckwitt/2D_Mosaic_Sim",
+      "supported_claims": [
+        "Visualizes diffraction patterns for materials with specific crystal orientations.",
+        "Supports analysis beyond standard software through custom plotting and interpretation tools."
+      ]
+    },
+    {
+      "name": "ra_sim",
+      "dates": "2024-present",
+      "type": "Crystal analysis software",
+      "url": "https://github.com/DVBeckwitt/ra_sim",
+      "supported_claims": [
+        "Simulates and analyzes diffraction data from R-Axis IV++ detectors.",
+        "Combines a focused interface with optimization methods tailored to this detector format."
+      ]
+    },
+    {
+      "name": "OSC_Reader",
+      "dates": "2024",
+      "type": "Detector data converter",
+      "url": "https://github.com/DVBeckwitt/OSC_Reader",
+      "supported_claims": [
+        "Converts proprietary detector files into accessible formats.",
+        "Enables detailed inspection of diffraction images without commercial software."
+      ]
+    }
+  ],
+  "skills": {
+    "core": [
+      "Python, 7+ years",
+      "C++",
+      "Fortran",
+      "Git",
+      "MPI",
+      "SQL",
+      "LaTeX",
+      "Excel/VBA"
+    ],
+    "data_and_ml": [
+      "NumPy",
+      "pandas",
+      "SciPy",
+      "PyTorch",
+      "TensorFlow",
+      "model development",
+      "exploratory data analysis"
+    ],
+    "instrumentation_and_materials": [
+      "X-ray scattering",
+      "neutron scattering as listed skill only",
+      "chemical vapor deposition",
+      "pulsed laser deposition",
+      "SEM",
+      "Raman spectroscopy"
+    ],
+    "visualization": [
+      "Matplotlib",
+      "Plotly",
+      "OriginLab",
+      "MATLAB",
+      "Jupyter",
+      "Dash"
+    ],
+    "communication": [
+      "technical writing",
+      "grant proposals",
+      "peer review",
+      "presentations",
+      "video editing"
+    ],
+    "ai_workflow": [
+      "Copilot",
+      "OpenAI tools",
+      "Claude",
+      "Perplexity",
+      "AI-assisted coding",
+      "AI-assisted research",
+      "AI-assisted drafting"
+    ]
+  },
+  "publications": [
+    {
+      "type": "journal_article",
+      "citation": "Christopher J. Arendse, Randy Burns, David Beckwitt, Dallar Babaian, Ping Yu, Suchismita Guha, Daniel Hill, Zahid Hossain, and Paul Miceli, Insights into the Growth Orientation and Phase Stability of Chemical-Vapor-Deposited Two-Dimensional Hybrid Halide Perovskite Films, ACS Applied Materials & Interfaces 15(50), 56692-56703, 2023.",
+      "doi": "10.1021/acsami.3c14559"
+    },
+    {
+      "type": "manuscript_in_preparation",
+      "citation": "David Beckwitt et al., Quantitative Simulation and Refinement of Diffraction from 2D Oriented Powders, anticipated Summer 2026."
+    }
+  ],
+  "presentations": [
+    "Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors, 2025.",
+    "Invited talks and presentations on X-ray diffraction at APS Prairie Section 2023, APS March Meeting 2024, ACNS 2024, and Missouri State University Seminar 2024.",
+    "Fabrication and Characterization of 2D Heterostructures of Graphene and Transition-Metal Oxides, 2020.",
+    "Undergraduate poster presentations on thin-film materials, 2017-2018."
+  ],
+  "teaching": {
+    "roles": [
+      {
+        "title": "Academic Tutor",
+        "dates": "2021-present",
+        "organization": "University of Missouri",
+        "supported_claims": [
+          "Individual and small-group tutoring in undergraduate physics."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "dates": "2018-2023",
+        "organizations": [
+          "University of Missouri",
+          "Missouri State University"
+        ],
+        "supported_claims": [
+          "Taught and assisted physics courses with enrollments from 15 to 200+ students.",
+          "Selected courses include introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics."
+        ]
+      },
+      {
+        "title": "ACT Prep Tutor",
+        "dates": "2018-2021",
+        "organization": "Club Z!",
+        "supported_claims": [
+          "Individualized test-preparation instruction."
+        ]
+      },
+      {
+        "title": "Martial Arts Coach",
+        "dates": "2014-2020",
+        "organization": "Dunham's Martial Arts",
+        "supported_claims": [
+          "Led skills instruction and student development across ages and experience levels."
+        ]
+      }
+    ],
+    "methods_from_teaching_philosophy": [
+      "student-background surveys",
+      "name tents",
+      "approachable office hours",
+      "anonymous polling",
+      "think-pair-share",
+      "discussion-board responses",
+      "collaborative problem solving",
+      "inquiry-based tutorials",
+      "group projects",
+      "demonstrations",
+      "simulations",
+      "flipped-classroom activities",
+      "peer-instruction groups",
+      "Design Your Own Problem activities",
+      "Predict-Observe-Explain demonstrations",
+      "student-interest polling",
+      "lesson planning around objectives, assessment, activities, and feedback"
+    ]
+  },
+  "service_and_outreach": [
+    "PAGSA President, 2022-2023.",
+    "PAGSA Vice President, 2023-2024.",
+    "Director, PhysAssist.",
+    "CGW Diversity Officer.",
+    "Graduate Professional Council service.",
+    "Sigma Pi Sigma Physics Congress Judge.",
+    "X-ray and machine-learning workshops, 2022-present.",
+    "Public STEM engagement through MU Extension eclipse events, STEM Cubs, Moberly Correctional Center, and Columbia Young Scientist Expo.",
+    "Missouri State University CNAS Leadership Board and Sigma Pi Sigma President.",
+    "SPS high school engagement, physics demonstrations, and student mentoring."
+  ],
+  "awards": [
+    "Research and Creative Activity Forum Award, 2025.",
+    "NSSA Outstanding Student Research Prize, 2023.",
+    "ACNS invited talk, 2023.",
+    "Green Chalk Teaching Award, 2022-2023.",
+    "GPC Excellence in Student Leadership, 2022-2023.",
+    "Ron Boain and Catherine Rangel-Boain Travel Award, 2023.",
+    "Fergason Fund, 2021-2023.",
+    "Newell S. Gingrich, 2021-2023.",
+    "O.M. Stewart, 2021-2023."
+  ],
+  "claims_requiring_confirmation_before_use": [
+    "Completed Ph.D. before confirmation.",
+    "Direct neutron beamline operation.",
+    "Direct synchrotron beamline operation.",
+    "ISO/IEC 17025 compliance work.",
+    "Gage R&R ownership.",
+    "Six Sigma certification.",
+    "Semiconductor fab production metrology.",
+    "Customer revenue ownership or sales quotas.",
+    "CRM pipeline management.",
+    "Instructor of record without confirmation.",
+    "Independent course ownership without confirmation.",
+    "K-12 teaching license, certification, endorsement, AP Physics, IB, or dual-credit teaching.",
+    "Student evaluation scores, pass rates, retention effects, or measured learning gains without data.",
+    "Cloud deployment, MLOps ownership, or production-scale software engineering.",
+    "Managed employees or led a commercial team."
+  ]
+}

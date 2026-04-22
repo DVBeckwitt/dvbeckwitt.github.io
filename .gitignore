@@ -3,6 +3,9 @@ _site
 _drafts
 build
 dist
+__pycache__
+*.py[cod]
+*.pyo
 
 # Numerous always-ignore extensions
 *.diff
@@ -38,7 +41,20 @@ vendor
 .jekyll-cache
 .ruby-lsp
 .wrangler
+.pytest_cache
+.ruff_cache
+.mypy_cache
+.coverage
+.coverage.*
+coverage
+coverage.xml
+htmlcov
+.venv
+venv
+env
+ENV
 *.gem
+*.egg-info
 Gemfile.lock
 _zip
 /stats.json
@@ -46,3 +62,30 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
+/assets/docs/*.pdf
+
+# LaTeX outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.synctex.gz
+comment.cut
+
+# CV source private/generated outputs
+/cv-source/build/
+/cv-source/docs/compiled/*.pdf
+/cv-source/applications/examples/**/originals/
+/cv-source/main.pdf
+/cv-source/applications/examples/teaching/teaching_philosophy_example.pdf
+/cv-source/outputs/**
+!/cv-source/outputs/
+!/cv-source/outputs/README.md
+/cv-source/private/
+/cv-source/local/
+/cv-source/scratch/
+/cv-source/tmp/
+/cv-source/temp/
