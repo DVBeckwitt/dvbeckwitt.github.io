@@ -27,8 +27,6 @@ Last reviewed: 2026-04-22.
 - Evidence-control rules now explicitly block unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
 - EquipmentShare Data Analyst - People positioning and screening-answer cautions are recorded for future application work.
 - Project status docs now explicitly record the completed agent-guidance update, controlled bug/error/feature status, validation result, and known local-tool limitations.
-- User-approved data-analysis resume and cover-letter examples were archived as Markdown under `applications/examples/data_science/`.
-- Original DOCX versions of those examples were copied into the ignored `applications/examples/data_science/originals/` folder for local reference only.
 
 ## Bug, error, and feature status
 
@@ -53,8 +51,6 @@ Last reviewed: 2026-04-22.
 | Feature: industry analytics application-agent guidance | Added | `AGENTS.md`, data-science resume and cover-letter formats, the application README, and the application quality checklist now carry the People Analytics and evidence-control update. |
 | Error status: unsupported HR-domain claims in future applications | Controlled | Agent rules now require those claims to remain gaps unless David provides direct evidence. |
 | Feature: project documentation status checkpoint | Added | `changes_summary.md` and this governance status file now record what changed, current validation, controlled risks, and remaining local limitations. |
-| Feature: data-analysis example archive | Added | `applications/examples/data_science/` now contains AI-readable resume and cover-letter examples for data analysis, analytics, technical analyst, and People Analytics roles. |
-| Bug/error: data-analysis example archive | None open | No code path changed. Original DOCX binaries are ignored by Git, and the tracked Markdown examples passed repository checks. |
 
 ## Latest local verification
 
@@ -70,7 +66,6 @@ Last reviewed: 2026-04-22.
 - PASS: workflow YAML parsing for `.github/workflows/*.yml`
 - PASS: `git diff --check`
 - PASS: `python scripts/check_repo.py` after the industry analytics and People Analytics agent-guidance update, with LaTeX skipped for missing Perl.
-- PASS: `python scripts/check_repo.py` after adding the data-science example archive, with LaTeX skipped for missing Perl.
 - PASS: `git diff --name-only -- bib sections exports settings.sty main.tex data` returned no CV source, bibliography, settings, data, or generated-export churn.
 - SKIP local execution: `make check`, `make build`, `make coverage`, and `make typecheck` because `make` is not installed on the current Windows PATH.
 - SKIP local execution: `docker run --rm -v "$PWD:/repo" -w /repo ghcr.io/gitleaks/gitleaks:v8.30.1 dir --redact --verbose --config .gitleaks.toml .` because Docker is not installed on the current Windows PATH.

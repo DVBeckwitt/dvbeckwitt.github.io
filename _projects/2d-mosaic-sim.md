@@ -14,6 +14,7 @@ links:
   - title: Research context
     url: /research/
 featured: true
+redirect_from: /projects/2d-mosaic-sim/
 ---
 
 2D_Mosaic_Sim is a Python research tool for visualizing how specified crystal orientations appear in X-ray diffraction patterns. It sits between simple conceptual sketches and the more detailed detector-space models used in my dissertation work.

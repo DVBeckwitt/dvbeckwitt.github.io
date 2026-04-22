@@ -30,10 +30,6 @@
 - Feature complete: merged the resume and cover-letter targeting philosophy for analytics, data science, technical analyst, and People Analytics roles into `AGENTS.md`, reusable data-science formats, the application README, and the application quality checklist.
 - Feature complete: added evidence-control cautions for unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
 - Feature complete: recorded the EquipmentShare Data Analyst - People positioning and screening-answer cautions for future application work.
-- Feature complete: archived user-approved data-analysis resume and cover-letter examples under `applications/examples/data_science/` as AI-readable Markdown.
-- Documentation complete: copied the original DOCX examples into the ignored `applications/examples/data_science/originals/` folder so the binaries remain local references without entering Git.
-- Error status: no new runtime or application-generation error was introduced by the data-science example archive.
-- Bug status: no active bug is tied to the data-science example archive; the existing optional LaTeX skip remains the only local verification limitation observed.
 - Documentation checkpoint complete: project docs now record the analytics and People Analytics agent update, the controlled HR-domain claim risks, current validation status, and known local-tool limitations.
 - Current local status: `python scripts/check_repo.py` passes on this Windows machine with LaTeX skipped because MiKTeX finds `latexmk` but lacks the Perl script engine. Strict LaTeX validation remains expected to fail until Perl or the LaTeX toolchain is fixed.
 - Current local limitation: Docker and `actionlint` are not installed on PATH, so the Gitleaks Docker scan and workflow lint could not be executed locally.
@@ -43,5 +39,3 @@
 The example resume and cover-letter files are treated as archived writing samples. New application materials should be drafted from `data/cv_master.json`, the source CV, the teaching documents, user-provided updates, and the job posting. Unsupported claims should be listed as gaps rather than reused.
 
 For industry analyst and People Analytics roles, the current approved posture is to translate David's physics-based Python, modeling, data wrangling, visualization, documentation, and communication evidence into business-readable data work without inventing direct HR-domain or compensation experience.
-
-The `applications/examples/data_science/` examples are role-specific writing references for data analysis, analytics, technical analyst, and People Analytics applications. They should guide tone, ordering, and translation strategy, not bypass evidence checks for future roles.

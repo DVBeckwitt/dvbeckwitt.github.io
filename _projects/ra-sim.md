@@ -13,6 +13,7 @@ links:
     url: https://github.com/DVBeckwitt/ra_sim
   - title: Research context
     url: /research/
+redirect_from: /projects/ra-sim/
 ---
 
 ra_sim is a detector-specific analysis project for R-Axis IV++ diffraction data. It reflects a practical part of my research style: build tools around the instrument and data format actually used in the lab, rather than forcing the experiment into a generic workflow too early.

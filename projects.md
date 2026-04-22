@@ -1,25 +1,30 @@
 ---
-layout: projects
+layout: page
 title: Projects
 description: >
-  Research software and experimental workflows by David Beckwitt for detector-space
-  X-ray diffraction, GIWAXS simulation, instrument-specific analysis, and
-  scientific Python.
+  Public GitHub projects by David Beckwitt outside his main diffraction research.
 permalink: /projects/
-show_collection: projects
-no_groups: true
 ---
 
-These projects are research tools, analysis workflows, and experimental infrastructure built around one recurring problem: area-detector diffraction images contain structural information that is easy to lose when the data are reduced too early.
+These are public GitHub projects outside my main diffraction research.
 {:.lead}
 
-My work keeps the detector image close to the model. The projects below connect X-ray scattering, thin-film materials, instrument geometry, Python simulation, and machine-learning-assisted screening.
+Research software and dissertation workflows are under [Research](/research/). The full repository list is on [GitHub](https://github.com/DVBeckwitt).
 
-[Research context](/research/){:.btn}
 [GitHub](https://github.com/DVBeckwitt){:.btn}
-[CV](/cv/){:.btn}
+[Research](/research/){:.btn}
 
-## Project focus
-{:.no_toc}
+## Public code
 
-The public repositories are working research tools rather than polished general-purpose packages. The unpublished workflows are included because they show the larger structure of the research program: simulation, detector calibration, physical modeling, and automated image interpretation.
+| Project | Use |
+|:--|:--|
+| [MizzouQE-Solutions](https://github.com/DVBeckwitt/MizzouQE-Solutions) | Physics qualifying-exam solution archive. |
+| [equitable-lunch-invites](https://github.com/DVBeckwitt/equitable-lunch-invites) | Seeded lunch invitations and waitlists from one roster. |
+| [fit2HR](https://github.com/DVBeckwitt/fit2HR) | Heart-rate analysis for activity files, with calorie estimates and uncertainty. |
+| [PAGSA_Student_Awards](https://github.com/DVBeckwitt/PAGSA_Student_Awards) | Student award records and process materials. |
+| [Transcriber](https://github.com/DVBeckwitt/Transcriber) | Local transcription workflow for audio and video files. |
+| [Macro_Manager](https://github.com/DVBeckwitt/Macro_Manager) | Dashboard for logging and visualizing daily macronutrient intake. |
+| [Ising_Model](https://github.com/DVBeckwitt/Ising_Model) | Two-dimensional Ising model simulation. |
+| [AffectionMap](https://github.com/DVBeckwitt/AffectionMap) | Radar-plot comparison for paired preference profiles. |
+| [dvbeckwitt.github.io](https://github.com/DVBeckwitt/dvbeckwitt.github.io) | Source for this website. |
+{:.stretch-table}

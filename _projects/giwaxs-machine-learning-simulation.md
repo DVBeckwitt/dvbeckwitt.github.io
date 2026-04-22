@@ -12,6 +12,7 @@ links:
   - title: Research context
     url: /research/
 featured: true
+redirect_from: /projects/giwaxs-machine-learning-simulation/
 ---
 
 This project pairs physical simulation with machine-learning-assisted image screening. The aim is not to replace a diffraction model with a black box. The aim is to make high-dimensional GIWAXS images easier to triage, compare, and interpret before more expensive fitting steps.

@@ -300,7 +300,7 @@ collections:
     output:            true
 
   projects:
-    permalink:         /projects/:path/
+    permalink:         /research/:path/
     output:            true
 
 

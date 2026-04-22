@@ -11,6 +11,7 @@ image:
 links:
   - title: View source on GitHub
     url: https://github.com/DVBeckwitt/OSC_Reader
+redirect_from: /projects/osc-reader/
 ---
 
 OSC_Reader is a small utility built around a common experimental bottleneck: diffraction images are not useful if they are locked inside a file format that is hard to inspect or process outside vendor software.

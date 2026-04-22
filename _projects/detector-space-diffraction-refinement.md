@@ -15,6 +15,7 @@ links:
   - title: CV
     url: /cv/
 featured: true
+redirect_from: /projects/detector-space-diffraction-refinement/
 ---
 
 This is the central workflow behind my dissertation, _Investigating Disorder in van der Waals Thin Films_. It is designed for layered films that are neither single crystals nor fully random powders. The layer normal can remain aligned to the substrate while in-plane orientation, mosaic spread, and stacking disorder create structured intensity across a two-dimensional detector.
