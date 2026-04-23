@@ -1,3 +1,48 @@
+// Accessible link and button colors for light content surfaces.
+//
+// Keep the site-wide `accent_color` unchanged for the dark sidebar and cover.
+// The original teal accent has insufficient contrast when reused as body text
+// on white. These scoped overrides use a darker teal for regular links and
+// primary buttons in the readable content area.
+$content-link-color: rgb(0, 103, 112);
+$content-link-color-hover: rgb(0, 82, 89);
+
+main,
+article,
+.content,
+.page,
+.post,
+.project {
+  a:not(.btn):not(.gumroad-button) {
+    color: $content-link-color;
+  }
+
+  a:not(.btn):not(.gumroad-button):visited {
+    color: $content-link-color;
+  }
+
+  a:not(.btn):not(.gumroad-button):hover,
+  a:not(.btn):not(.gumroad-button):focus {
+    color: $content-link-color-hover;
+  }
+
+  .btn:not(.gumroad-button),
+  a.btn:not(.gumroad-button) {
+    background-color: $content-link-color;
+    border-color: $content-link-color;
+    color: #fff;
+  }
+
+  .btn:not(.gumroad-button):hover,
+  .btn:not(.gumroad-button):focus,
+  a.btn:not(.gumroad-button):hover,
+  a.btn:not(.gumroad-button):focus {
+    background-color: $content-link-color-hover;
+    border-color: $content-link-color-hover;
+    color: #fff;
+  }
+}
+
 .dl-table {
   a {
     @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {

@@ -26,8 +26,10 @@ This page records recent maintenance work, feature status, and validation notes 
 | Feature | Root website agent guide | Done | Added `AGENTS.md` at the repository root using the downloaded website guide. |
 | Documentation | Root project README | Done | Replaced Hydejack starter README text with site-specific setup, structure, generated-document, and agent-instruction notes. |
 | Documentation | Docs index status link | Done | Added this status page to `docs/README.md`. |
+| Feature | Grouped non-research projects page | Done | Updated `projects.md` so public GitHub projects outside the dissertation research program are grouped by purpose: scientific and analysis tools, teaching and service tools, personal workflow utilities, and experimental/reference work. Added editorial status labels for website context. |
+| Bug/error | Low-contrast links and buttons on light content surfaces | Fixed | Added scoped Sass overrides in `_sass/my-style.scss` that keep the global sidebar/cover accent unchanged while using darker teal content-link and button colors on readable white content areas. |
 | Bug/error | Active runtime bug tied to this change | None open | No runtime bug was part of this merge. |
-| Error | Local build command | Blocked | `bundle install` could not run because `bundle` is not available on PATH. `ruby`, `gem`, and `jekyll` are also not available on PATH in this shell. |
+| Error | Local build command | Blocked | `bundle install` and `bundle exec jekyll build` could not run because `bundle` is not available on PATH. `ruby`, `gem`, and `jekyll` are also not available on PATH in this shell. |
 
 ## Validation
 
@@ -39,6 +41,9 @@ This page records recent maintenance work, feature status, and validation notes 
 - Confirmed actual content pages and `_projects/` are not excluded.
 - Confirmed `_config.yml` no longer defines visible footer legal links to LICENSE, NOTICE, or CHANGELOG.
 - Confirmed `cv-source/AGENTS.md` was not modified.
+- Confirmed the accessible-link-contrast patch applied cleanly with `git apply --check` and `git apply`.
+- Confirmed the grouped-projects page change is limited to `projects.md` content and links to `/research/#research-projects`.
+- Confirmed `git diff --check` passes for the current website changes.
 - Build status for this update: blocked because Bundler is not available on PATH in this shell.
 
 ## Follow-up

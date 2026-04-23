@@ -2,29 +2,47 @@
 layout: page
 title: Projects
 description: >
-  Public GitHub projects by David Beckwitt outside his main diffraction research.
+  Public GitHub projects by David Beckwitt outside the main research program,
+  grouped by purpose and status.
 permalink: /projects/
 ---
 
-These are public GitHub projects outside my main diffraction research.
+This page lists selected public GitHub projects outside my dissertation research. Diffraction software and research workflows live under [Research](/research/#research-projects).
 {:.lead}
 
-Research software and dissertation workflows are under [Research](/research/). The full repository list is on [GitHub](https://github.com/DVBeckwitt).
+[GitHub profile](https://github.com/DVBeckwitt){:.btn}
+[Research projects](/research/#research-projects){:.btn}
 
-[GitHub](https://github.com/DVBeckwitt){:.btn}
-[Research](/research/){:.btn}
+Status labels are editorial: they describe how to read the project from this website, not GitHub's archival state.
 
-## Public code
+## Scientific and analysis tools
 
-| Project | Use |
-|:--|:--|
-| [MizzouQE-Solutions](https://github.com/DVBeckwitt/MizzouQE-Solutions) | Physics qualifying-exam solution archive. |
-| [equitable-lunch-invites](https://github.com/DVBeckwitt/equitable-lunch-invites) | Seeded lunch invitations and waitlists from one roster. |
-| [fit2HR](https://github.com/DVBeckwitt/fit2HR) | Heart-rate analysis for activity files, with calorie estimates and uncertainty. |
-| [PAGSA_Student_Awards](https://github.com/DVBeckwitt/PAGSA_Student_Awards) | Student award records and process materials. |
-| [Transcriber](https://github.com/DVBeckwitt/Transcriber) | Local transcription workflow for audio and video files. |
-| [Macro_Manager](https://github.com/DVBeckwitt/Macro_Manager) | Dashboard for logging and visualizing daily macronutrient intake. |
-| [Ising_Model](https://github.com/DVBeckwitt/Ising_Model) | Two-dimensional Ising model simulation. |
-| [AffectionMap](https://github.com/DVBeckwitt/AffectionMap) | Radar-plot comparison for paired preference profiles. |
-| [dvbeckwitt.github.io](https://github.com/DVBeckwitt/dvbeckwitt.github.io) | Source for this website. |
+| Project | Status | Use |
+|:--|:--|:--|
+| [fit2HR](https://github.com/DVBeckwitt/fit2HR) | Experimental | Interactive heart-rate analysis for `.fit` files, with error-aware calorie estimates. |
+| [Ising_Model](https://github.com/DVBeckwitt/Ising_Model) | Reference | Interactive two-dimensional Ising-model simulation. |
+{:.stretch-table}
+
+## Teaching and service tools
+
+| Project | Status | Use |
+|:--|:--|:--|
+| [MizzouQE-Solutions](https://github.com/DVBeckwitt/MizzouQE-Solutions) | Reference | Qualifying-exam solutions for Mizzou physics students. |
+| [PAGSA_Student_Awards](https://github.com/DVBeckwitt/PAGSA_Student_Awards) | Maintained | LaTeX archive of Physics and Astronomy student awards. |
+| [equitable-lunch-invites](https://github.com/DVBeckwitt/equitable-lunch-invites) | Active | Seeded lunch planner with reproducible rotation and balancing rules. |
+{:.stretch-table}
+
+## Personal workflow utilities
+
+| Project | Status | Use |
+|:--|:--|:--|
+| [Transcriber](https://github.com/DVBeckwitt/Transcriber) | Active | Local WhisperX launcher for audio and video transcription. |
+| [Macro_Manager](https://github.com/DVBeckwitt/Macro_Manager) | Experimental | Streamlit dashboard for logging and visualizing daily macronutrients. |
+{:.stretch-table}
+
+## Experimental and reference work
+
+| Project | Status | Use |
+|:--|:--|:--|
+| [AffectionMap](https://github.com/DVBeckwitt/AffectionMap) | Experimental | Radar-plot comparison tool for preference profiles. |
 {:.stretch-table}
