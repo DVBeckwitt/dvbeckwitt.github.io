@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Detector-space diffraction workflow</title>
+  <desc id="desc">Conceptual workflow from area-detector diffraction image to forward model to structural interpretation.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+    <style>
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .panel-title { fill: #111827; font: 700 28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { fill: #475569; font: 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { fill: #64748b; font: 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .line { fill: none; stroke: #334155; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .soft-line { fill: none; stroke: #64748b; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .accent { fill: none; stroke: #0f766e; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .dot { fill: #0f766e; }
+      .pale { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="#f8fafc"/>
+
+  <rect class="panel" x="40" y="44" width="300" height="300" rx="20"/>
+  <text class="panel-title" x="190" y="92" text-anchor="middle">Area-detector image</text>
+  <text class="small" x="190" y="320" text-anchor="middle">spots, arcs, diffuse intensity</text>
+  <rect class="pale" x="105" y="122" width="170" height="170" rx="12"/>
+  <path class="soft-line" d="M132 245 C158 190, 212 158, 254 148"/>
+  <path class="soft-line" d="M117 210 C168 218, 226 210, 267 184"/>
+  <path class="accent" d="M134 169 C178 138, 230 136, 259 166"/>
+  <circle class="dot" cx="177" cy="202" r="8"/>
+  <circle class="dot" cx="221" cy="178" r="6"/>
+  <circle class="dot" cx="237" cy="236" r="5"/>
+  <circle fill="#94a3b8" cx="152" cy="229" r="4"/>
+  <circle fill="#94a3b8" cx="258" cy="210" r="4"/>
+
+  <line class="line" x1="370" y1="194" x2="468" y2="194" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="490" y="44" width="300" height="300" rx="20"/>
+  <text class="panel-title" x="640" y="92" text-anchor="middle">Forward model</text>
+  <text class="small" x="640" y="320" text-anchor="middle">geometry, calibration, scattering physics</text>
+  <path class="line" d="M568 245 L640 132 L718 245"/>
+  <path class="soft-line" d="M565 245 H720"/>
+  <path class="soft-line" d="M640 132 V260"/>
+  <path class="accent" d="M593 220 C622 183, 663 170, 704 178"/>
+  <circle class="dot" cx="640" cy="132" r="6"/>
+  <rect class="pale" x="598" y="238" width="84" height="22" rx="5"/>
+  <path class="soft-line" d="M552 145 L602 168"/>
+  <text class="label" x="540" y="140" text-anchor="middle">q</text>
+
+  <line class="line" x1="820" y1="194" x2="918" y2="194" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="920" y="44" width="300" height="300" rx="20"/>
+  <text class="panel-title" x="1070" y="92" text-anchor="middle">Structure and disorder</text>
+  <text class="small" x="1070" y="320" text-anchor="middle">orientation, mosaicity, stacking faults</text>
+  <g transform="translate(980 132)">
+    <path class="line" d="M0 20 H178"/>
+    <path class="line" d="M0 58 H178"/>
+    <path class="line" d="M0 96 H178"/>
+    <path class="accent" d="M0 134 H178"/>
+    <path class="soft-line" d="M28 20 L42 58 L32 96 L52 134"/>
+    <path class="soft-line" d="M112 20 L104 58 L120 96 L113 134"/>
+    <circle class="dot" cx="78" cy="58" r="5"/>
+    <circle class="dot" cx="132" cy="96" r="5"/>
+    <path class="soft-line" d="M168 20 C184 48, 184 106, 168 134"/>
+  </g>
+</svg>
