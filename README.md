@@ -67,7 +67,7 @@ See `docs/project-status.md` for the latest project status note.
 
 Most recent documented change:
 
-- **Bug/error:** Repository-support and theme documentation files were being eligible for public site output.
-- **Status:** Fixed.
-- **Feature/status:** `_config.yml` now excludes theme docs, license folders, repository metadata pages, old blog/doc image folders, and `_featured_categories`; footer legal links to LICENSE, NOTICE, and CHANGELOG were removed.
-- **Validation:** `_config.yml` parses as YAML, requested exclusions are present, actual content pages remain included, and visible config links to LICENSE/NOTICE/CHANGELOG are gone. Full Jekyll build is blocked in this shell because Bundler is not available on PATH.
+- **Feature:** Added a dedicated `/outputs/` page for publications, manuscripts, talks, posters, and presentation records.
+- **Status:** Done.
+- **Bug/error status:** The downloaded patch no longer applied cleanly to the current tree, so the equivalent changes were applied manually against current files. No stale `/research/#selected-outputs` links remain.
+- **Validation:** `git diff --check` passes, static front-matter/internal-link checks pass for the changed public pages, and the `/outputs/` route is linked from navigation, home, archive, and research pages. Full Jekyll build is blocked in this shell because Ruby/Bundler are not available on PATH.

@@ -16,6 +16,11 @@ This page records recent maintenance work, feature status, and validation notes 
 
 | Type | Item | Status | Notes |
 | --- | --- | --- | --- |
+| Feature | Publications and talks page | Done | Added `outputs.md` at `/outputs/` with selected journal article, manuscript in preparation, selected presentations, ResearchGate link, and CV link. |
+| Content | Research outputs moved out of research overview | Done | Replaced the detailed `Selected outputs` block in `research.md` with a short `Outputs` section and button linking to `/outputs/`. Updated home and notes archive links to point to the new page. |
+| Navigation | Outputs added to site menu | Done | Added `Outputs` to `_config.yml` navigation between Research and Projects. |
+| Bug/error | Downloaded patch failed against current files | Resolved | `git apply --check` failed for `index.md`, `posts.md`, and `research.md` because current content no longer matched the patch context. The same feature change was applied manually against current files. |
+| Bug/error | Stale selected-output anchor links | Fixed | Confirmed no `/research/#selected-outputs` references remain after the update. Remaining `selected-outputs` text only appears in tracked backup/reference files, not active public pages. |
 | Bug/error | Repository-support files exposed as site pages | Fixed | Added Jekyll exclusions for `docs/`, `licenses/`, root repository-support Markdown files, `_featured_categories/`, and old blog/doc image folders. Removed footer legal links to LICENSE, NOTICE, and CHANGELOG, and removed `LICENSE.md` from forced includes. |
 | Feature | Public output boundary for professional site | Done | The site build config now favors actual website pages, research/project content, generated public docs, and assets meant for the public site. Root repo documentation remains in the repository but is excluded from Jekyll output. |
 | Feature | Profile-first homepage | Done | Replaced the starter blog homepage with `index.md`, a profile-first landing page for research, projects, CV, and teaching. |
@@ -44,7 +49,10 @@ This page records recent maintenance work, feature status, and validation notes 
 - Confirmed the accessible-link-contrast patch applied cleanly with `git apply --check` and `git apply`.
 - Confirmed the grouped-projects page change is limited to `projects.md` content and links to `/research/#research-projects`.
 - Confirmed `git diff --check` passes for the current website changes.
-- Build status for this update: blocked because Bundler is not available on PATH in this shell.
+- Confirmed `outputs.md` exists with valid front matter and `/outputs/` links from navigation, home, notes archive, and research page.
+- Confirmed no `/research/#selected-outputs` links remain in active public pages.
+- Confirmed static front-matter/internal-link checks pass for `index.md`, `posts.md`, `research.md`, and `outputs.md`.
+- Build status for this update: blocked because Ruby/Bundler are not available on PATH in this shell. `ruby`, `bundle`, `bundler`, and `jekyll` commands are unavailable; WSL is installed but cannot start because a required Windows feature is not installed.
 
 ## Follow-up
 

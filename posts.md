@@ -17,7 +17,8 @@ This page will collect shorter notes that do not belong on the main research, pr
 
 No public posts are listed yet.
 
-- [Research outputs and research projects](/research/)
+- [Publications and talks](/outputs/)
+- [Research projects](/research/#research-projects)
 - [Public GitHub projects](/projects/)
 - [Curriculum vitae](/cv/)
 - [Teaching philosophy](/teaching-philosophy/)
