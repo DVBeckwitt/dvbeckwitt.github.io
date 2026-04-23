@@ -5,10 +5,6 @@ description: >
   Public GitHub projects by David Beckwitt outside the main research program,
   grouped by purpose and status.
 permalink: /projects/
-image:
-  path: /assets/img/social-card.jpg
-  width: 1200
-  height: 630
 ---
 
 This page lists selected public GitHub projects outside my dissertation research. Diffraction software and research workflows live under [Research](/research/#research-projects).

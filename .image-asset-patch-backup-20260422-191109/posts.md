@@ -6,10 +6,6 @@ description: >
   scientific Python, teaching, and research workflow.
 permalink: /posts/
 grouped: true
-image:
-  path: /assets/img/social-card.jpg
-  width: 1200
-  height: 630
 ---
 
 This page will collect shorter notes that do not belong on the main research, project, CV, or teaching pages.

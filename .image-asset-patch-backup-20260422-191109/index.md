@@ -5,10 +5,7 @@ description: >
   Physics Ph.D. candidate using detector-space X-ray scattering and Python
   modeling to study disorder in layered thin-film materials.
 permalink: /
-image:
-  path: /assets/img/social-card.jpg
-  width: 1200
-  height: 630
+image: /assets/img/logo.jpg
 accent_image: /assets/img/research-sidebar-bg.jpg
 cover: true
 last_modified_at: 2026-04-22

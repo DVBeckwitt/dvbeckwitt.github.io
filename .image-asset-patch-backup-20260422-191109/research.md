@@ -5,10 +5,6 @@ description: >
   Detector-space X-ray scattering, layered thin-film disorder, GIWAXS,
   and computational structure analysis.
 permalink: /research/
-image:
-  path: /assets/img/social-card.jpg
-  width: 1200
-  height: 630
 accent_image: /assets/img/research-sidebar-bg.jpg
 menu: true
 order: 2

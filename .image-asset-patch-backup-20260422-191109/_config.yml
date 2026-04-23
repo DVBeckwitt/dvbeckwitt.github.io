@@ -37,15 +37,13 @@ keywords:              [X-ray scattering, GIWAXS, thin films, van der Waals mate
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/headshot-square.jpg
+logo:                  /assets/img/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                David Beckwitt
   email:
-  picture:
-    path:              /assets/img/headshot-square.jpg
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -119,13 +117,6 @@ theme_color:           rgb(25,55,71)
 # font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
-  - scope:
-      path:            ""
-    values:
-      image:
-        path:          /assets/img/social-card.jpg
-        width:         1200
-        height:        630
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
   - scope:

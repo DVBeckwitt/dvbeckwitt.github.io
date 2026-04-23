@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-image: /assets/img/portrait.jpg
+image: /assets/img/logo.jpg
 description: >
   David Beckwitt is a Physics Ph.D. candidate at the University of Missouri
   studying thin-film disorder with X-ray scattering, detector-space modeling,
@@ -12,7 +12,7 @@ menu: true
 order: 1
 ---
 
-![David Beckwitt](/assets/img/portrait.jpg){:.lead width="800" height="1200" loading="lazy"}
+![David Beckwitt](/assets/img/logo.jpg){:.lead width="800" height="1200" loading="lazy"}
 
 I am David Beckwitt, a Physics Ph.D. candidate at the University of Missouri. I study disorder in layered thin films with X-ray scattering, detector-space modeling, and scientific Python.
 {:.lead}
