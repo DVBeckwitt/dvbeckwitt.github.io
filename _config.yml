@@ -57,12 +57,16 @@ menu:
     url:               /outputs/
   - title:             Projects
     url:               /projects/
+  - title:             Notes
+    url:               /notes/
   - title:             CV
     url:               /cv/
   - title:             Teaching
     url:               /teaching-philosophy/
   - title:             About
     url:               /about/
+  - title:             Contact
+    url:               /contact/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2026 David Beckwitt. All rights reserved.

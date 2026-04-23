@@ -17,6 +17,7 @@ This page will collect shorter notes that do not belong on the main research, pr
 
 No public posts are listed yet.
 
+- [Substack notes](/notes/)
 - [Publications and talks](/outputs/)
 - [Research projects](/research/#research-projects)
 - [Public GitHub projects](/projects/)

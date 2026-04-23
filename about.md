@@ -19,6 +19,7 @@ I am David Beckwitt, a Physics Ph.D. candidate at the University of Missouri. I 
 
 [Research](/research/){:.btn}
 [Projects](/projects/){:.btn}
+[Notes](/notes/){:.btn}
 [CV](/cv/){:.btn}
 
 ## Current role

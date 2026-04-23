@@ -19,6 +19,7 @@ I study disorder in layered thin films by modeling full two-dimensional X-ray sc
 
 [Research](/research/){:.btn}
 [Publications & Talks](/outputs/){:.btn}
+[Notes](/notes/){:.btn}
 [Download CV PDF](/assets/docs/beckwitt-cv.pdf){:.btn}
 
 ## Current work
@@ -32,6 +33,8 @@ The main systems are Bi<sub>2</sub>Te<sub>3</sub>, Bi<sub>2</sub>Se<sub>3</sub>,
 ## Code
 
 Research projects, dissertation workflows, and diffraction tools are listed under [Research](/research/). Papers, talks, and posters are listed under [Publications & Talks](/outputs/). Other public GitHub projects are listed under [Projects](/projects/).
+
+Shorter public writing is imported from [ScatterGuy on Substack](/notes/).
 
 ## Teaching
 
