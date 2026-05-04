@@ -34,6 +34,13 @@
 - Current local status: `python scripts/check_repo.py` passes on this Windows machine with LaTeX skipped because MiKTeX finds `latexmk` but lacks the Perl script engine. Strict LaTeX validation remains expected to fail until Perl or the LaTeX toolchain is fixed.
 - Current local limitation: Docker and `actionlint` are not installed on PATH, so the Gitleaks Docker scan and workflow lint could not be executed locally.
 
+## Cover-letter voice update
+
+- Added `applications/common/cover_letter_voice_guide.md` to capture David's preferred cover-letter voice from the Beamport Engineer revision.
+- Updated `AGENTS.md`, `applications/README.md`, `applications/common/cover_letter_base_format.md`, and all job-family cover-letter formats to use direct first-person, concrete technical evidence, neutral gap-control, and restrained closes.
+- Added `applications/examples/cover_letter_voice/beamport_engineer_preferred_voice.md` as a style calibration example, not an evidence source.
+- Verification complete: `python scripts/check_repo.py` passes and `python -m pytest -q` reports 28 passed.
+
 ## Evidence-control note
 
 The example resume and cover-letter files are treated as archived writing samples. New application materials should be drafted from `data/cv_master.json`, the source CV, the teaching documents, user-provided updates, and the job posting. Unsupported claims should be listed as gaps rather than reused.

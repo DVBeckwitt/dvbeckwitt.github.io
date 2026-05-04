@@ -2,6 +2,8 @@
 
 Use one page. Translate physics research into data, modeling, and decision-support language without overstating production experience or unsupported business-domain ownership.
 
+Apply the common cover-letter voice guide: direct first person, concrete evidence, honest adjacent-fit language when needed, and no brand-like sales language.
+
 ## Paragraph 1
 
 State the role and company. Position David as a quantitative physicist with 7+ years of Python, scientific modeling, detector-data analysis, and machine-learning-assisted structure analysis.

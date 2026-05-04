@@ -40,6 +40,7 @@ Default checks may skip only missing or incomplete optional LaTeX tooling. Use `
 - Do not edit casually: source CV facts, `data/cv_master.json`, publication/date/affiliation text, `sections/referee.tex`, private drafts, generated exports, compiled PDFs, evidence-control policies, claim ledgers, or final verification records.
 - Validation checklist: repository check, tests, coverage command, lint, format check, typecheck, ATS parse gate, application quality eval when relevant, and strict LaTeX only when a full TeX plus Perl toolchain is expected.
 - Non-physics analyst roles: present David as a quantitative Python analyst with a physics Ph.D. research background; translate scientific work into business-readable data work without inventing direct domain ownership.
+- Cover-letter voice: apply `applications/common/cover_letter_voice_guide.md`; David prefers direct first-person prose, concrete technical evidence, neutral gap-control when needed, and a restrained close.
 
 ## Non-negotiable rules
 
@@ -442,6 +443,17 @@ Graceful application writing means:
 Default voice:
 
 `Technically precise, composed, direct, modestly confident, and concrete. David should sound like a scientist who can explain difficult work clearly to the reader in front of him.`
+
+
+David's current cover-letter preference, based on his Beamport Engineer revision:
+
+- Start plainly: `I am applying for the [role] position with [employer].`
+- Explain why the role is close to work he already does, using concrete overlap rather than generic interest.
+- Use first person when the evidence is direct: `I operate`, `I build`, `I have explained`, `I would bring`.
+- Put the strongest role-relevant technical evidence in the second paragraph.
+- For adjacent-fit cases, state the boundary once in neutral language. A sentence such as `even though my operational background is X-ray rather than direct neutron beamline operation` is preferred to either hiding the gap or overstating it.
+- Use a practical close: `I would welcome the opportunity to discuss how my [specific evidence] background can support [team or program].`
+- Do not turn the letter into a values statement, a sales pitch, or a compressed academic biography.
 
 Do not write in a grandiose or inflated voice. Avoid language that makes David sound like a brand campaign. Do not use emotional boilerplate unless it is made concrete by evidence.
 

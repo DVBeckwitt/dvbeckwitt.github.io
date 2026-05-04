@@ -15,6 +15,7 @@ Use this before finalizing a job-specific package.
 - No unsupported People Analytics, compensation analytics, labor capitalization reporting, workforce planning, quality-of-hire modeling, employee-listening analytics, HR dashboard ownership, R programming, 4+ years in compensation, or 2+ years advanced professional SQL claims are included.
 - Cover letter uses the exact role and employer name.
 - Cover letter gives one employer-specific reason, not generic praise.
+- Cover letter voice follows `common/cover_letter_voice_guide.md`: direct first person, concrete evidence, neutral gap-control when needed, and restrained close.
 - Final application documents are `.docx` files, not Markdown drafts.
 - `.docx` files are AI-legible: one column, semantic headings, normal paragraphs, hyphen bullets, no text boxes, images, comments, tracked changes, or decorative layout.
 - File names are simple and role-specific.

@@ -2,6 +2,8 @@
 
 Use one page. The tone should be technical, service-oriented, and practical.
 
+Apply the common cover-letter voice guide: direct first person, concrete evidence, honest adjacent-fit language when needed, and no brand-like sales language.
+
 ## Paragraph 1
 
 State the role and company. Position David as a technical credibility hire with hands-on X-ray scattering instrumentation, materials characterization, Python analysis, and teaching/workshop communication experience.

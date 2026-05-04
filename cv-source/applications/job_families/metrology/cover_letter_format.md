@@ -2,6 +2,8 @@
 
 Use one page. Keep the letter focused on measurement, instrumentation, analysis, and reproducibility.
 
+Apply the common cover-letter voice guide: direct first person, concrete evidence, honest adjacent-fit language when needed, and no brand-like sales language.
+
 ## Paragraph 1
 
 State the role and company. Position David as a Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, thin-film characterization, and Python analysis experience. Add one company-specific sentence from the posting or product area.

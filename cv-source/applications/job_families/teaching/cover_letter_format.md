@@ -2,6 +2,8 @@
 
 Use one page for most lecturer or instructor roles. Use 1 to 1.5 pages only when the posting expects a formal academic job letter and the content remains specific.
 
+Apply the common cover-letter voice guide: direct first person, concrete evidence, honest adjacent-fit language when needed, and no brand-like sales language.
+
 ## Paragraph 1
 
 State the role and institution. Position David as a Physics Ph.D. candidate with undergraduate physics teaching, tutoring, active-learning, and student-support experience. Include one institution-specific sentence about the student population, mission, course needs, or department.

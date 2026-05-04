@@ -1,31 +1,51 @@
 # Neutron and X-ray Scattering Cover Letter Format
 
-Use one page for industry or facility roles. Use up to 1.5 pages only for academic or national-lab style applications when the posting expects a research-focused letter.
+Use one page for industry, facility, beamline, reactor, or instrumentation roles. Use up to 1.5 pages only for academic or national-lab style applications when the posting expects a research-focused letter and the extra length adds concrete evidence.
 
-## Paragraph 1
+Apply `../../common/cover_letter_voice_guide.md`. The letter should be direct, first-person, concrete, and candid about the neutron/X-ray boundary when needed.
 
-State the role and organization. Position David as a scattering-focused Physics Ph.D. candidate with quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, and thin-film disorder expertise. Add one organization-specific sentence about instrument modality, user community, materials focus, or analysis need.
+## Paragraph 1: role and scattering identity
 
-Template:
+State the role and organization. Position David as a scattering-focused Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, area-detector analysis, and thin-film disorder expertise.
 
-I am applying for the [role] position at [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, specializing in quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, and disorder in van der Waals thin films. [Organization-specific sentence tied to the instrument, user program, or materials-characterization need.]
+For beamport, beamline, neutron-scattering, synchrotron, reactor, or user-facility roles, explain why the role is close to work he already does: keeping instruments useful, turning detector data into reliable structural information, building analysis software, supporting measurements, or communicating with scientific users.
 
-## Paragraph 2
+Preferred pattern:
 
-Primary proof point: scattering research.
+`I am applying for the [role] position with [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, specializing in quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, and area-detector scattering analysis. [Organization or role] is close to the work I know best: [specific overlap].`
 
-Use 2D-oriented powders, area detectors, GIWAXS, diffuse scattering, stacking faults, defect densities, site occupancy, Debye-Waller factors, mosaicity, and detector geometry.
+## Paragraph 2: primary proof from scattering measurements
 
-## Paragraph 3
+Primary proof point: scattering research and detector-data analysis.
 
-Secondary proof point: instrumentation, software, or user-facing communication.
+Use concrete details when relevant: 2D-oriented powders, area detectors, GIWAXS, diffuse scattering, stacking faults, defect densities, site occupancy, Debye-Waller factors, mosaicity, detector geometry, and quantitative extraction of structural information.
 
-Use custom XRD/XRR systems, Python tools, OSC_Reader, ra_sim, 2D_Mosaic_Sim, teaching, workshops, presentations, or outreach depending on the posting.
+For neutron-specific roles, include a neutral boundary sentence when appropriate:
 
-## Paragraph 4
+`That experience is directly relevant to [neutron role responsibility], even though my operational background is X-ray rather than direct neutron beamline operation.`
 
-Close by connecting quantitative scattering, software, instrument-user perspective, and technical communication to the facility or company need.
+Do not claim direct neutron beamline operation, neutron-instrument alignment, reactor operations, radiation-worker credentials, cryogenic-system ownership, LabVIEW, Java, or Linux administration unless David provides direct evidence for the application.
 
-## Cautions
+## Paragraph 3: instrumentation, software, and hardware-adjacent work
 
-If the role is neutron-specific, do not claim direct neutron beamline operation. Frame David's preparation as transferable scattering physics plus data analysis and conference/facility-community exposure.
+Secondary proof point: instrument support, scientific software, file conversion, simulation, automation, or hardware-adjacent work.
+
+Use custom XRD/XRR systems, Python tools, OSC_Reader, ra_sim, 2D_Mosaic_Sim, pulsed laser deposition system build experience, biomedical testing software, automated hardware systems, Git, NumPy, SciPy, visualization tools, or documentation depending on the posting.
+
+Keep this paragraph readable. It can contain tool names, but it should still make one main point: David can work near instruments and data, not only write about them.
+
+## Paragraph 4: scientific-user communication
+
+Use teaching, tutoring, workshops, invited presentations, manuscripts, public STEM engagement, or collaboration when the posting involves facility users, scientists, students, training, documentation, or support.
+
+Preferred frame:
+
+`The role also depends on communication with [scientists/users/students]. I have explained [relevant topics] through [supported settings]. I would bring [organization] a scientist-user's perspective, practical software habits, and a measured approach to troubleshooting instrument and analysis problems.`
+
+## Close
+
+Close by connecting scattering instrumentation, scientific programming, detector-data analysis, and communication to the team.
+
+Preferred pattern:
+
+`I would welcome the opportunity to discuss how my scattering instrumentation, scientific programming, and detector-data analysis background can support [team or program].`
