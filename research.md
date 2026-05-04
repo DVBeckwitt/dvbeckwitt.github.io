@@ -21,7 +21,6 @@ My dissertation asks what can be learned from a two-dimensional X-ray detector i
 
 The work focuses on layered thin films in the 2D oriented-powder regime. The layer normal remains approximately aligned to the substrate normal, while the in-plane azimuthal orientation is distributed across crystallites. That mixed order produces detector images with specular features, off-specular arcs, ring segments, and diffuse intensity. Those features carry information about geometry, mosaicity, ordered structure, and stacking disorder.
 
-[Download thesis PDF](/assets/docs/beckwitt-thesis-2d-oriented-powders.pdf){:.btn}
 [Research projects](#research-projects){:.btn}
 [Publications & Talks](/outputs/){:.btn}
 
