@@ -24,7 +24,7 @@ I study disorder in layered thin films by modeling full two-dimensional X-ray sc
 
 ## Current work
 
-My dissertation, _Investigating Disorder in van der Waals Thin Films_, treats detector images as the primary data. The work connects beam geometry, detector calibration, orientation, mosaicity, phase content, and stacking faults in films that are neither single crystals nor random powders.
+My dissertation, _X-ray Diffraction Characterization and Simulation of 2D-Oriented Powders_, treats detector images as the primary data. The work connects beam geometry, detector calibration, orientation, mosaicity, phase content, and stacking faults in films that are neither single crystals nor random powders.
 
 ## Materials
 

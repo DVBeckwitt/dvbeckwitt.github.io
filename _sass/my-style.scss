@@ -65,3 +65,42 @@ article,
   border-radius: 4px;
   background: #fff;
 }
+
+// Research-page thesis figures.
+.research-figure,
+.research-figure-card {
+  margin: 2rem 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(127, 127, 127, 0.28);
+    border-radius: 6px;
+    background: #fff;
+  }
+
+  figcaption {
+    margin-top: .65rem;
+    font-size: .88rem;
+    line-height: 1.45;
+    color: inherit;
+    opacity: .75;
+  }
+}
+
+.research-figure--lead {
+  margin-top: 1.4rem;
+}
+
+.research-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.4rem;
+  margin: 2rem 0;
+}
+
+.research-figure-card {
+  margin: 0;
+}
+
