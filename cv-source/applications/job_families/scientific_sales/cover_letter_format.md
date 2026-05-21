@@ -10,7 +10,7 @@ State the role and company. Position David as a technical credibility hire with 
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. [Company-specific sentence tied to the product or customer workflow.]
+I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. [Company-specific sentence tied to the product or customer workflow.]
 
 ## Paragraph 2
 

@@ -42,6 +42,6 @@ Do not end with a broad promise to create impact, transform the organization, or
 
 This is a style reference, not a template to copy word for word:
 
-`I am applying for the [role] position with [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, specializing in [specific technical areas]. [Organization]'s role is close to the work and duties I already perform: [concrete overlap].`
+`I am applying for the [role] position with [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in [specific technical areas]. [Organization]'s role is close to the work and duties I already perform: [concrete overlap].`
 
 `My graduate research has centered on [core work]. I [operate/build/analyze] [specific instruments, models, or data]. That experience is directly relevant to [role need], even though my operational background is [direct experience] rather than [adjacent posting requirement].`

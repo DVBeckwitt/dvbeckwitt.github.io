@@ -76,7 +76,7 @@ Use 2 to 3 compact lines. Name the teaching context, strongest student-facing ev
 
 Lecturer example:
 
-Physics Ph.D. candidate, University of Missouri, expected May 2026, with undergraduate physics teaching and tutoring experience. Taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. X-ray and detector-data research can support undergraduate-accessible computational and materials-physics projects.
+Physics Ph.D. candidate, University of Missouri, expected July 2026, with undergraduate physics teaching and tutoring experience. Taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. X-ray and detector-data research can support undergraduate-accessible computational and materials-physics projects.
 
 Tutoring or learning-support example:
 
@@ -90,7 +90,7 @@ Avoid dissertation-first framing, dense technical research language, independent
 
 ## Education
 
-Ph.D. candidate, Physics, University of Missouri, expected May 2026
+Ph.D. candidate, Physics, University of Missouri, expected July 2026
 Dissertation: Investigating Disorder in van der Waals Thin Films
 M.S. Physics, University of Missouri, May 2022
 B.S. Physics, Missouri State University, May 2020; minors in Mathematics and Chemistry

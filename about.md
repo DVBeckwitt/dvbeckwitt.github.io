@@ -24,7 +24,7 @@ I am David Beckwitt, a Physics Ph.D. candidate at the University of Missouri. I 
 
 ## Current role
 
-I work in Dr. Paul Miceli's group as a Graduate Research Assistant. I operate custom X-ray diffraction and reflectivity systems, collect area-detector data, and build models that connect image morphology to structure.
+I work in Dr. Paul Miceli's group as a Graduate Research Assistant. I use simulation-to-ML and AI-assisted scientific-computing workflows for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning while keeping interpretation grounded in detector geometry, scattering physics, and measured data. I operate custom X-ray diffraction and reflectivity systems, collect area-detector data, and build models that connect image morphology to structure.
 
 My dissertation focuses on van der Waals films with partial order: aligned layer normals, disordered in-plane orientation, mosaic spread, and stacking faults.
 

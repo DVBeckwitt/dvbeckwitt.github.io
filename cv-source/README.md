@@ -6,7 +6,7 @@ This repository contains David Beckwitt's source CV, evidence-controlled resume 
 
 Use `AGENTS.md` as the operating guide. Every resume or cover-letter claim must be supported by `data/cv_master.json`, the source CV, the teaching philosophy materials, a user-provided update, or the job posting when describing employer needs.
 
-Do not state the Ph.D. as completed unless David confirms it. Use: `Ph.D. candidate, Physics, University of Missouri, expected May 2026`.
+Do not state the Ph.D. as completed unless David confirms it. Use: `Ph.D. candidate, Physics, University of Missouri, expected July 2026`.
 
 ## Prerequisites
 

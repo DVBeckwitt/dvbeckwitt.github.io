@@ -12,7 +12,7 @@ For industry analyst or People Analytics roles, position David as a quantitative
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, with 7+ years of Python experience and a research background in simulation, optimization, machine learning, and visualization for complex detector data. [Company-specific sentence tied to the data type, model type, or mission in the posting.]
+I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with 7+ years of Python experience and a research background in simulation, optimization, machine learning, and visualization for complex detector data. [Company-specific sentence tied to the data type, model type, or mission in the posting.]
 
 ## Paragraph 2
 

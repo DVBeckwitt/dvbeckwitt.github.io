@@ -1,5 +1,5 @@
 David Beckwitt - AI-readable CV
-Export date: 2026-04-21
+Export date: 2026-05-21
 
 This export is plain text, table-free, column-free, and intended for AI parsing. It omits private phone numbers, addresses, and professional references by default.
 
@@ -7,17 +7,17 @@ This export is plain text, table-free, column-free, and intended for AI parsing.
 
 Name: David Beckwitt
 
-Degree status: Ph.D. candidate, Physics, University of Missouri, expected May 2026
+Degree status: Ph.D. candidate, Physics, University of Missouri, expected July 2026
 
-Positioning: Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based modeling, and machine-learning-assisted structure analysis.
+Positioning: Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based simulation, physics-informed machine learning, and AI-assisted scientific-computing workflows.
 
-Short positioning: Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, materials characterization, and technical communication.
+Short positioning: Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, simulation-to-ML workflows, materials characterization, and technical communication.
 
 Email: David.Beckwitt@gmail.com
 
 GitHub: https://github.com/DVBeckwitt
 
-LinkedIn: https://www.linkedin.com/in/DVBeckwitt/
+LinkedIn: https://www.linkedin.com/in/dvbeckwitt/
 
 ResearchGate: https://www.researchgate.net/profile/David-Beckwitt-3
 
@@ -27,7 +27,7 @@ ResearchGate: https://www.researchgate.net/profile/David-Beckwitt-3
 
 Location: Columbia, MO
 
-Date/status: expected May 2026
+Date/status: expected July 2026
 
 Dissertation: Investigating Disorder in van der Waals Thin Films
 
@@ -57,7 +57,7 @@ Location: Columbia, MO
 
 Dates: 2021-present
 
-Focus: X-ray diffraction instrumentation, GIWAXS modeling, thin-film growth, and machine-learning-based structure analysis.
+Focus: X-ray diffraction instrumentation, GIWAXS simulation, thin-film growth, physics-informed machine learning, and AI-assisted scientific-computing workflows.
 
 Supported claims:
 - Operates and maintains custom-built in-house X-ray diffraction and reflectivity systems for materials characterization.
@@ -65,7 +65,9 @@ Supported claims:
 - Extracts site occupancies, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from scattering data.
 - Models diffuse scattering from stacking faults and quantifies defect densities.
 - Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions.
-- Develops convolutional neural networks on simulated GIWAXS data using PyTorch for automated structure analysis.
+- Develops simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS detector images for structure-analysis screening.
+- Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning while checking interpretation against scattering constraints.
+- Keeps physical simulation, detector geometry, scattering constraints, and experimental context as validation boundaries for AI-assisted research outputs.
 
  Research Intern, NASA Space Consortium
 
@@ -94,6 +96,19 @@ Supported claims:
 - Automated hardware systems.
 
  Applied research tools
+
+ Simulation-to-ML GIWAXS Screening Workflow
+
+Dates: 2025-present
+
+Type: Scientific ML and AI-assisted workflow support
+
+URL: https://dvbeckwitt.github.io/research/giwaxs-machine-learning-simulation/
+
+Supported claims:
+- Trains PyTorch CNNs on simulated GIWAXS detector images for screening thin-film structure hypotheses.
+- Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space exploration, and validation planning.
+- Keeps physical simulation and scattering constraints as the reference point for interpretation rather than replacing the diffraction model with a black box.
 
  2D_Mosaic_Sim
 
@@ -153,6 +168,10 @@ Supported claims:
 - TensorFlow
 - model development
 - exploratory data analysis
+- simulation-to-ML workflows
+- convolutional neural networks
+- scientific image analysis
+- physics-informed model validation
 
  Instrumentation And Materials
 
@@ -182,13 +201,18 @@ Supported claims:
 
  Ai Workflow
 
-- Copilot
+- AI-assisted scientific-computing workflows
+- LLM-assisted agents
+- Reusable AI skills for research automation
+- Code scaffolding
+- Literature triage
+- Documentation and reproducibility checks
+- Validation planning
+- Parameter-space planning
+- GitHub Copilot
 - OpenAI tools
 - Claude
 - Perplexity
-- AI-assisted coding
-- AI-assisted research
-- AI-assisted drafting
 
  Publications
 
@@ -296,3 +320,7 @@ Supported claims:
 - Student evaluation scores, pass rates, retention effects, or measured learning gains without data.
 - Cloud deployment, MLOps ownership, or production-scale software engineering.
 - Managed employees or led a commercial team.
+- Commercial LLM product development or LLM application ownership.
+- Production AI-agent deployment, production MLOps, or cloud deployment ownership.
+- Formal prompt-engineering title or AI governance ownership.
+- Unvalidated AI-generated research conclusions.

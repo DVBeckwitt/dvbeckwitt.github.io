@@ -17,7 +17,7 @@ I am a Physics Ph.D. candidate at the University of Missouri studying disorder i
 
 **Methods:** Area-detector WAXS and GIWAXS, X-ray reflectivity, detector calibration, thin-film growth and characterization, forward modeling, simulation, and machine-learning-assisted image screening.
 
-**Selected skills:** Python, NumPy, pandas, SciPy, PyTorch, TensorFlow, Git, LaTeX, Matplotlib, Plotly, OriginLab, MATLAB, SEM, EDS, Raman spectroscopy, profilometry, and XRD.
+**Selected skills:** Python, NumPy, pandas, SciPy, PyTorch, TensorFlow, AI-assisted scientific-computing workflows, Git, LaTeX, Matplotlib, Plotly, OriginLab, MATLAB, SEM, EDS, Raman spectroscopy, profilometry, and XRD.
 
 [Download CV PDF](/assets/docs/beckwitt-cv.pdf){:.btn}
 

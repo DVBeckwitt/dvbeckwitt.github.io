@@ -4,7 +4,7 @@ Source note: original binary removed from Git; use this text version for review.
 
 ```text
 David V. Beckwitt
-Columbia, MO | [phone omitted] | David.Beckwitt@proton.me | linkedin.com/in/DVBeckwitt | github.com/DVBeckwitt
+Columbia, MO | [phone omitted] | David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt
 Full CV (PDF)
 
 Summary
@@ -72,7 +72,7 @@ Selected Engineering Software
   ring–cap physics in talks and internal documentation.
 
 Education
-PhD, Physics (Expected)                                                                                       May 2026
+PhD, Physics (Expected)                                                                                       July 2026
 University of Missouri, Columbia, MO
 MS, Physics                                                                                                   May 2022
 University of Missouri, Columbia, MO

@@ -52,7 +52,7 @@ Use selectively:
 
 ## Education
 
-Ph.D. candidate, Physics, University of Missouri, expected May 2026
+Ph.D. candidate, Physics, University of Missouri, expected July 2026
 M.S. Physics, University of Missouri, May 2022
 B.S. Physics, Missouri State University, May 2020. Minors: Mathematics and Chemistry.
 

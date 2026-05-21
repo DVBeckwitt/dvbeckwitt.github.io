@@ -4,7 +4,7 @@ Source note: original binary removed from Git; use this text version for review.
 
 ```text
 David V. Beckwitt, PhD Candidate
-              David.Beckwitt@gmail.com | [phone omitted] | LinkedIn: https://www.linkedin.com/in/beckwitt/
+              David.Beckwitt@gmail.com | [phone omitted] | LinkedIn: https://www.linkedin.com/in/dvbeckwitt/
 April 21, 2026
 Search Committee
 Lincoln University of Missouri
@@ -34,7 +34,7 @@ would translate well to departmental initiatives and student-success programming
 My research program can be adapted into undergraduate-accessible projects. I study structural characterization of
 van der Waals thin films using grazing-incidence X-ray and neutron scattering. I have developed Monte Carlo
 simulations to extract occupancies, defect densities, and anisotropic Debye-Waller factors, built convolutional neural
-networks for automated structure analysis, and grown phase-controlled two-dimensional films by chemical vapor
+networks for structure-analysis screening, and grown phase-controlled two-dimensional films by chemical vapor
 deposition. At Lincoln, I would involve undergraduates in scattering-data analysis, simulations of lattice disorder,
 image-based structure classification, and materials characterization. Where appropriate, I would seek external
 funding to support undergraduate research, equipment, and student conference participation.

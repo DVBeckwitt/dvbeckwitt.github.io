@@ -4,7 +4,7 @@ title: GIWAXS simulation and machine learning
 date: 2025-09-01
 description: >
   PyTorch-based research workflow that uses simulated GIWAXS images to train
-  convolutional neural networks for automated structure-analysis screening.
+  convolutional neural networks for structure-analysis screening.
 caption: Simulated GIWAXS images used for machine-learning-assisted structure analysis.
 image:
   path: /assets/img/projects/giwaxs-machine-learning.png
@@ -24,6 +24,8 @@ GIWAXS detector images can change in several coupled ways when geometry, site oc
 ## Approach
 
 The workflow trains convolutional neural networks on simulated GIWAXS data. Simulation gives controlled input parameters and known labels, while the neural network provides a fast pattern-recognition layer. Physical modeling remains the reference point for interpretation.
+
+AI-assisted scientific-computing workflows support code scaffolding, documentation, literature triage, reproducibility checks, and parameter-space planning around the simulation pipeline. They are treated as workflow accelerators, not as substitutes for scattering constraints or detector-geometry checks.
 
 ## Status and limits
 

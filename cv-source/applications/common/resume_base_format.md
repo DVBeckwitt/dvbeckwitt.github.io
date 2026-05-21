@@ -13,6 +13,8 @@ Do not include private phone numbers or addresses unless David provides them for
 
 Use 2 to 3 lines. Name the role family, strongest technical evidence, and one differentiator. Do not use generic adjectives.
 
+For AI or ML claims, lead with the scientific workflow, simulation, validation, and research outcome rather than the tool name.
+
 For teaching roles, choose the correct branch before drafting: teaching-focused lecturer resume, general teaching resume, tutoring or learning-support resume, outreach or education-program resume, two-page teaching resume, or teaching-focused CV.
 
 ## Skills
@@ -27,6 +29,8 @@ Bullet formula:
 
 Verb + method/tool + technical object + result or purpose.
 
+For AI-assisted work, add the validation boundary: physics-based model, detector geometry, scattering constraint, reproducibility check, or documented review step.
+
 ## Projects
 
 Use when software, modeling, data analysis, or instrumentation work is central to the role.
@@ -39,7 +43,7 @@ For one-page teaching-focused resumes, include publications only when a publicat
 
 ## Education
 
-State: Ph.D. candidate, Physics, University of Missouri, expected May 2026.
+State: Ph.D. candidate, Physics, University of Missouri, expected July 2026.
 
 ## Awards
 

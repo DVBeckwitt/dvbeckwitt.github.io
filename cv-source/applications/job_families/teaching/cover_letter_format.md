@@ -10,7 +10,7 @@ State the role and institution. Position David as a Physics Ph.D. candidate with
 
 Template:
 
-I am applying for the [role] position at [institution]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, with experience teaching and tutoring undergraduate physics across small sections, tutoring settings, and large courses with enrollments up to 200+ students. My teaching uses active learning, structured problem solving, demonstrations, simulations, and accessible student support to help students connect physics concepts to their goals. [Institution-specific sentence.]
+I am applying for the [role] position at [institution]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience teaching and tutoring undergraduate physics across small sections, tutoring settings, and large courses with enrollments up to 200+ students. My teaching uses active learning, structured problem solving, demonstrations, simulations, and accessible student support to help students connect physics concepts to their goals. [Institution-specific sentence.]
 
 ## Paragraph 2
 

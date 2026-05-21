@@ -3,7 +3,7 @@
 Use this before finalizing a job-specific package.
 
 - Company name and role title are exact.
-- Degree status says: Ph.D. candidate, Physics, University of Missouri, expected May 2026.
+- Degree status says: Ph.D. candidate, Physics, University of Missouri, expected July 2026.
 - Resume top third matches the job family and posting.
 - For teaching roles, the selected format matches the role type: teaching-focused lecturer resume, general teaching resume, two-page teaching resume, teaching-focused CV, tutoring/learning-support resume, or outreach/program resume.
 - For requested one-page teaching resumes, the document fits on one page with no real content spilling to page two.

@@ -10,7 +10,7 @@ State the role and company. Position David as a Physics Ph.D. candidate with qua
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Ph.D. candidate in Physics at the University of Missouri, expected May 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. [Company-specific sentence tied to the role's measurement domain.]
+I am applying for the [role] position at [company]. I am a Ph.D. candidate in Physics at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. [Company-specific sentence tied to the role's measurement domain.]
 
 ## Paragraph 2
 

@@ -4,7 +4,7 @@ Source note: user-provided DOCX example for data analysis and People Analytics r
 
 ```text
 David Beckwitt
-dbbnf@umsystem.edu | linkedin.com/in/DVBeckwitt | github.com/DVBeckwitt
+dbbnf@umsystem.edu | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt
 
 April 22, 2026
 

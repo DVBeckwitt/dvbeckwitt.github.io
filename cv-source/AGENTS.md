@@ -54,7 +54,7 @@ Every claim in a resume or cover letter must be supported by one of these source
 
 If a job requirement is not supported, mark it as a gap in the evidence matrix. Do not hide it by exaggerating adjacent experience.
 
-State the degree as `Ph.D. candidate, Physics, University of Missouri, expected May 2026` unless David confirms the Ph.D. has been awarded.
+State the degree as `Ph.D. candidate, Physics, University of Missouri, expected July 2026` unless David confirms the Ph.D. has been awarded.
 
 Do not include references or professional contact details unless the application explicitly asks for references and David approves their inclusion.
 
@@ -1108,7 +1108,7 @@ Use this as the core evidence reservoir.
 
 ### Identity and positioning
 
-David Beckwitt is a Physics Ph.D. candidate at the University of Missouri, expected May 2026. His dissertation is `Investigating Disorder in van der Waals Thin Films`.
+David Beckwitt is a Physics Ph.D. candidate at the University of Missouri, expected July 2026. His dissertation is `Investigating Disorder in van der Waals Thin Films`.
 
 Default technical positioning:
 
@@ -1120,7 +1120,7 @@ Use shorter positioning for non-research roles:
 
 ### Education
 
-- Ph.D. in Physics, University of Missouri, expected May 2026.
+- Ph.D. in Physics, University of Missouri, expected July 2026.
 - M.S. in Physics, University of Missouri, May 2022.
 - B.S. in Physics, Missouri State University, May 2020.
 - Minors: Mathematics and Chemistry.
@@ -1138,7 +1138,9 @@ Supported claims:
 - Quantifies defect densities.
 - Grew phase-controlled PbI2 films by chemical vapor deposition.
 - Validated polytype fractions.
-- Develops convolutional neural networks on simulated GIWAXS data using PyTorch for automated structure analysis.
+- Develops simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS detector images for structure-analysis screening.
+- Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning while checking interpretation against scattering constraints.
+- Keeps physical simulation, detector geometry, scattering constraints, and experimental context as validation boundaries for AI-assisted research outputs.
 
 ### Previous roles
 
@@ -1187,6 +1189,10 @@ Data and machine learning:
 - TensorFlow.
 - Model development.
 - Exploratory data analysis.
+- simulation-to-ML workflows.
+- CNNs.
+- scientific image analysis.
+- physics-informed model validation.
 
 Instrumentation and materials:
 
@@ -1216,13 +1222,28 @@ Communication:
 
 AI workflow:
 
+- AI-assisted scientific-computing workflows.
+- LLM-assisted agents.
+- Reusable AI skills for research automation.
+- Code scaffolding.
+- Literature triage.
+- Documentation and reproducibility checks.
+- Validation planning.
+- Parameter-space planning.
 - Copilot.
 - OpenAI tools.
 - Claude.
 - Perplexity.
-- AI-assisted coding, research, and drafting.
+- Keep AI claims subordinate to simulation, ML, detector analysis, interpretation, or validation. Do not claim LLM product development, autonomous production agents, or unvalidated AI-generated research conclusions unless David provides direct evidence.
 
 ### Applied research tools and projects
+
+Simulation-to-ML GIWAXS Screening Workflow, 2025 to present.
+
+- Scientific ML and AI-assisted workflow support.
+- Trains PyTorch CNNs on simulated GIWAXS detector images for screening thin-film structure hypotheses.
+- Uses LLM-assisted agents and reusable AI skills to accelerate code scaffolding, documentation, literature triage, parameter-space exploration, reproducibility checks, and validation planning.
+- Keeps physical simulation and scattering constraints as the reference point for interpretation rather than replacing the diffraction model with a black box.
 
 2D_Mosaic_Sim, 2025 to present.
 
@@ -1403,7 +1424,8 @@ Only claim these if David provides evidence. If a role requires them, present Da
 Example data science resume bullets:
 
 - Built physics-informed Python models for GIWAXS data, using simulation and optimization to convert area-detector patterns into quantitative structural parameters.
-- Developing PyTorch CNN workflows trained on simulated scattering patterns for automated thin-film structure analysis.
+- Developing simulation-to-ML workflows using PyTorch CNNs trained on simulated scattering patterns for thin-film structure-analysis screening.
+- Used LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning around simulation-to-ML pipelines.
 - Created scientific data tools for detector-image conversion, plotting, and inspection, improving access to proprietary diffraction data for downstream analysis.
 - Used pandas, NumPy, SciPy, optimization, and visualization workflows to analyze complex scientific data and communicate interpretable results.
 

@@ -4,13 +4,13 @@ Source note: one-page teaching-focused screening model. Keep this example aligne
 
 ```text
 DAVID V. BECKWITT
-Columbia, MO | David.Beckwitt@gmail.com | linkedin.com/in/DVBeckwitt | github.com/DVBeckwitt
+Columbia, MO | David.Beckwitt@gmail.com | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt
 
 SUMMARY
-Physics Ph.D. candidate, University of Missouri, expected May 2026, with undergraduate physics teaching and tutoring experience. Taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. X-ray and detector-data research can support undergraduate-facing computational and materials-physics projects.
+Physics Ph.D. candidate, University of Missouri, expected July 2026, with undergraduate physics teaching and tutoring experience. Taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. X-ray and detector-data research can support undergraduate-facing computational and materials-physics projects.
 
 EDUCATION
-Ph.D. candidate in Physics, University of Missouri, expected May 2026; dissertation: Investigating Disorder in van der Waals Thin Films
+Ph.D. candidate in Physics, University of Missouri, expected July 2026; dissertation: Investigating Disorder in van der Waals Thin Films
 M.S. Physics, University of Missouri, May 2022
 B.S. Physics, Missouri State University, May 2020; minors in Mathematics and Chemistry
 

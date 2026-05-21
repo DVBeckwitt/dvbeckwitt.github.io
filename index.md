@@ -34,6 +34,8 @@ The main systems are Bi<sub>2</sub>Te<sub>3</sub>, Bi<sub>2</sub>Se<sub>3</sub>,
 
 Research projects, dissertation workflows, and diffraction tools are listed under [Research](/research/). Papers, talks, and posters are listed under [Publications & Talks](/outputs/). Other public GitHub projects are listed under [Projects](/projects/).
 
+AI-assisted scientific-computing workflows support code scaffolding, documentation, literature triage, reproducibility checks, and validation planning around the simulation and ML work. They remain subordinate to detector geometry, scattering constraints, and measured data.
+
 Shorter public writing is imported from [ScatterGuy on Substack](/notes/).
 
 ## Teaching

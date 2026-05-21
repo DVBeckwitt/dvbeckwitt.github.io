@@ -34,7 +34,7 @@ Default public outputs must not include private phone numbers, home addresses, p
 
 ## Evidence-control rules
 
-Every resume or cover-letter claim must be supported by `data/cv_master.json`, the source CV and teaching documents, a user-provided update, or the job posting when describing employer needs. Unsupported requirements belong in the evidence matrix as gaps, not as inflated experience claims. The Ph.D. status remains `Ph.D. candidate, Physics, University of Missouri, expected May 2026` unless David confirms the degree has been awarded.
+Every resume or cover-letter claim must be supported by `data/cv_master.json`, the source CV and teaching documents, a user-provided update, or the job posting when describing employer needs. Unsupported requirements belong in the evidence matrix as gaps, not as inflated experience claims. The Ph.D. status remains `Ph.D. candidate, Physics, University of Missouri, expected July 2026` unless David confirms the degree has been awarded.
 
 ## Validation workflow
 

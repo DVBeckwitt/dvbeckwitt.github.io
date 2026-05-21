@@ -53,7 +53,7 @@ Use this source order for David's facts:
 6. Existing public pages.
 7. Generated exports, only as derived references.
 
-State degree status conservatively unless David says otherwise: `Ph.D. candidate in Physics, University of Missouri, expected May 2026`.
+State degree status conservatively unless David says otherwise: `Ph.D. candidate in Physics, University of Missouri, expected July 2026`.
 
 Do not publish private phone numbers, addresses, references, private drafts, or job-application details unless David explicitly approves them for the website.
 

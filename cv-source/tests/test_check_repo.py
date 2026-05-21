@@ -13,12 +13,14 @@ def test_cv_json_required_fields() -> None:
     cv = check_repo.load_cv()
 
     assert cv["metadata"]["degree_status_required_phrase"] == (
-        "Ph.D. candidate, Physics, University of Missouri, expected May 2026"
+        "Ph.D. candidate, Physics, University of Missouri, expected July 2026"
     )
     assert cv["identity"]["name"] == "David Beckwitt"
+    assert cv["identity"]["linkedin"] == "https://www.linkedin.com/in/dvbeckwitt/"
     assert cv["education"]
     assert cv["experience"]
     assert cv["claims_requiring_confirmation_before_use"]
+    assert check_repo.check_cv_json().status == "PASS"
 
 
 def test_export_normalization_only_masks_export_date_and_newlines() -> None:

@@ -375,9 +375,16 @@ def check_cv_json() -> CheckResult:
     metadata = cv.get("metadata", {})
     if not isinstance(metadata, dict):
         return CheckResult("structured CV JSON", "FAIL", "metadata must be an object")
-    expected_degree = "Ph.D. candidate, Physics, University of Missouri, expected May 2026"
+    expected_degree = "Ph.D. candidate, Physics, University of Missouri, expected July 2026"
     if metadata.get("degree_status_required_phrase") != expected_degree:
         return CheckResult("structured CV JSON", "FAIL", "required Ph.D. status phrase changed")
+
+    identity = cv.get("identity", {})
+    if not isinstance(identity, dict):
+        return CheckResult("structured CV JSON", "FAIL", "identity must be an object")
+    expected_linkedin = "https://www.linkedin.com/in/dvbeckwitt/"
+    if identity.get("linkedin") != expected_linkedin:
+        return CheckResult("structured CV JSON", "FAIL", "required LinkedIn URL changed")
 
     return CheckResult("structured CV JSON", "PASS", f"{rel(SOURCE_CV)} parses")
 

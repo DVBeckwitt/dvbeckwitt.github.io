@@ -12,7 +12,7 @@ For beamport, beamline, neutron-scattering, synchrotron, reactor, or user-facili
 
 Preferred pattern:
 
-`I am applying for the [role] position with [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, specializing in quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, and area-detector scattering analysis. [Organization or role] is close to the work I know best: [specific overlap].`
+`I am applying for the [role] position with [organization]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, and area-detector scattering analysis. [Organization or role] is close to the work I know best: [specific overlap].`
 
 ## Paragraph 2: primary proof from scattering measurements
 

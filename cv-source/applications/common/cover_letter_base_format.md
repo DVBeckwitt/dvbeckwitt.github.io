@@ -10,7 +10,7 @@ State the role and employer in the first sentence. Give David's current professi
 
 Good pattern:
 
-`I am applying for the [role] position with [employer]. I am a Physics Ph.D. candidate at the University of Missouri, expected May 2026, specializing in [relevant evidence]. [Employer or role] is close to the work I know best: [concrete overlap].`
+`I am applying for the [role] position with [employer]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in [relevant evidence]. [Employer or role] is close to the work I know best: [concrete overlap].`
 
 For roles with a known local connection, advisor connection, laboratory connection, teaching connection, or user-community connection, include it only if David provided the fact for that application and it helps the reader understand the fit.
 
@@ -48,6 +48,6 @@ Preferred pattern:
 - All candidate statements are evidence-backed.
 - No generic praise or brand-like enthusiasm.
 - No private phone/address unless approved.
-- Ph.D. status remains expected May 2026 unless updated.
+- Ph.D. status remains expected July 2026 unless updated.
 - The letter can be pasted into a plain-text application field without losing meaning.
 - The voice matches `cover_letter_voice_guide.md`: direct first person, concrete technical evidence, honest adjacent-fit language, and restrained close.

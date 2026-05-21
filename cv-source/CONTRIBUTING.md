@@ -46,7 +46,7 @@ python scripts/check_repo.py --require-latex
 - Every resume or cover-letter claim must be supported by `data/cv_master.json`, the source CV, teaching documents, a user-provided update, or the job posting when describing employer needs.
 - Unsupported requirements must be listed as gaps in the evidence matrix.
 - Do not invent metrics, certifications, sales outcomes, teaching roles, instrument experience, publications, or dates.
-- Keep degree language as `Ph.D. candidate, Physics, University of Missouri, expected May 2026` unless David confirms the degree has been awarded.
+- Keep degree language as `Ph.D. candidate, Physics, University of Missouri, expected July 2026` unless David confirms the degree has been awarded.
 - Save final generated application documents as `.docx` by default. Temporary Markdown drafts are acceptable during writing, but they are not the normal final package format.
 
 ## Privacy rules

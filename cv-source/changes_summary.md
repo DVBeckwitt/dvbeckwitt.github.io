@@ -46,3 +46,10 @@
 The example resume and cover-letter files are treated as archived writing samples. New application materials should be drafted from `data/cv_master.json`, the source CV, the teaching documents, user-provided updates, and the job posting. Unsupported claims should be listed as gaps rather than reused.
 
 For industry analyst and People Analytics roles, the current approved posture is to translate David's physics-based Python, modeling, data wrangling, visualization, documentation, and communication evidence into business-readable data work without inventing direct HR-domain or compensation experience.
+
+## AI and simulation-to-ML evidence-control update
+
+- Reframed AI use as bounded scientific-computing workflow support for simulation, PyTorch CNN development, documentation, reproducibility checks, literature triage, and validation planning.
+- Updated canonical evidence, LaTeX CV sections, AI-readable exports, website research pages, and application templates to keep AI claims tied to simulation, ML, and scattering-constraint validation.
+- Avoided unsupported claims about commercial LLM product ownership, production AI-agent deployment, production MLOps, cloud deployment ownership, or formal prompt-engineering roles.
+

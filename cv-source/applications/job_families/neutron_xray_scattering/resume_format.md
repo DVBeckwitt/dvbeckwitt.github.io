@@ -29,7 +29,8 @@ Materials: CVD-grown PbI2, hybrid halide perovskites, graphene, transition-metal
 - Extended diffraction analysis to diffuse scattering from stacking faults, connecting detector patterns to structural disorder in thin-film materials.
 - Operate and maintain custom X-ray diffraction and reflectivity systems while developing Python tools for area-detector simulation, conversion, and analysis.
 - Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions.
-- Develop PyTorch CNN workflows trained on simulated GIWAXS data for automated structure analysis.
+- Develop simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS data for structure-analysis screening.
+- Use LLM-assisted agents and reusable AI skills for documentation, reproducibility checks, and validation planning when relevant to scientific-computing workflows.
 
 ### Research Assistant, Missouri State University, 2017-2020
 
@@ -42,6 +43,7 @@ Materials: CVD-grown PbI2, hybrid halide perovskites, graphene, transition-metal
 
 ## Applied tools
 
+- Simulation-to-ML GIWAXS Screening Workflow: PyTorch CNN workflow trained on simulated detector images for structure-analysis screening, with physical simulation retained as the interpretation reference.
 - 2D_Mosaic_Sim: X-ray diffraction simulator for materials with specific crystal orientations.
 - ra_sim: Simulation and analysis software for R-Axis IV++ detector diffraction data.
 - OSC_Reader: Detector-data converter for proprietary files.
@@ -61,7 +63,7 @@ Include NSSA Outstanding Student Research Prize, ACNS invited talk, Research and
 
 ## Education
 
-Ph.D. candidate, Physics, University of Missouri, expected May 2026
+Ph.D. candidate, Physics, University of Missouri, expected July 2026
 M.S. Physics, University of Missouri, May 2022
 B.S. Physics, Missouri State University, May 2020. Minors: Mathematics and Chemistry.
 

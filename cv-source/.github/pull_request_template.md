@@ -17,7 +17,7 @@
 ## Evidence and privacy
 
 - [ ] No unsupported claims, metrics, credentials, publications, sales outcomes, teaching roles, or instrument experience added
-- [ ] Ph.D. status remains `Ph.D. candidate, Physics, University of Missouri, expected May 2026` unless explicitly confirmed otherwise
+- [ ] Ph.D. status remains `Ph.D. candidate, Physics, University of Missouri, expected July 2026` unless explicitly confirmed otherwise
 - [ ] No private phone number, home address, reference contact details, `.env` secrets, or private keys exposed in public/generated outputs
 - [ ] Evidence matrix or gap notes updated for job-specific materials when needed
 
