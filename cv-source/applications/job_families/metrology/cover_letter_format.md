@@ -6,11 +6,11 @@ Apply the common cover-letter voice guide: direct first person, concrete evidenc
 
 ## Paragraph 1
 
-State the role and company. Position David as a Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, thin-film characterization, and Python analysis experience. Add one company-specific sentence from the posting or product area.
+Start with David's current identity and measurement evidence. Name the role and company naturally in the opening paragraph. Position David as a Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, thin-film characterization, and Python analysis experience. Add one company-specific sentence from the posting or product area.
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Ph.D. candidate in Physics at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. [Company-specific sentence tied to the role's measurement domain.]
+I am a Ph.D. candidate in Physics at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. I am interested in [company]'s [role] because [company-specific sentence tied to the role's measurement domain]. I believe that experience maps well to [specific measurement, troubleshooting, validation, or documentation need].
 
 ## Paragraph 2
 

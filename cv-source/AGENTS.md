@@ -40,7 +40,7 @@ Default checks may skip only missing or incomplete optional LaTeX tooling. Use `
 - Do not edit casually: source CV facts, `data/cv_master.json`, publication/date/affiliation text, `sections/referee.tex`, private drafts, generated exports, compiled PDFs, evidence-control policies, claim ledgers, or final verification records.
 - Validation checklist: repository check, tests, coverage command, lint, format check, typecheck, ATS parse gate, application quality eval when relevant, and strict LaTeX only when a full TeX plus Perl toolchain is expected.
 - Non-physics analyst roles: present David as a quantitative Python analyst with a physics Ph.D. research background; translate scientific work into business-readable data work without inventing direct domain ownership.
-- Cover-letter voice: apply `applications/common/cover_letter_voice_guide.md`; David prefers direct first-person prose, concrete technical evidence, neutral gap-control when needed, and a restrained close.
+- Application voice: apply `applications/common/cover_letter_voice_guide.md` and the resume/cover-letter templates; David prefers grounded first-person prose, concrete technical evidence, candid transition language when needed, and restrained confidence rather than generic job-application polish.
 
 ## Non-negotiable rules
 
@@ -67,6 +67,10 @@ For `.docx` application documents, keep the internal structure AI-legible: one c
 Use exact job-title and company terminology where natural. Do not keyword-stuff.
 
 For roles outside a direct academic physics lane, including analytics, data analyst, data science, technical analyst, and People Analytics roles, use employer language as target context. Do not convert role-domain keywords into candidate experience unless the evidence matrix directly supports them.
+
+Write application materials in David's grounded, first-person, evidence-based voice by default. The prose should sound like David explaining his background to a technical hiring manager: direct, modest, analytical, and specific about tools, systems, debugging, repositories, tests, documentation, instrumentation, and outputs. Do not use detached resume-template language in summaries or cover letters when first person would be clearer.
+
+For transition roles, name the transition directly. Do not pretend physics research, research software, QA-adjacent work, data analysis, or teaching experience is the same as direct product, enterprise, QA, data, sales, or engineering employment. Instead, explain which habits and evidence transfer and what the main domain transition would be.
 
 
 ## Source precedence and conflict handling
@@ -442,18 +446,18 @@ Graceful application writing means:
 
 Default voice:
 
-`Technically precise, composed, direct, modestly confident, and concrete. David should sound like a scientist who can explain difficult work clearly to the reader in front of him.`
+`Grounded, first-person, technically precise, modest, analytical, and concrete. David should sound like he is explaining his background to a technical hiring manager who needs evidence, not polish.`
 
 
-David's current cover-letter preference, based on his Beamport Engineer revision:
+David's current application-material preference:
 
-- Start plainly: `I am applying for the [role] position with [employer].`
-- Explain why the role is close to work he already does, using concrete overlap rather than generic interest.
-- Use first person when the evidence is direct: `I operate`, `I build`, `I have explained`, `I would bring`.
-- Put the strongest role-relevant technical evidence in the second paragraph.
-- For adjacent-fit cases, state the boundary once in neutral language. A sentence such as `even though my operational background is X-ray rather than direct neutron beamline operation` is preferred to either hiding the gap or overstating it.
-- Use a practical close: `I would welcome the opportunity to discuss how my [specific evidence] background can support [team or program].`
-- Do not turn the letter into a values statement, a sales pitch, or a compressed academic biography.
+- Start cover letters with David's current identity and directly relevant experience, not a generic application statement.
+- Prefer clear first-person ownership when supported: `I build`, `I maintain`, `I operate`, `I have tested`, `I have not held a formal [title] title, but...`.
+- Explain fit through concrete evidence: tools used, systems maintained, workflows validated, problems debugged, repositories owned, documentation written, instruments operated, students taught, and outputs produced.
+- For adjacent-fit cases, state the boundary once in plain language. Name the transition from physics, research software, instrumentation, teaching, or QA-adjacent work into the target role rather than hiding it or overstating direct experience.
+- Put the strongest role-relevant technical evidence early, but do not label it with template phrases such as `My strongest direct evidence is`.
+- Use a practical close that says what David is prepared to apply in the role. Do not promise transformation, uniqueness, or immediate industry equivalence.
+- Do not turn the letter into a values statement, a sales pitch, a compressed academic biography, or a marketing rewrite of the job ad.
 
 Do not write in a grandiose or inflated voice. Avoid language that makes David sound like a brand campaign. Do not use emotional boilerplate unless it is made concrete by evidence.
 
@@ -469,9 +473,11 @@ Avoid template sentences like:
 
 Remove or rewrite these patterns unless the specific context makes them natural:
 
+- Generic application openings: `I am applying for the [job title] position`, `I am excited to apply`, `I am thrilled`.
+- Template evidence labels: `My strongest direct evidence is`, `The role is close to work I already do`, `research background built around`.
 - Generic enthusiasm: `I am excited to apply`, `I am thrilled`, `I have always been passionate about`.
-- Inflated fit claims: `uniquely qualified`, `perfect fit`, `world-class expertise`, `proven leader`.
-- Corporate filler: `leverage`, `utilize`, `synergy`, `dynamic environment`, `fast-paced environment`, `innovative solutions`, `drive impact`, `robust skill set`, `seamlessly`.
+- Inflated fit claims: `uniquely qualified`, `perfect fit`, `strong fit`, `world-class expertise`, `proven leader`, `proven track record`, `hit the ground running`.
+- Corporate filler: `leverage`, `utilize`, `synergy`, `dynamic team`, `dynamic environment`, `fast-paced environment`, `innovative solutions`, `drive impact`, `robust skill set`, `seamlessly`.
 - Empty values language: `commitment to excellence`, `dedication to innovation`, `passion for helping others`, unless followed immediately by concrete evidence.
 - Overbuilt transitions: `Moreover`, `Furthermore`, `In conclusion`, `Throughout my journey`.
 - Symmetric AI sentence frames: `My experience in X, combined with my background in Y, makes me an ideal candidate for Z.`
@@ -1703,10 +1709,10 @@ Every substantive cover-letter paragraph must map to one or more claim IDs. Do n
 
 Paragraph 1:
 
-- State the role and company.
-- Give a compact professional identity.
-- Name the strongest match to the role.
-- Include one company-specific reason for interest.
+- Start with David's compact professional identity and the most relevant experience.
+- Name the role and company naturally in the paragraph, but do not default to `I am applying for...`.
+- State the broad fit with cautious mapping language such as `I believe that experience maps well to...`.
+- Include one company-specific reason for interest when it is grounded in the posting or primary company material.
 
 Paragraph 2:
 
@@ -1730,7 +1736,8 @@ Paragraph 4:
 Industry analyst and People Analytics transition paragraph:
 
 - Acknowledge the domain transition without underselling.
-- Prefer: `I do not want to overstate domain experience I have not yet had; my strongest fit is as a quantitative Python analyst who can learn the domain with discipline.`
+- Prefer: `I have not held a formal [job title] title, but I do bring the core habits [employer] is asking for: [supported habits].`
+- Also acceptable: `The main transition for me would be from [current domain] into [target domain].`
 - Do not write a self-defeating gap statement such as `I lack HR experience`.
 - Pair the transition with supported evidence in Python, messy data, model development, visualization, documentation, and communication.
 
@@ -1745,10 +1752,11 @@ Avoid:
 Human voice rules for cover letters:
 
 - The opening should feel specific to the role, not like a mail-merge template.
+- The opening should begin from David's identity and evidence, not from a generic application sentence.
 - Use one sentence of company or institution fit, grounded in the posting or primary company material.
 - Use one concrete proof story with a beginning, method, and relevance to the role.
 - Keep enthusiasm understated. Interest is shown by fit, preparation, and specificity.
-- Avoid starting every letter with `I am excited to apply`. Use it only when it is genuinely the cleanest sentence.
+- Avoid starting with `I am applying for...` or `I am excited to apply`.
 - End with the contribution David can make, not a generic statement of passion.
 
 Cover letter revision tests:
@@ -2004,6 +2012,8 @@ Screening notes should be candid. They may be more direct than the resume or cov
 ## Default resume summary options
 
 Use one of these as a starting point and tailor to the job.
+
+Resume summaries may use first person when it improves authenticity, especially for transition roles. Keep them short, technical, and evidence-based. A good transition summary can say what David has not formally done yet, then name the supported habits and tools he brings.
 
 Metrology:
 

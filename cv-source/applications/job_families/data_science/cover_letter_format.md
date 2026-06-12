@@ -6,13 +6,13 @@ Apply the common cover-letter voice guide: direct first person, concrete evidenc
 
 ## Paragraph 1
 
-State the role and company. Position David as a quantitative physicist with 7+ years of Python, scientific modeling, detector-data analysis, and machine-learning-assisted structure analysis.
+Start with David's current identity and relevant data evidence. Name the role and company naturally in the opening paragraph. Position David as a quantitative physicist with 7+ years of Python, scientific modeling, detector-data analysis, and machine-learning-assisted structure analysis.
 
 For industry analyst or People Analytics roles, position David as a quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication. Use the role domain as the target context, not as direct experience unless newly supported.
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with 7+ years of Python experience and a research background in simulation, optimization, machine learning, and visualization for complex detector data. [Company-specific sentence tied to the data type, model type, or mission in the posting.]
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with 7+ years of Python experience and work in simulation, optimization, machine learning, and visualization for complex detector data. I am interested in [company]'s [role] because [company-specific sentence tied to the data type, model type, or mission in the posting]. I believe that experience maps well to [specific role need].
 
 ## Paragraph 2
 
@@ -30,7 +30,7 @@ Use PyTorch CNNs trained on simulated GIWAXS data, OSC_Reader, ra_sim, 2D_Mosaic
 
 Close by connecting scientific rigor, data quality, modeling judgment, and communication to the employer's data work.
 
-For People Analytics or other career-transition analyst letters, include a short honest-transition paragraph when useful. Preferred frame: David does not want to overstate domain experience he has not yet had; his strongest fit is as a quantitative Python analyst who can learn the domain with discipline. Do not write this as a self-defeating `I lack HR experience` paragraph.
+For People Analytics or other career-transition analyst letters, include a short honest-transition paragraph when useful. Preferred frame: David has not held a formal [job title] title, but he brings supported habits in Python analysis, validation, reproducible workflows, documentation, and technical communication. Do not write this as a self-defeating `I lack HR experience` paragraph.
 
 ## Cautions
 

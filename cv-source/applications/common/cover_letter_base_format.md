@@ -2,15 +2,15 @@
 
 Use one page for most roles. Use 1 to 1.5 pages only for academic teaching roles when the posting expects a formal job letter and the extra length adds specific evidence.
 
-Always apply `cover_letter_voice_guide.md`. The default letter should be direct, first-person, concrete, and modestly confident. It should sound closer to David's Beamport Engineer revision than to a generic application template.
+Always apply `cover_letter_voice_guide.md`. The default letter should be grounded, first-person, concrete, and modestly confident. It should sound like David explaining supported evidence to a technical reader, not like a generic application template.
 
-## Paragraph 1: role, identity, and role proximity
+## Paragraph 1: identity, role, and evidence mapping
 
-State the role and employer in the first sentence. Give David's current professional identity. Then explain why the role is close to work he already does or duties he can credibly transfer.
+Start with David's current professional identity and directly relevant experience. Name the role and employer naturally in the opening paragraph, but do not default to a generic `I am applying for...` sentence. Then explain how the evidence maps to the role or what transition it would require.
 
 Good pattern:
 
-`I am applying for the [role] position with [employer]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in [relevant evidence]. [Employer or role] is close to the work I know best: [concrete overlap].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with [directly relevant evidence]. I am interested in [employer]'s [role] because [specific role context]. I believe my experience with [supported evidence] maps well to [role need].`
 
 For roles with a known local connection, advisor connection, laboratory connection, teaching connection, or user-community connection, include it only if David provided the fact for that application and it helps the reader understand the fit.
 
@@ -21,6 +21,12 @@ Use one concrete example from the CV or a user-provided update that maps to the 
 Include methods, tools, instruments, data types, students, users, or outputs only when they support the role. Put the strongest technical evidence here rather than saving it for the end.
 
 When the match is adjacent rather than direct, name the boundary once in neutral language and connect the transferable evidence. Do not apologize for the boundary and do not overstate it.
+
+Useful transition patterns:
+
+`The main transition for me would be from [current domain] into [target domain].`
+
+`I have not held a formal [job title] title, but I do bring the core habits [employer] is asking for: [supported habits].`
 
 ## Paragraph 3: secondary proof
 
@@ -50,4 +56,5 @@ Preferred pattern:
 - No private phone/address unless approved.
 - Ph.D. status remains expected July 2026 unless updated.
 - The letter can be pasted into a plain-text application field without losing meaning.
-- The voice matches `cover_letter_voice_guide.md`: direct first person, concrete technical evidence, honest adjacent-fit language, and restrained close.
+- The voice matches `cover_letter_voice_guide.md`: grounded first person, concrete technical evidence, honest adjacent-fit language, and restrained close.
+- The opening starts from identity and evidence, not `I am applying for...`.

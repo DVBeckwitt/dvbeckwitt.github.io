@@ -8,6 +8,8 @@ Use `AGENTS.md` as the operating guide. Every resume or cover-letter claim must 
 
 Do not state the Ph.D. as completed unless David confirms it. Use: `Ph.D. candidate, Physics, University of Missouri, expected July 2026`.
 
+Application prose should use David's grounded first-person voice: direct, modest, analytical, and specific about evidence. Cover letters and resume summaries should not default to generic openings, inflated fit claims, or template polish.
+
 ## Prerequisites
 
 - Python 3.10 or newer.

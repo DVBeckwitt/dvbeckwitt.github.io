@@ -41,6 +41,12 @@
 - Added `applications/examples/cover_letter_voice/beamport_engineer_preferred_voice.md` as a style calibration example, not an evidence source.
 - Verification complete: `python scripts/check_repo.py` passes and `python -m pytest -q` reports 28 passed.
 
+## Grounded application voice update
+
+- Updated application guidance so cover letters and resume summaries start from David's identity, concrete evidence, and candid transition language rather than generic application openings.
+- Added explicit banned language for inflated or template-like phrasing such as `I am applying for...`, `uniquely qualified`, `proven track record`, `passionate about`, `leverage my skills`, `strong fit`, and `hit the ground running`.
+- Updated the common resume and cover-letter formats, job-family cover-letter templates, application checklist, nested README, and Beamport voice example to reflect the grounded first-person style.
+
 ## Evidence-control note
 
 The example resume and cover-letter files are treated as archived writing samples. New application materials should be drafted from `data/cv_master.json`, the source CV, the teaching documents, user-provided updates, and the job posting. Unsupported claims should be listed as gaps rather than reused.
@@ -52,4 +58,3 @@ For industry analyst and People Analytics roles, the current approved posture is
 - Reframed AI use as bounded scientific-computing workflow support for simulation, PyTorch CNN development, documentation, reproducibility checks, literature triage, and validation planning.
 - Updated canonical evidence, LaTeX CV sections, AI-readable exports, website research pages, and application templates to keep AI claims tied to simulation, ML, and scattering-constraint validation.
 - Avoided unsupported claims about commercial LLM product ownership, production AI-agent deployment, production MLOps, cloud deployment ownership, or formal prompt-engineering roles.
-

@@ -15,7 +15,11 @@ Use this before finalizing a job-specific package.
 - No unsupported People Analytics, compensation analytics, labor capitalization reporting, workforce planning, quality-of-hire modeling, employee-listening analytics, HR dashboard ownership, R programming, 4+ years in compensation, or 2+ years advanced professional SQL claims are included.
 - Cover letter uses the exact role and employer name.
 - Cover letter gives one employer-specific reason, not generic praise.
-- Cover letter voice follows `common/cover_letter_voice_guide.md`: direct first person, concrete evidence, neutral gap-control when needed, and restrained close.
+- Cover letter voice follows `common/cover_letter_voice_guide.md`: grounded first person, concrete evidence, candid transition language when needed, and restrained confidence.
+- Cover letter opening starts from David's identity and directly relevant experience, not a generic `I am applying for...` sentence.
+- Resume summary uses first person when it makes the transition more authentic and clear.
+- Transition roles name the domain shift directly and do not imply direct industry, QA, product, sales, data, or engineering experience beyond the evidence.
+- Final prose avoids banned template language such as `uniquely qualified`, `proven track record`, `passionate about`, `leverage my skills`, `dynamic team`, `strong fit`, and `hit the ground running`.
 - Final application documents are `.docx` files, not Markdown drafts.
 - `.docx` files are AI-legible: one column, semantic headings, normal paragraphs, hyphen bullets, no text boxes, images, comments, tracked changes, or decorative layout.
 - File names are simple and role-specific.

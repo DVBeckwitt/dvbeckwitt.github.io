@@ -6,11 +6,11 @@ Apply the common cover-letter voice guide: direct first person, concrete evidenc
 
 ## Paragraph 1
 
-State the role and institution. Position David as a Physics Ph.D. candidate with undergraduate physics teaching, tutoring, active-learning, and student-support experience. Include one institution-specific sentence about the student population, mission, course needs, or department.
+Start with David's current identity and teaching evidence. Name the role and institution naturally in the opening paragraph. Position David as a Physics Ph.D. candidate with undergraduate physics teaching, tutoring, active-learning, and student-support experience. Include one institution-specific sentence about the student population, mission, course needs, or department.
 
 Template:
 
-I am applying for the [role] position at [institution]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience teaching and tutoring undergraduate physics across small sections, tutoring settings, and large courses with enrollments up to 200+ students. My teaching uses active learning, structured problem solving, demonstrations, simulations, and accessible student support to help students connect physics concepts to their goals. [Institution-specific sentence.]
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience teaching and tutoring undergraduate physics across small sections, tutoring settings, and large courses with enrollments up to 200+ students. My teaching uses active learning, structured problem solving, demonstrations, simulations, and accessible student support to help students connect physics concepts to their goals. I am interested in [institution]'s [role] because [institution-specific sentence about students, courses, mission, or department needs].
 
 ## Paragraph 2
 

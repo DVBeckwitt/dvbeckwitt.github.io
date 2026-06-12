@@ -4,7 +4,7 @@
 
 This file governs the public website at the repository root. The site is a Jekyll site using the Hydejack theme. It is David Beckwitt's public academic and professional site.
 
-The nested `cv-source/AGENTS.md` governs CV, resume, cover-letter, and application-source work. Follow that file inside `cv-source/`, including the application cover-letter voice guide. Do not replace it with this guide.
+The nested `cv-source/AGENTS.md` governs CV, resume, cover-letter, and application-source work. Follow that file inside `cv-source/`, including the grounded first-person application voice guide and resume/cover-letter templates. Do not replace it with this guide or infer the public website voice as the application-material voice.
 
 ## Primary objective
 

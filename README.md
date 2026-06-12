@@ -59,7 +59,7 @@ Do not hand-edit generated files as durable fixes. Update the source files or ge
 
 Root website work follows `AGENTS.md`. It defines website goals, content rules, accessibility expectations, page-specific guidance, and validation workflow.
 
-Work inside `cv-source/` follows `cv-source/AGENTS.md`. That nested guide remains the source of truth for CV, application, resume, cover-letter, and teaching-source work.
+Work inside `cv-source/` follows `cv-source/AGENTS.md`. That nested guide remains the source of truth for CV, application, resume, cover-letter, and teaching-source work, including David's grounded first-person application voice.
 
 ## Current Status
 

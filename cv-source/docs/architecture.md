@@ -36,6 +36,8 @@ Default public outputs must not include private phone numbers, home addresses, p
 
 Every resume or cover-letter claim must be supported by `data/cv_master.json`, the source CV and teaching documents, a user-provided update, or the job posting when describing employer needs. Unsupported requirements belong in the evidence matrix as gaps, not as inflated experience claims. The Ph.D. status remains `Ph.D. candidate, Physics, University of Missouri, expected July 2026` unless David confirms the degree has been awarded.
 
+Application voice is controlled by `AGENTS.md`, `applications/common/cover_letter_voice_guide.md`, and the reusable resume and cover-letter formats. The current default is grounded first-person prose: direct, modest, analytical, specific about evidence, and candid about transitions from physics research into adjacent product, QA, data, engineering, sales, or teaching roles.
+
 ## Validation workflow
 
 Use `python scripts/check_repo.py` as the operator-facing gate. It parses the structured CV, checks required paths, fails forbidden tracked PDF/DOCX artifacts, verifies public `.docx` files are readable, regenerates exports in a temporary directory, compares generated outputs after normalizing only export dates and newlines, scans public text and `.docx` outputs plus active default CV sections for privacy leaks, scans reusable application materials for placeholder markers, verifies `sections/referee.tex` is excluded from default public paths, and compiles LaTeX when the optional toolchain is available.

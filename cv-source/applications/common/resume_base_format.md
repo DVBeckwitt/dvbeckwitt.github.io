@@ -13,6 +13,8 @@ Do not include private phone numbers or addresses unless David provides them for
 
 Use 2 to 3 lines. Name the role family, strongest technical evidence, and one differentiator. Do not use generic adjectives.
 
+Use first person when it improves authenticity, especially for transition roles or summaries that would otherwise sound like a resume template. A first-person summary can candidly name the transition while staying evidence-based: `I am a Physics Ph.D. candidate..., with 7+ years of Python experience. I have not held a formal [title] title, but I bring [supported habits].`
+
 For AI or ML claims, lead with the scientific workflow, simulation, validation, and research outcome rather than the tool name.
 
 For teaching roles, choose the correct branch before drafting: teaching-focused lecturer resume, general teaching resume, tutoring or learning-support resume, outreach or education-program resume, two-page teaching resume, or teaching-focused CV.
@@ -24,6 +26,8 @@ Group skills by employer need. Put the most relevant group first.
 ## Experience
 
 Put the most relevant role first. Translate research into employer outcomes, but keep each claim evidence-based.
+
+For transition roles, translate carefully: Python research tools can become automation, validation scripts, and reproducible workflows; pytest, GitHub Actions, Ruff, and mypy can become automated quality checks and CI-gated validation; X-ray and instrument troubleshooting can become technical debugging across software, data, and hardware-adjacent systems. Do not imply direct product, enterprise, QA, or industry ownership unless supported.
 
 Bullet formula:
 

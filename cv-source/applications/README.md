@@ -6,7 +6,7 @@ Use this order for each application:
 
 1. Put the job title, company, posting URL or text, and application requirements into `common/job_posting_intake.md`.
 2. Use `common/evidence_matrix_template.md` to create `outputs/<company>/<role>/evidence_matrix.docx` and complete it before drafting.
-3. Start from the closest job-family `resume_format.md` and `cover_letter_format.md`, and apply `common/cover_letter_voice_guide.md` for the cover-letter voice.
+3. Start from the closest job-family `resume_format.md` and `cover_letter_format.md`, and apply `common/cover_letter_voice_guide.md` for grounded first-person application voice.
    - For teaching roles, first choose the branch inside `job_families/teaching/resume_format.md` instead of assuming every teaching resume is a lecturer resume.
 4. Save finished application documents as simple `.docx` files in `outputs/<company>/<role>/`.
 5. Check all claims against `../data/cv_master.json`, the LaTeX CV, teaching documents, or a user-provided update.
@@ -31,6 +31,6 @@ Job families:
 - `job_families/teaching/`
 - `job_families/neutron_xray_scattering/`
 
-Examples are archived under `examples/`. They are writing references, not automatic evidence sources.
+Examples are archived under `examples/`. They are writing references, not automatic evidence sources. Some older examples may predate the current grounded first-person voice guide, so prefer the current common and job-family templates when drafting new materials.
 
 Use `job_families/data_science/` for data science, analytics, data analyst, technical analyst, and People Analytics roles; apply the evidence-control cautions in `AGENTS.md` before using employer-domain keywords as candidate claims.

@@ -6,11 +6,11 @@ Apply the common cover-letter voice guide: direct first person, concrete evidenc
 
 ## Paragraph 1
 
-State the role and company. Position David as a technical credibility hire with hands-on X-ray scattering instrumentation, materials characterization, Python analysis, and teaching/workshop communication experience.
+Start with David's current identity and technical credibility evidence. Name the role and company naturally in the opening paragraph. Position David as a candidate with hands-on X-ray scattering instrumentation, materials characterization, Python analysis, and teaching/workshop communication experience.
 
 Template:
 
-I am applying for the [role] position at [company]. I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. [Company-specific sentence tied to the product or customer workflow.]
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. I am interested in [company]'s [role] because [company-specific sentence tied to the product or customer workflow]. I believe that experience maps well to [customer training, applications support, or technical sales need].
 
 ## Paragraph 2
 
