@@ -1,5 +1,7 @@
 # Lincoln Physics Lecturer Resume Example
 
+Evidence-use rule: This example is a style reference only. Do not copy claims from it into a new resume, cover letter, teaching statement, screening note, or interview note unless the same claim is independently supported by `data/cv_master.json`, the current LaTeX CV source, teaching documents, or a user-provided update for that application.
+
 Source note: one-page teaching-focused screening model. Keep this example aligned with `applications/job_families/teaching/resume_format.md`.
 
 ```text

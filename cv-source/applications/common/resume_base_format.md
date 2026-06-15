@@ -19,6 +19,34 @@ For AI or ML claims, lead with the scientific workflow, simulation, validation, 
 
 For teaching roles, choose the correct branch before drafting: teaching-focused lecturer resume, general teaching resume, tutoring or learning-support resume, outreach or education-program resume, two-page teaching resume, or teaching-focused CV.
 
+## CV-aligned summary rule
+
+The summary must select one primary CV evidence cluster and one secondary cluster. Do not try to summarize the whole CV.
+
+Use one of these default frames:
+
+Scientific or metrology:
+
+Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.
+
+Data, ML, or analyst:
+
+Quantitative physicist with 7+ years of Python experience building simulation, optimization, visualization, and scientific ML workflows for complex detector data.
+
+AI-assisted scientific computing:
+
+Physics Ph.D. candidate using AI-assisted scientific-computing workflows for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning, with interpretation checked against physical simulation, detector geometry, and scattering constraints.
+
+Teaching:
+
+Physics Ph.D. candidate with undergraduate physics teaching and tutoring experience, active-learning methods, and student-support practices across mechanics, electricity and magnetism, and classical mechanics.
+
+Applications or scientific sales:
+
+Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience, Python analysis, teaching, workshops, invited talks, and public-facing technical communication.
+
+Avoid summaries that imply direct industry ownership not shown in the CV, such as production ML engineer, commercial AI product owner, QA engineer, metrology engineer with regulated calibration ownership, sales professional, People Analytics specialist, or instructor of record.
+
 ## Skills
 
 Group skills by employer need. Put the most relevant group first.
@@ -34,6 +62,47 @@ Bullet formula:
 Verb + method/tool + technical object + result or purpose.
 
 For AI-assisted work, add the validation boundary: physics-based model, detector geometry, scattering constraint, reproducibility check, or documented review step.
+
+## CV-supported bullet rules
+
+Prefer verbs that match the CV:
+
+- operates and maintains
+- builds
+- extracts
+- models
+- quantifies
+- grew
+- developed
+- converts
+- visualizes
+- taught and assisted
+- provides tutoring
+- presented
+- supported
+- directed or served in, for service roles only
+
+Use `owns`, `managed`, `led`, `deployed`, `delivered`, `improved`, `reduced`, `increased`, `standardized`, or metric-based claims only when the evidence matrix contains direct support.
+
+Do not add metrics such as sample throughput, number of users supported, same-day turnaround, defect reduction, model accuracy, business impact, revenue, retention, student outcomes, or production deployment unless David provides them for that application.
+
+Every bullet should map to one of these forms:
+
+Direct technical:
+
+Verb + supported method/tool + supported object + supported purpose.
+
+Adjacent translation:
+
+Supported technical habit + target-role relevance + clear boundary.
+
+Teaching:
+
+Taught/assisted/provided tutoring + supported course or setting + supported method or student-support practice.
+
+Communication:
+
+Presented/taught/workshopped/explained + supported topic + supported audience or setting.
 
 ## Projects
 

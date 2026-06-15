@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import re
 import shutil
 import subprocess
@@ -34,6 +35,21 @@ TEACHING_MD = (
 )
 TEACHING_PUBLIC = ASSET_DIR / "teaching-philosophy.pdf"
 TEACHING_INCLUDE = INCLUDE_DIR / "teaching-philosophy.md"
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Build public website documents from cv-source."
+    )
+    parser.add_argument(
+        "--cv-only",
+        action="store_true",
+        help=(
+            "Compile cv-source/main.tex and replace "
+            "assets/docs/beckwitt-cv.pdf only."
+        ),
+    )
+    return parser.parse_args(argv)
 
 
 def run(command: list[str], cwd: Path) -> None:
@@ -220,11 +236,16 @@ def build_teaching_include() -> None:
     print(f"Wrote {TEACHING_INCLUDE.relative_to(ROOT).as_posix()}")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
     if not CV_ROOT.exists():
         raise FileNotFoundError(f"Missing CV source directory: {CV_ROOT}")
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
     INCLUDE_DIR.mkdir(parents=True, exist_ok=True)
+
+    if args.cv_only:
+        build_cv_pdf()
+        return 0
 
     build_teaching_include()
     build_cv_pdf()

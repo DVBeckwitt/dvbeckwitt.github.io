@@ -64,6 +64,10 @@ Ph.D. candidate, Physics, University of Missouri, expected July 2026
 M.S. Physics, University of Missouri, May 2022
 B.S. Physics, Missouri State University, May 2020. Minors: Mathematics and Chemistry.
 
+## Neutron wording
+
+Use `neutron scattering` only as a listed skill or adjacent scattering context unless David provides direct operational evidence. For neutron roles, say X-ray operational background plus transferable scattering physics, detector-data analysis, ACNS/NSSA exposure, quantitative modeling, and user-facing communication. Do not write `operated neutron beamlines`, `supported neutron users`, `aligned neutron instruments`, or `worked at a reactor` unless confirmed.
+
 ## Cautions
 
 Neutron scattering is listed as a skill, but direct neutron instrument operation is not supported. For neutron-focused jobs, emphasize transferable scattering physics, detector-data analysis, quantitative modeling, ACNS exposure, NSSA recognition, and Python tools. Do not imply direct neutron beamline operation unless David confirms it.

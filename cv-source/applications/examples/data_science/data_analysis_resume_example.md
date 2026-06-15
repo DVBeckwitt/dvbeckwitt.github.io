@@ -1,5 +1,7 @@
 # Data Analysis Resume Example
 
+Evidence-use rule: This example is a style reference only. Do not copy claims from it into a new resume, cover letter, teaching statement, screening note, or interview note unless the same claim is independently supported by `data/cv_master.json`, the current LaTeX CV source, teaching documents, or a user-provided update for that application.
+
 Source note: user-provided DOCX example for data analysis and People Analytics roles. Original binary kept locally under `originals/` and ignored by Git; use this text version for review.
 
 ```text

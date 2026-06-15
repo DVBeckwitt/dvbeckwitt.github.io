@@ -4,6 +4,31 @@ Use one page for most roles. Use 1 to 1.5 pages only for academic teaching roles
 
 Always apply `cover_letter_voice_guide.md`. The default letter should be grounded, first-person, concrete, and modestly confident. It should sound like David explaining supported evidence to a technical reader, not like a generic application template.
 
+## CV-aligned proof selection
+
+Before drafting, choose one primary proof point and one secondary proof point from the CV evidence map.
+
+Primary proof options:
+
+- XRD/XRR operation and GIWAXS detector-data analysis.
+- Python simulation, optimization, visualization, and parameter extraction.
+- PyTorch CNN workflows trained on simulated GIWAXS detector images.
+- Teaching assistant and tutoring experience with active-learning methods.
+- Technical communication through workshops, invited talks, outreach, and presentations.
+- AI-assisted scientific-computing workflows with physical validation boundaries.
+
+Secondary proof options:
+
+- PLD/PVD, Raman, SEM/EDS, profilometry, electron microscopy, CVD, or thin-film materials experience.
+- Detector Data Pipeline, 2D Powder Simulator, or 2D Powder Visualizer.
+- Dynatek biomedical-testing software and automated hardware systems.
+- PAGSA, PhysAssist, STEM outreach, workshops, or public science communication.
+- Green Chalk Teaching Award or research/scattering awards when relevant.
+
+The cover letter should not read like a generic application letter. It should make one clear argument: this role needs [specific employer need], and David has [specific supported evidence] that transfers to that need.
+
+When the match is adjacent, name the boundary once and then return to evidence.
+
 ## Paragraph 1: identity, role, and evidence mapping
 
 Start with David's current professional identity and directly relevant experience. Name the role and employer naturally in the opening paragraph, but do not default to a generic `I am applying for...` sentence. Then explain how the evidence maps to the role or what transition it would require.

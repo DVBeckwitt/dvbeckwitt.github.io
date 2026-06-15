@@ -53,6 +53,12 @@ python scripts/build_public_docs.py
 bundle exec jekyll build
 ```
 
+Refresh only the public CV PDF from `cv-source/main.tex`:
+
+```bash
+python scripts/build_public_docs.py --cv-only
+```
+
 Do not hand-edit generated files as durable fixes. Update the source files or generator instead.
 
 ## Agent Instructions

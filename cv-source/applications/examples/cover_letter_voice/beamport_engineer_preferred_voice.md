@@ -1,5 +1,7 @@
 # Beamport Engineer Preferred Voice Example
 
+Evidence-use rule: This example is a style reference only. Do not copy claims from it into a new resume, cover letter, teaching statement, screening note, or interview note unless the same claim is independently supported by `data/cv_master.json`, the current LaTeX CV source, teaching documents, or a user-provided update for that application.
+
 This is a revised style reference based on David's Beamport Engineer direction. Use it to calibrate voice, not as an automatic evidence source or as text to copy into unrelated applications.
 
 Key voice traits:

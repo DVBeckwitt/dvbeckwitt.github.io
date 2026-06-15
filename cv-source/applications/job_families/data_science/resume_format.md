@@ -15,6 +15,12 @@ Adjust toward the posting: scientific ML, image-like detector data, modeling, an
 
 For industry analyst or People Analytics roles outside physics, position David as a quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication. Translate scientific work into the employer's data language without inventing direct domain experience.
 
+## Default data framing
+
+Use scientific-data language before business-data language. The strongest evidence is detector-image data, simulation, optimization, parameter extraction, visualization, reproducibility, and scientific ML.
+
+For business analyst, People Analytics, or general data analyst roles, translate the work into Python analysis, data wrangling, exploratory analysis, model validation, documentation, visualization, and technical communication. Do not imply ownership of HR datasets, compensation processes, workforce planning, product analytics, A/B testing, customer analytics, or production dashboards.
+
 ## Technical skills
 
 Languages: Python, SQL, C++, Fortran

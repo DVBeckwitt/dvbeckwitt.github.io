@@ -40,6 +40,12 @@ Keep teaching before research unless the role is explicitly research-teaching ba
 - Use research only when it helps the teaching argument: undergraduate projects, lab activities, computational examples, curriculum connections, course-connected scholarship, or disciplinary credibility.
 - Do not make a teaching resume read like a compressed research CV unless the posting is research-teaching balanced.
 
+## Teaching evidence priority
+
+For teaching roles, direct student-facing evidence outranks research prestige. Lead with TA work, tutoring, active-learning methods, course coverage, student support, and Green Chalk Teaching Award. Research should appear as undergraduate-accessible project fit, computational examples, lab relevance, or disciplinary credibility.
+
+Do not use research sections to imply prior undergraduate supervision, formal advising, course ownership, or guaranteed lab-project infrastructure.
+
 ## Claim fidelity
 
 Direct claims may be stated plainly when supported:

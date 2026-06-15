@@ -13,6 +13,18 @@ Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflecti
 
 Adjust the second sentence to the posting: instrument operation, detector geometry, thin-film characterization, quantitative parameter extraction, or Python analysis.
 
+## Metrology boundary
+
+David has strong measurement-science and instrumentation evidence. Frame him as metrology-adjacent or metrology-ready for regulated production roles unless direct regulated metrology evidence is supplied.
+
+Preferred supported frame:
+
+Custom XRD/XRR operation + detector geometry + quantitative GIWAXS modeling + thin-film characterization + Python-based reproducible analysis.
+
+Avoid unsupported production-metrology frames:
+
+Calibration-program owner, ISO quality-system owner, Gage R&R, SPC, wafer metrology, fab process-control owner, or high-throughput lab service owner.
+
 ## Technical skills
 
 Measurement and characterization: XRD, XRR, GIWAXS, area detectors, detector geometry, Raman spectroscopy, SEM/EDS, profilometry, CVD, PLD

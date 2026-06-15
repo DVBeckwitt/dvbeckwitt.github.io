@@ -13,6 +13,10 @@ Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experienc
 
 Adjust toward the employer's products: instruments, characterization workflows, analysis software, sample environments, laboratory methods, or customer training.
 
+## Sales and applications boundary
+
+The CV supports technical credibility, instrument-user empathy, teaching, workshops, presentations, outreach, and explanation of complex workflows. It does not support quota-carrying sales, CRM ownership, territory management, renewals, revenue growth, or formal product demos for paying customers. For sales roles, frame David as an applications scientist or technical communicator transitioning toward customer-facing work.
+
 ## Technical and customer-relevant skills
 
 Technical domains: X-ray diffraction, reflectivity, GIWAXS, thin-film characterization, CVD, PLD, Raman spectroscopy, SEM/EDS, materials characterization
