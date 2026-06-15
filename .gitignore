@@ -63,6 +63,7 @@ _zip
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
 /assets/docs/*.pdf
+!/assets/docs/beckwitt-cv.pdf
 
 # LaTeX outputs
 *.aux
