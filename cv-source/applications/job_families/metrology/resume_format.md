@@ -31,7 +31,7 @@ Use 4 to 6 bullets. Prioritize these when supported by the posting:
 - Built Python-based GIWAXS workflows to extract site occupancy, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from area-detector scattering data.
 - Modeled diffuse scattering from stacking faults and quantified defect densities in van der Waals thin films.
 - Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions through simulation-based X-ray diffraction analysis.
-- Develop simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS patterns for structure-analysis screening.
+- Develop PyTorch CNN workflows trained on simulated GIWAXS patterns for structure-analysis screening.
 - Use LLM-assisted agents and reusable AI skills for documentation, reproducibility checks, and validation planning when relevant to scientific-computing workflows.
 
 ### Research Assistant, Missouri State University, 2017-2020
@@ -51,14 +51,13 @@ Use 4 to 6 bullets. Prioritize these when supported by the posting:
 
 Use this section for roles that value instrumentation software or reproducible analysis.
 
-- Simulation-to-ML GIWAXS Screening Workflow: PyTorch CNN workflow trained on simulated detector images for structure-analysis screening, with physical simulation retained as the interpretation reference.
-- 2D_Mosaic_Sim: X-ray diffraction simulator for visualizing diffraction patterns from materials with specific crystal orientations.
-- ra_sim: Crystal analysis software for simulating and analyzing R-Axis IV++ detector diffraction data.
-- OSC_Reader: Detector-data converter that converts proprietary detector files into accessible formats for inspection and analysis.
+- 2D Powder Simulator: Simulates detector-space diffraction from 2D-oriented powder films with geometry and model parameters tied to area-detector images.
+- 2D Powder Visualizer: Visualizes how orientation distributions and mosaic spread reshape two-dimensional diffraction patterns.
+- Detector Data Pipeline: Reads proprietary OSC detector images and converts them into accessible formats for inspection and downstream analysis.
 
 ## Publications and presentations
 
-Include the ACS AMI article, the manuscript in preparation, and the 2025 quantitative X-ray diffraction presentation when the role is research-heavy.
+Include the planned 2026 quantitative X-ray diffraction publication and selected presentations when the role is research-heavy.
 
 ## Education
 

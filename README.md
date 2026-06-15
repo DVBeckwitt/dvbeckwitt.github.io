@@ -67,7 +67,7 @@ See `docs/project-status.md` for the latest project status note.
 
 Most recent documented change:
 
-- **Feature:** Added a dedicated `/outputs/` page for publications, manuscripts, talks, posters, and presentation records.
+- **Content:** Synced website and drafting documentation with the current CV naming and output structure.
 - **Status:** Done.
-- **Bug/error status:** The downloaded patch no longer applied cleanly to the current tree, so the equivalent changes were applied manually against current files. No stale `/research/#selected-outputs` links remain.
-- **Validation:** `git diff --check` passes, static front-matter/internal-link checks pass for the changed public pages, and the `/outputs/` route is linked from navigation, home, archive, and research pages. Full Jekyll build is blocked in this shell because Ruby/Bundler are not available on PATH.
+- **Bug/error status:** Fixed CV source drift by changing the area-detector item to a planned publication in structured exports and removing the duplicate 2025 BibTeX presentation entry. The old ML workflow route now redirects instead of hard-failing, but it is no longer an active tool page.
+- **Validation:** Targeted stale-term searches, `git diff --check`, non-recompile CV repository checks, and pytest pass. No public-doc generation, Jekyll rebuild, or tracked CV/PDF output update was run.

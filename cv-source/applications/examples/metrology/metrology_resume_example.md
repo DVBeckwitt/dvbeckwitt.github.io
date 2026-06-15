@@ -66,8 +66,8 @@ Dynatek Labs
 Selected Engineering Software
 • 2D-Oriented Powder XRD Simulator (repo): DWBA forward model with refraction, footprint, and divergence corrections
   plus calibrant-driven geometry transfer and pseudo-Voigt mosaic distributions for quantitative 2D refinement.
-• OSC_Reader (repo): Rigaku RAXIS .osc toolkit for raw-frame loading, interactive inspection, azimuthal integration, and
-  peak fitting for homebuilt GIWAXAXS workflows.
+• Detector Data Pipeline (repo): OSC detector-image toolkit for raw-frame loading, inspection, and conversion into
+  accessible formats for downstream diffraction analysis workflows.
 • 2D Oriented Powder Visualizer (repo): visual tools for reciprocal-space rods and detector mapping used to explain
   ring–cap physics in talks and internal documentation.
 

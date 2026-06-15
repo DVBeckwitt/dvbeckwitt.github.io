@@ -1144,7 +1144,7 @@ Supported claims:
 - Quantifies defect densities.
 - Grew phase-controlled PbI2 films by chemical vapor deposition.
 - Validated polytype fractions.
-- Develops simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS detector images for structure-analysis screening.
+- Develops PyTorch CNN workflows trained on simulated GIWAXS detector images for structure-analysis screening.
 - Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning while checking interpretation against scattering constraints.
 - Keeps physical simulation, detector geometry, scattering constraints, and experimental context as validation boundaries for AI-assisted research outputs.
 
@@ -1195,7 +1195,7 @@ Data and machine learning:
 - TensorFlow.
 - Model development.
 - Exploratory data analysis.
-- simulation-to-ML workflows.
+- CNN workflows for scientific image analysis.
 - CNNs.
 - scientific image analysis.
 - physics-informed model validation.
@@ -1244,44 +1244,26 @@ AI workflow:
 
 ### Applied research tools and projects
 
-Simulation-to-ML GIWAXS Screening Workflow, 2025 to present.
+2D Powder Simulator, 2021 to present.
 
-- Scientific ML and AI-assisted workflow support.
-- Trains PyTorch CNNs on simulated GIWAXS detector images for screening thin-film structure hypotheses.
-- Uses LLM-assisted agents and reusable AI skills to accelerate code scaffolding, documentation, literature triage, parameter-space exploration, reproducibility checks, and validation planning.
-- Keeps physical simulation and scattering constraints as the reference point for interpretation rather than replacing the diffraction model with a black box.
+- Simulates detector-space diffraction from 2D-oriented powder films with geometry and model parameters tied to area-detector images.
 
-2D_Mosaic_Sim, 2025 to present.
+2D Powder Visualizer, 2021 to present.
 
-- X-ray diffraction simulator.
-- Visualizes diffraction patterns for materials with specific crystal orientations.
-- Supports analysis beyond standard software through custom plotting and interpretation tools.
+- Visualizes how orientation distributions and mosaic spread reshape two-dimensional diffraction patterns.
 
-ra_sim, 2024 to present.
+Detector Data Pipeline, 2021 to present.
 
-- Crystal analysis software.
-- Simulates and analyzes diffraction data from R-Axis IV++ detectors.
-- Combines a focused interface with optimization methods tailored to this detector format.
-
-OSC_Reader, 2024.
-
-- Detector data converter.
-- Converts proprietary detector files into accessible formats.
-- Enables detailed inspection of diffraction images without commercial software.
+- Reads proprietary OSC detector images and converts them into accessible formats for inspection and downstream analysis.
 
 ### Publications and presentations
 
-Journal article:
+Publication:
 
-- Coauthor, `Insights into the Growth Orientation and Phase Stability of Chemical-Vapor-Deposited Two-Dimensional Hybrid Halide Perovskite Films`, ACS Applied Materials & Interfaces, 2023.
-
-Manuscript in preparation:
-
-- `Quantitative Simulation and Refinement of Diffraction from 2D Oriented Powders`, anticipated Summer 2026.
+- `Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors`, planned 2026.
 
 Selected presentations:
 
-- `Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors`, 2025.
 - Invited talks and presentations on X-ray diffraction at APS Prairie Section 2023, APS March Meeting 2024, ACNS 2024, and Missouri State University Seminar 2024.
 - Presentation on graphene and transition-metal oxide heterostructures, 2020.
 - Undergraduate poster presentations on thin-film materials, 2017 to 2018.
@@ -1406,7 +1388,7 @@ Use these CV-backed phrases when relevant:
 
 - `developing CNNs on simulated GIWAXS data using PyTorch`
 - `built Python-based GIWAXS framework for quantitative parameter extraction`
-- `simulates and analyzes diffraction data from R-Axis IV++ detectors`
+- `simulates detector-space diffraction from 2D-oriented powder films`
 - `model development and exploratory data analysis`
 - `built Python-based workflows to extract interpretable parameters from complex scattering data`
 - `built tools for diffraction simulation, detector-data analysis, custom plotting, and proprietary detector-file conversion`
@@ -1430,8 +1412,8 @@ Only claim these if David provides evidence. If a role requires them, present Da
 Example data science resume bullets:
 
 - Built physics-informed Python models for GIWAXS data, using simulation and optimization to convert area-detector patterns into quantitative structural parameters.
-- Developing simulation-to-ML workflows using PyTorch CNNs trained on simulated scattering patterns for thin-film structure-analysis screening.
-- Used LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning around simulation-to-ML pipelines.
+- Developing PyTorch CNN workflows trained on simulated scattering patterns for thin-film structure-analysis screening.
+- Used LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning around scientific image-analysis workflows.
 - Created scientific data tools for detector-image conversion, plotting, and inspection, improving access to proprietary diffraction data for downstream analysis.
 - Used pandas, NumPy, SciPy, optimization, and visualization workflows to analyze complex scientific data and communicate interpretable results.
 
@@ -1560,7 +1542,7 @@ Lead with:
 - van der Waals thin films.
 - CVD-grown PbI2 and hybrid halide perovskite films.
 - Python simulation and analysis tools.
-- Conference credibility through APS, ACNS, NSSA, and ACS AMI publication.
+- Conference credibility through APS, ACNS, NSSA, and selected research presentations.
 
 Use these CV-backed phrases when relevant:
 
@@ -1568,7 +1550,7 @@ Use these CV-backed phrases when relevant:
 - `GIWAXS modeling for thin-film structure and disorder`
 - `modeled diffuse scattering from stacking faults and quantified defect densities`
 - `grew phase-controlled PbI2 films by chemical vapor deposition`
-- `coauthored ACS Applied Materials & Interfaces publication on CVD-grown 2D hybrid halide perovskite films`
+- `planned 2026 publication on quantitative X-ray diffraction analysis of 2D-oriented powders with area detectors`
 - `NSSA Outstanding Student Research Prize`
 
 Be careful with:

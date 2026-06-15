@@ -22,7 +22,7 @@ Use details such as custom-built XRD/XRR systems, GIWAXS modeling, detector geom
 
 Secondary proof point: software, automation, and materials context.
 
-Use 2D_Mosaic_Sim, ra_sim, OSC_Reader, Python, NumPy/SciPy/pandas, PyTorch, CVD, PLD, Raman, SEM/EDS, and profilometry only as relevant.
+Use 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Python, NumPy/SciPy/pandas, PyTorch, CVD, PLD, Raman, SEM/EDS, and profilometry only as relevant.
 
 ## Paragraph 4
 

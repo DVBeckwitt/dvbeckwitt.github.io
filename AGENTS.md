@@ -246,8 +246,8 @@ Links should tell readers what they will get.
 Good:
 
 - `Download CV PDF`.
-- `View 2D_Mosaic_Sim on GitHub`.
-- `Read the ACS Applied Materials & Interfaces paper`.
+- `View 2D Powder Visualizer source on GitHub`.
+- `See selected research presentations`.
 - `See selected research outputs`.
 
 Bad:
@@ -326,7 +326,7 @@ Recommended homepage post themes:
 - Practical notes on GIWAXS simulation.
 - Lessons from maintaining custom X-ray instrumentation.
 - Teaching notes on active learning in introductory physics.
-- Research software notes for `2D_Mosaic_Sim`, `ra_sim`, and `OSC_Reader`.
+- Research software notes for `2D Powder Simulator`, `2D Powder Visualizer`, and `Detector Data Pipeline`.
 
 ## Post listing and archive instructions
 
@@ -450,12 +450,12 @@ Create project files in `_projects/`:
 ```md
 ---
 layout: project
-title: 2D_Mosaic_Sim
-date: 2025
+title: 2D Powder Visualizer
+date: 2021-01-01
 description: >
-  Python tools for simulating X-ray diffraction patterns from materials with
-  specified crystal orientations and mosaic spread.
-caption: X-ray diffraction simulation tools for oriented materials.
+  Python visualization tools for showing how orientation distributions and
+  mosaic spread reshape two-dimensional diffraction patterns.
+caption: Visualization tools for orientation and mosaic-spread effects in 2D diffraction.
 image:
   path: /assets/img/projects/2d-mosaic-sim.jpg
 links:
@@ -494,10 +494,9 @@ Project content rules:
 
 Recommended initial projects:
 
-- `2D_Mosaic_Sim`.
-- `ra_sim`.
-- `OSC_Reader`.
-- GIWAXS machine-learning simulation workflow, if public enough to describe.
+- `2D Powder Simulator`.
+- `2D Powder Visualizer`.
+- `Detector Data Pipeline`.
 - Detector-space fitting or dissertation modeling workflow, if public enough to describe.
 
 ## About page instructions

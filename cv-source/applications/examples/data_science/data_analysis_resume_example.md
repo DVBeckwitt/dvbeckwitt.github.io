@@ -15,7 +15,7 @@ TECHNICAL SKILLS
 
 Analysis: Python (7+ years), SQL, Excel/VBA, pandas, NumPy, SciPy, data wrangling, exploratory data analysis, model development
 
-Modeling/ML: PyTorch, TensorFlow, CNN workflows, optimization, parameter extraction, simulation-to-ML workflows
+Modeling/ML: PyTorch, TensorFlow, CNN workflows, optimization, parameter extraction, scientific image analysis
 
 Visualization/workflow: Matplotlib, Plotly, Jupyter, Dash, Git, MATLAB, OriginLab, LLM-assisted agents, reusable AI skills
 
@@ -27,8 +27,8 @@ Graduate Research Assistant | University of Missouri | Columbia, MO    2021-pres
 
 - Built Python-based GIWAXS modeling frameworks to extract site occupancies, Debye-Waller factors, mosaicity, and geometric parameters from scattering data.
 - Modeled diffuse scattering from stacking faults and quantified defect densities in thin-film materials.
-- Developing simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS data for structure-analysis screening.
-- Used LLM-assisted agents and reusable AI skills for code scaffolding, documentation, reproducibility checks, and validation planning around simulation-to-ML pipelines.
+- Developing PyTorch CNN workflows trained on simulated GIWAXS data for structure-analysis screening.
+- Used LLM-assisted agents and reusable AI skills for code scaffolding, documentation, reproducibility checks, and validation planning around scientific image-analysis workflows.
 - Operate and maintain custom X-ray diffraction and reflectivity systems; communicate analysis through writing, peer review, presentations, and workshops.
 
 R&D Intern | Dynatek Labs    2019
@@ -38,7 +38,7 @@ R&D Intern | Dynatek Labs    2019
 SELECTED DATA PROJECTS
 
 - Built tools for diffraction simulation, detector-data analysis, custom plotting, and proprietary detector-file conversion.
-- Developed simulation-to-ML, 2D_Mosaic_Sim, ra_sim, and OSC_Reader workflows to simulate, convert, inspect, and visualize complex data beyond standard software.
+- Developed 2D Powder Simulator, 2D Powder Visualizer, and Detector Data Pipeline workflows to simulate, convert, inspect, and visualize complex detector data beyond standard software.
 
 LEADERSHIP AND SERVICE
 

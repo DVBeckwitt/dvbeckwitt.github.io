@@ -158,14 +158,13 @@ The strongest claim is limited and specific: for layered films in the 2D oriente
 The project cards below connect the thesis workflow to software and analysis tools. Public GitHub projects outside this research program are listed on [Projects](/projects/).
 
 - [Detector-space diffraction refinement](/research/detector-space-diffraction-refinement/) is the dissertation workflow for fitting two-dimensional diffraction images from layered films.
-- [2D_Mosaic_Sim](/research/2d-mosaic-sim/) visualizes how orientation distributions and mosaic spread reshape detector-space diffraction features.
-- [ra_sim](/research/ra-sim/) supports simulation and analysis for R-Axis IV++ area-detector data.
-- [OSC_Reader](/research/osc-reader/) converts proprietary OSC detector images into inspectable formats.
-- [GIWAXS simulation and machine learning](/research/giwaxs-machine-learning-simulation/) explores simulation-derived detector images for screening and classification workflows.
+- [2D Powder Simulator](/research/ra-sim/) simulates detector-space diffraction from 2D-oriented powder films with geometry and model parameters tied to area-detector images.
+- [2D Powder Visualizer](/research/2d-mosaic-sim/) visualizes how orientation distributions and mosaic spread reshape two-dimensional diffraction patterns.
+- [Detector Data Pipeline](/research/osc-reader/) reads proprietary OSC detector images and converts them into accessible formats for inspection and downstream analysis.
 
 ## Outputs
 
-Selected papers, manuscripts, talks, and posters are collected on [Publications & Talks](/outputs/). The CV remains the full formal record.
+Selected publications, talks, and posters are collected on [Publications & Talks](/outputs/). The CV remains the full formal record.
 
 [View publications and talks](/outputs/){:.btn}
 [Download CV](/cv/){:.btn}

@@ -30,7 +30,7 @@ Do not claim direct neutron beamline operation, neutron-instrument alignment, re
 
 Secondary proof point: instrument support, scientific software, file conversion, simulation, automation, or hardware-adjacent work.
 
-Use custom XRD/XRR systems, Python tools, OSC_Reader, ra_sim, 2D_Mosaic_Sim, pulsed laser deposition system build experience, biomedical testing software, automated hardware systems, Git, NumPy, SciPy, visualization tools, or documentation depending on the posting.
+Use custom XRD/XRR systems, Python tools, 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, pulsed laser deposition system build experience, biomedical testing software, automated hardware systems, Git, NumPy, SciPy, visualization tools, or documentation depending on the posting.
 
 Keep this paragraph readable. It can contain tool names, but it should still make one main point: David can work near instruments and data, not only write about them.
 

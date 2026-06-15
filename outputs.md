@@ -2,8 +2,7 @@
 layout: page
 title: Publications & Talks
 description: >
-  Selected publications, manuscripts, talks, posters, and research records by
-  David Beckwitt.
+  Selected publication, talk, poster, and research records by David Beckwitt.
 permalink: /outputs/
 image:
   path: /assets/img/social-card.jpg
@@ -14,20 +13,16 @@ menu: true
 order: 3
 ---
 
-Selected papers, manuscripts, talks, posters, and presentation records. For the full chronology, see my CV.
+Selected publication, talk, poster, and presentation records. For the full chronology, see my CV.
 {:.lead}
 
 [Research](/research/){:.btn}
 [CV](/cv/){:.btn}
 [ResearchGate](https://www.researchgate.net/profile/David-Beckwitt-3){:.btn}
 
-## Journal articles
+## Publications
 
-- [Insights into the Growth Orientation and Phase Stability of Chemical-Vapor-Deposited Two-Dimensional Hybrid Halide Perovskite Films](https://doi.org/10.1021/acsami.3c14559), _ACS Applied Materials & Interfaces_, 2023.
-
-## Manuscripts in preparation
-
-- _Quantitative Simulation and Refinement of Diffraction from 2D-Oriented Powders_, anticipated Summer 2026.
+- _Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors_, planned 2026.
 
 ## Selected presentations
 

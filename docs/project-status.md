@@ -12,11 +12,23 @@ permalink: /docs/project-status/
 
 This page records recent maintenance work, feature status, and validation notes for the public website repository.
 
+## 2026-06-15
+
+| Type | Item | Status | Notes |
+| --- | --- | --- | --- |
+| Content | CV output structure reflected on site | Done | Updated public output language so the planned 2026 `Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors` item is the publication, with remaining research events treated as selected presentations. |
+| Content | Applied research tool names | Done | Replaced public-facing repository names with `2D Powder Simulator`, `2D Powder Visualizer`, and `Detector Data Pipeline`; retained GitHub links where source links already existed. |
+| Deprecation | Obsolete public ML workflow project | Done | Replaced the active GIWAXS machine-learning simulation project page with a redirect-only retired route to preserve old links without presenting it as an active tool. Removed the unused project image. |
+| Bug/error | CV source classification drift | Fixed | Updated structured CV and AI export metadata from `planned_manuscript` to `planned_publication`, and removed the duplicate 2025 BibTeX presentation entry for the same area-detector title. |
+| Documentation | Resume and cover-letter drafting rules | Done | Updated `cv-source/AGENTS.md`, job-family resume formats, cover-letter formats, and checked-in example resumes so generated application materials use the current CV naming and concise project descriptions. |
+| Validation | Source-only consistency checks | Done | Targeted stale-term searches, `git diff --check`, non-recompile CV repository checks, and pytest passed after the edits. |
+| Build | Public document and Jekyll rebuild | Not run | No public-doc generation, Jekyll rebuild, or tracked CV/PDF output update was run. Final CV validation skipped LaTeX compilation by using a missing `LATEXMK` override. |
+
 ## 2026-04-22
 
 | Type | Item | Status | Notes |
 | --- | --- | --- | --- |
-| Feature | Publications and talks page | Done | Added `outputs.md` at `/outputs/` with selected journal article, manuscript in preparation, selected presentations, ResearchGate link, and CV link. |
+| Feature | Publications and talks page | Done | Added `outputs.md` at `/outputs/` with selected publication and presentation records, ResearchGate link, and CV link. |
 | Content | Research outputs moved out of research overview | Done | Replaced the detailed `Selected outputs` block in `research.md` with a short `Outputs` section and button linking to `/outputs/`. Updated home and notes archive links to point to the new page. |
 | Navigation | Outputs added to site menu | Done | Added `Outputs` to `_config.yml` navigation between Research and Projects. |
 | Bug/error | Downloaded patch failed against current files | Resolved | `git apply --check` failed for `index.md`, `posts.md`, and `research.md` because current content no longer matched the patch context. The same feature change was applied manually against current files. |

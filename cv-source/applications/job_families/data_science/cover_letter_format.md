@@ -24,7 +24,7 @@ Use GIWAXS modeling, area-detector data, NumPy, SciPy, pandas, parameter extract
 
 Secondary proof point: machine learning or software tools.
 
-Use PyTorch CNNs trained on simulated GIWAXS data, OSC_Reader, ra_sim, 2D_Mosaic_Sim, Git, Jupyter, Matplotlib, Plotly, and Dash as relevant.
+Use PyTorch CNNs trained on simulated GIWAXS data, 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Git, Jupyter, Matplotlib, Plotly, and Dash as relevant.
 
 ## Paragraph 4
 

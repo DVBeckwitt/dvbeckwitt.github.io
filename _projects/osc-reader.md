@@ -1,7 +1,7 @@
 ---
 layout: project
-title: OSC_Reader
-date: 2024-01-01
+title: Detector Data Pipeline
+date: 2021-01-01
 description: >
   A detector-file converter for reading proprietary OSC diffraction images and
   converting them into accessible formats for inspection and analysis.
@@ -14,7 +14,7 @@ links:
 redirect_from: /projects/osc-reader/
 ---
 
-OSC_Reader is a small utility built around a common experimental bottleneck: diffraction images are not useful if they are locked inside a file format that is hard to inspect or process outside vendor software.
+Detector Data Pipeline is a small utility built around a common experimental bottleneck: diffraction images are not useful if they are locked inside a file format that is hard to inspect or process outside vendor software.
 
 ## Problem
 

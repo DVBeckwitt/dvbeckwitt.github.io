@@ -1,11 +1,11 @@
 ---
 layout: project
-title: ra_sim
-date: 2024-06-01
+title: 2D Powder Simulator
+date: 2021-01-01
 description: >
-  Simulation and analysis software for diffraction data collected on R-Axis IV++
-  area detectors, with a focused interface and detector-specific optimization.
-caption: Detector-specific analysis tools for R-Axis IV++ diffraction data.
+  Detector-space diffraction simulation software for 2D-oriented powder films,
+  with geometry and model parameters tied to area-detector images.
+caption: Detector-space diffraction simulation for 2D-oriented powder films.
 image:
   path: /assets/img/projects/ra-sim.png
 links:
@@ -16,16 +16,16 @@ links:
 redirect_from: /projects/ra-sim/
 ---
 
-ra_sim is a detector-specific analysis project for R-Axis IV++ diffraction data. It reflects a practical part of my research style: build tools around the instrument and data format actually used in the lab, rather than forcing the experiment into a generic workflow too early.
+2D Powder Simulator is a Python research tool for simulating detector-space diffraction from 2D-oriented powder films. It reflects a practical part of my research style: keep experimental geometry, model parameters, and detector images connected while testing structural interpretations.
 
 ## Problem
 
-Area-detector data are shaped by detector geometry, calibration choices, instrument configuration, and file format constraints. Those details matter when comparing measured patterns with simulated ones or when setting up optimization around a specific detector.
+Area-detector data are shaped by detector geometry, calibration choices, instrument configuration, and sample orientation. Those details matter when comparing measured patterns with simulated ones or setting up optimization around detector-space features.
 
 ## Approach
 
-The project combines simulation and analysis routines with optimization methods tailored to the R-Axis IV++ context. The goal is a focused workflow for detector images where the analysis code and the experimental geometry remain coupled.
+The project combines simulation and analysis routines with geometry-aware model parameters. The goal is a focused workflow where the simulated diffraction pattern and the measured detector image remain directly comparable.
 
 ## Status and limits
 
-This is active research software. It is strongest as a lab-specific analysis and simulation aid. It is not presented as a general replacement for established crystallographic software.
+This is active research software. It is strongest as a dissertation-support tool for 2D-oriented powder analysis. It is not presented as a general replacement for established crystallographic software.

@@ -1,11 +1,11 @@
 ---
 layout: project
-title: 2D_Mosaic_Sim
-date: 2025-01-01
+title: 2D Powder Visualizer
+date: 2021-01-01
 description: >
-  Python tools for simulating and visualizing X-ray diffraction patterns from
-  materials with specified crystal orientations and mosaic spread.
-caption: X-ray diffraction simulation tools for oriented materials.
+  Python visualization tools for showing how orientation distributions and
+  mosaic spread reshape two-dimensional diffraction patterns.
+caption: Visualization tools for orientation and mosaic-spread effects in 2D diffraction.
 image:
   path: /assets/img/projects/2d-mosaic-sim.png
 links:
@@ -17,7 +17,7 @@ featured: true
 redirect_from: /projects/2d-mosaic-sim/
 ---
 
-2D_Mosaic_Sim is a Python research tool for visualizing how specified crystal orientations appear in X-ray diffraction patterns. It sits between simple conceptual sketches and the more detailed detector-space models used in my dissertation work.
+2D Powder Visualizer is a Python research tool for visualizing how orientation distributions and mosaic spread appear in two-dimensional diffraction patterns. It sits between simple conceptual sketches and the more detailed detector-space models used in my dissertation work.
 
 ## Problem
 

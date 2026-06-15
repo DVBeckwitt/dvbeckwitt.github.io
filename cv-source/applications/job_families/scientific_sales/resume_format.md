@@ -45,7 +45,7 @@ Add Missouri State, NASA, and Dynatek roles when they map to the employer's prod
 
 Use selectively:
 
-- ACS Applied Materials & Interfaces coauthor, 2023.
+- Planned 2026 quantitative X-ray diffraction publication.
 - NSSA Outstanding Student Research Prize, 2023.
 - ACNS invited talk, 2023.
 - Green Chalk Teaching Award, 2022-2023.

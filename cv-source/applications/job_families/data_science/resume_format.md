@@ -21,7 +21,7 @@ Languages: Python, SQL, C++, Fortran
 
 Libraries: NumPy, pandas, SciPy, PyTorch, TensorFlow, Matplotlib, Plotly
 
-Methods: simulation, optimization, exploratory data analysis, model development, CNNs, scientific image analysis, parameter extraction, simulation-to-ML workflows
+Methods: simulation, optimization, exploratory data analysis, model development, CNNs, scientific image analysis, parameter extraction
 
 Tools and workflow: Git, Jupyter, Dash, MPI, LaTeX, Excel/VBA, LLM-assisted agents, reusable AI skills, documentation, reproducibility checks
 
@@ -40,9 +40,9 @@ Communication: technical writing, presentations, peer review, workshops, cross-f
 Put this before experience when the role is software-, model-, or applied-analytics-heavy.
 
 - Developed Python-based GIWAXS modeling frameworks to convert area-detector scattering patterns into quantitative structural parameters.
-- Developing simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS data for thin-film structure-analysis screening.
+- Developing PyTorch CNN workflows trained on simulated GIWAXS data for thin-film structure-analysis screening.
 - Built detector-data tools that convert proprietary files into accessible formats for inspection, plotting, and analysis.
-- Simulated and analyzed diffraction data from R-Axis IV++ detectors using project-specific optimization and visualization tools.
+- Simulated detector-space diffraction from 2D-oriented powder films using project-specific optimization and visualization tools.
 - Used pandas, NumPy, SciPy, optimization, visualization, and AI-assisted documentation workflows for complex scientific data while retaining physics-based interpretation.
 
 ## Research and technical experience
@@ -51,8 +51,8 @@ Put this before experience when the role is software-, model-, or applied-analyt
 
 - Built physics-informed Python models for GIWAXS data, using simulation and optimization to extract mosaicity, site occupancy, Debye-Waller factors, and geometric parameters from complex detector patterns.
 - Modeled diffuse scattering from stacking faults and quantified defect densities in thin-film materials.
-- Developing simulation-to-ML workflows using PyTorch CNNs trained on simulated scattering patterns for structure-analysis screening, with physical simulation and scattering constraints retained as interpretation references.
-- Use LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning around simulation-to-ML pipelines.
+- Developing PyTorch CNN workflows trained on simulated scattering patterns for structure-analysis screening, with physical simulation and scattering constraints retained as interpretation references.
+- Use LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning around scientific image-analysis workflows.
 - Operate and maintain custom X-ray diffraction and reflectivity systems, giving domain context for noisy scientific data, instrument geometry, and measurement constraints.
 
 ### R&D Intern, Dynatek Labs, 2019

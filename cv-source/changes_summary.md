@@ -53,7 +53,7 @@ The example resume and cover-letter files are treated as archived writing sample
 
 For industry analyst and People Analytics roles, the current approved posture is to translate David's physics-based Python, modeling, data wrangling, visualization, documentation, and communication evidence into business-readable data work without inventing direct HR-domain or compensation experience.
 
-## AI and simulation-to-ML evidence-control update
+## AI and scientific ML evidence-control update
 
 - Reframed AI use as bounded scientific-computing workflow support for simulation, PyTorch CNN development, documentation, reproducibility checks, literature triage, and validation planning.
 - Updated canonical evidence, LaTeX CV sections, AI-readable exports, website research pages, and application templates to keep AI claims tied to simulation, ML, and scattering-constraint validation.

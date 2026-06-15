@@ -29,7 +29,7 @@ Materials: CVD-grown PbI2, hybrid halide perovskites, graphene, transition-metal
 - Extended diffraction analysis to diffuse scattering from stacking faults, connecting detector patterns to structural disorder in thin-film materials.
 - Operate and maintain custom X-ray diffraction and reflectivity systems while developing Python tools for area-detector simulation, conversion, and analysis.
 - Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions.
-- Develop simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS data for structure-analysis screening.
+- Develop PyTorch CNN workflows trained on simulated GIWAXS data for structure-analysis screening.
 - Use LLM-assisted agents and reusable AI skills for documentation, reproducibility checks, and validation planning when relevant to scientific-computing workflows.
 
 ### Research Assistant, Missouri State University, 2017-2020
@@ -43,18 +43,15 @@ Materials: CVD-grown PbI2, hybrid halide perovskites, graphene, transition-metal
 
 ## Applied tools
 
-- Simulation-to-ML GIWAXS Screening Workflow: PyTorch CNN workflow trained on simulated detector images for structure-analysis screening, with physical simulation retained as the interpretation reference.
-- 2D_Mosaic_Sim: X-ray diffraction simulator for materials with specific crystal orientations.
-- ra_sim: Simulation and analysis software for R-Axis IV++ detector diffraction data.
-- OSC_Reader: Detector-data converter for proprietary files.
+- 2D Powder Simulator: Simulates detector-space diffraction from 2D-oriented powder films with geometry and model parameters tied to area-detector images.
+- 2D Powder Visualizer: Visualizes how orientation distributions and mosaic spread reshape two-dimensional diffraction patterns.
+- Detector Data Pipeline: Reads proprietary OSC detector images and converts them into accessible formats for inspection and downstream analysis.
 
 ## Publications and presentations
 
 Put this section high for scattering roles.
 
-- ACS Applied Materials & Interfaces article on CVD-grown 2D hybrid halide perovskite films, 2023.
-- Quantitative Simulation and Refinement of Diffraction from 2D Oriented Powders, manuscript in preparation, anticipated Summer 2026.
-- Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors, 2025.
+- Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors, planned 2026.
 - Invited talks and presentations on X-ray diffraction at APS Prairie Section 2023, APS March Meeting 2024, ACNS 2024, and Missouri State University Seminar 2024.
 
 ## Awards
