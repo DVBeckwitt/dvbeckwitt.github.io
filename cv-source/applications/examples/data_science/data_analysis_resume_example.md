@@ -5,7 +5,7 @@ Source note: user-provided DOCX example for data analysis and People Analytics r
 ```text
 David Beckwitt
 Python Data Analyst | Quantitative Modeling | Columbia, MO
-David.Beckwitt@gmail.com | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt
+David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt
 
 SUMMARY
 

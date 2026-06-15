@@ -1,5 +1,5 @@
 David V. Beckwitt, PhD Candidate
-Email: David.Beckwitt@gmail.com
+Email: David.Beckwitt@proton.me
 
 Physics often appears to pre-med and engineering students as an impersonal “stepping stone” course. I have always enjoyed engaging less-motivated learners through compassionate, student-centered instruction that nurtures relationships as much as it teaches physics. Significant learning rarely occurs without a meaningful relationship, and my methods reflect that belief. I apply strategies in two teaching contexts: small groups and large lectures.
 

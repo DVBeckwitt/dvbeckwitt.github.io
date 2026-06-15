@@ -4,7 +4,7 @@ Source note: original binary removed from Git; use this text version for review.
 
 ```text
 David V. Beckwitt, PhD Candidate
-Email: David.Beckwitt@gmail.com
+Email: David.Beckwitt@proton.me
 Phone: [phone omitted]
 
 Teaching Philosophy

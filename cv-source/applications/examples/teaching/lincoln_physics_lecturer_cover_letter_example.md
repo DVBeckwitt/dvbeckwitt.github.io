@@ -4,7 +4,7 @@ Source note: original binary removed from Git; use this text version for review.
 
 ```text
 David V. Beckwitt, PhD Candidate
-              David.Beckwitt@gmail.com | [phone omitted] | LinkedIn: https://www.linkedin.com/in/dvbeckwitt/
+              David.Beckwitt@proton.me | [phone omitted] | LinkedIn: https://www.linkedin.com/in/dvbeckwitt/
 April 21, 2026
 Search Committee
 Lincoln University of Missouri

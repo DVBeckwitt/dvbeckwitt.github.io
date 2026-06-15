@@ -196,7 +196,7 @@ def test_active_referee_section_fails_reference_exclusion(monkeypatch: pytest.Mo
 
 def test_privacy_scanner_allows_public_email_and_flags_reference_contact(tmp_path: Path) -> None:
     allowed = tmp_path / "allowed.md"
-    allowed.write_text("Email: David.Beckwitt@gmail.com\n", encoding="utf-8")
+    allowed.write_text("Email: David.Beckwitt@proton.me\n", encoding="utf-8")
     assert check_repo.find_privacy_issues([allowed]) == []
 
     leaked = tmp_path / "leaked.md"

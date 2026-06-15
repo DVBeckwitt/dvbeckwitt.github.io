@@ -1,5 +1,5 @@
 # David Beckwitt - AI-readable CV
-Export date: 2026-05-21
+Export date: 2026-06-15
 
 This export is plain text, table-free, column-free, and intended for AI parsing. It omits private phone numbers, addresses, and professional references by default.
 
@@ -11,9 +11,9 @@ Degree status: Ph.D. candidate, Physics, University of Missouri, expected July 2
 
 Positioning: Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based simulation, physics-informed machine learning, and AI-assisted scientific-computing workflows.
 
-Short positioning: Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, simulation-to-ML workflows, materials characterization, and technical communication.
+Short positioning: Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, scientific image workflows, materials characterization, and technical communication.
 
-Email: David.Beckwitt@gmail.com
+Email: David.Beckwitt@proton.me
 
 GitHub: https://github.com/DVBeckwitt
 
@@ -65,7 +65,7 @@ Supported claims:
 - Extracts site occupancies, anisotropic Debye-Waller factors, mosaicity, and geometric parameters from scattering data.
 - Models diffuse scattering from stacking faults and quantifies defect densities.
 - Grew phase-controlled PbI2 films by chemical vapor deposition and validated polytype fractions.
-- Develops simulation-to-ML workflows using PyTorch CNNs trained on simulated GIWAXS detector images for structure-analysis screening.
+- Develops PyTorch CNN workflows trained on simulated GIWAXS detector images for structure-analysis screening.
 - Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space planning, and validation planning while checking interpretation against scattering constraints.
 - Keeps physical simulation, detector geometry, scattering constraints, and experimental context as validation boundaries for AI-assisted research outputs.
 
@@ -97,54 +97,38 @@ Supported claims:
 
 ## Applied research tools
 
-### Simulation-to-ML GIWAXS Screening Workflow
+### 2D Powder Simulator
 
-Dates: 2025-present
+Dates: 2021-present
 
-Type: Scientific ML and AI-assisted workflow support
-
-URL: https://dvbeckwitt.github.io/research/giwaxs-machine-learning-simulation/
-
-Supported claims:
-- Trains PyTorch CNNs on simulated GIWAXS detector images for screening thin-film structure hypotheses.
-- Uses LLM-assisted agents and reusable AI skills for code scaffolding, documentation, literature triage, reproducibility checks, parameter-space exploration, and validation planning.
-- Keeps physical simulation and scattering constraints as the reference point for interpretation rather than replacing the diffraction model with a black box.
-
-### 2D_Mosaic_Sim
-
-Dates: 2025-present
-
-Type: X-ray diffraction simulator
-
-URL: https://github.com/DVBeckwitt/2D_Mosaic_Sim
-
-Supported claims:
-- Visualizes diffraction patterns for materials with specific crystal orientations.
-- Supports analysis beyond standard software through custom plotting and interpretation tools.
-
-### ra_sim
-
-Dates: 2024-present
-
-Type: Crystal analysis software
+Type: Diffraction simulation and analysis software
 
 URL: https://github.com/DVBeckwitt/ra_sim
 
 Supported claims:
-- Simulates and analyzes diffraction data from R-Axis IV++ detectors.
-- Combines a focused interface with optimization methods tailored to this detector format.
+- Simulates detector-space diffraction from 2D-oriented powder films with geometry and model parameters tied to area-detector images.
 
-### OSC_Reader
+### 2D Powder Visualizer
 
-Dates: 2024
+Dates: 2021-present
 
-Type: Detector data converter
+Type: X-ray diffraction visualization software
+
+URL: https://github.com/DVBeckwitt/2D_Mosaic_Sim
+
+Supported claims:
+- Visualizes how orientation distributions and mosaic spread reshape two-dimensional diffraction patterns.
+
+### Detector Data Pipeline
+
+Dates: 2021-present
+
+Type: Detector data conversion workflow
 
 URL: https://github.com/DVBeckwitt/OSC_Reader
 
 Supported claims:
-- Converts proprietary detector files into accessible formats.
-- Enables detailed inspection of diffraction images without commercial software.
+- Reads proprietary OSC detector images and converts them into accessible formats for inspection and downstream analysis.
 
 ## Skills
 
@@ -168,7 +152,7 @@ Supported claims:
 - TensorFlow
 - model development
 - exploratory data analysis
-- simulation-to-ML workflows
+- CNN workflows
 - convolutional neural networks
 - scientific image analysis
 - physics-informed model validation
@@ -216,13 +200,10 @@ Supported claims:
 
 ## Publications
 
-- Christopher J. Arendse, Randy Burns, David Beckwitt, Dallar Babaian, Ping Yu, Suchismita Guha, Daniel Hill, Zahid Hossain, and Paul Miceli, Insights into the Growth Orientation and Phase Stability of Chemical-Vapor-Deposited Two-Dimensional Hybrid Halide Perovskite Films, ACS Applied Materials & Interfaces 15(50), 56692-56703, 2023.
-  - DOI: 10.1021/acsami.3c14559
-- David Beckwitt et al., Quantitative Simulation and Refinement of Diffraction from 2D Oriented Powders, anticipated Summer 2026.
+- David Beckwitt et al., Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors, planned 2026.
 
 ## Selected presentations
 
-- Quantitative X-ray Diffraction Analysis of 2D-Oriented Powders with Area Detectors, 2025.
 - Invited talks and presentations on X-ray diffraction at APS Prairie Section 2023, APS March Meeting 2024, ACNS 2024, and Missouri State University Seminar 2024.
 - Fabrication and Characterization of 2D Heterostructures of Graphene and Transition-Metal Oxides, 2020.
 - Undergraduate poster presentations on thin-film materials, 2017-2018.
