@@ -2,15 +2,19 @@
 
 Use one page. Keep the letter focused on measurement, instrumentation, analysis, and reproducibility.
 
-Apply the common cover-letter voice guide: direct first person, concrete evidence, honest adjacent-fit language when needed, and no brand-like sales language.
+Apply `common/application_style_calibration.md` and the common cover-letter voice guide: direct first person, concrete evidence, honest training-area language when needed, and no brand-like sales language.
 
 ## Paragraph 1
 
 Start with David's current identity and measurement evidence. Name the role and company naturally in the opening paragraph. Position David as a Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, thin-film characterization, and Python analysis experience. Add one company-specific sentence from the posting or product area.
 
-Template:
+Template for research-heavy metrology roles:
 
-I am a Ph.D. candidate in Physics at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. I am interested in [company]'s [role] because [company-specific sentence tied to the role's measurement domain]. I believe that experience maps well to [specific measurement, troubleshooting, validation, or documentation need].
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. My work experience is closely aligned with what this position demands involving [specific measurement, troubleshooting, validation, or documentation need].
+
+Template for practical instrumentation or facility roles:
+
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems. My work experience is closely aligned with what this position demands involving keeping technical equipment working, interpreting instrument diagnostics, testing expected behavior against observed data, and communicating technical issues.
 
 ## Paragraph 2
 
@@ -20,14 +24,14 @@ Use details such as custom-built XRD/XRR systems, GIWAXS modeling, detector geom
 
 ## Paragraph 3
 
-Secondary proof point: software, automation, and materials context.
+Secondary proof point: software, automation, hardware-adjacent work, and materials context.
 
-Use 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Python, NumPy/SciPy/pandas, PyTorch, CVD, PLD, Raman, SEM/EDS, and profilometry only as relevant.
+Use 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Python, NumPy/SciPy/pandas, PyTorch, CVD, PLD, Raman, SEM/EDS, profilometry, PLD system construction, and automated hardware-system software only as relevant. For direct gaps, use the calibrated boundary pattern: `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence].`
 
 ## Paragraph 4
 
-Close by connecting measurement discipline, instrument-user perspective, and technical communication to the employer's need.
+Close by connecting measurement discipline, instrument care, documentation, software-supported troubleshooting, site-specific procedures, and technical communication to the employer's need. Prefer concrete language over `instrument-user perspective` when space is tight.
 
 ## Cautions
 
-If the posting requires regulated calibration, quality systems, production metrology, or semiconductor fab methods, acknowledge adjacent measurement-science experience rather than claiming direct experience.
+If the posting requires regulated calibration, quality systems, production metrology, semiconductor fab methods, PLCs, reactor I&C, control-blade drive work, conduit installation, cable pulls, or facility electrical maintenance, acknowledge adjacent measurement-science and laboratory-instrumentation experience rather than claiming direct experience.

@@ -40,7 +40,7 @@ Default checks may skip only missing or incomplete optional LaTeX tooling. Use `
 - Do not edit casually: source CV facts, `data/cv_master.json`, publication/date/affiliation text, `sections/referee.tex`, private drafts, generated exports, compiled PDFs, evidence-control policies, claim ledgers, or final verification records.
 - Validation checklist: repository check, tests, coverage command, lint, format check, typecheck, ATS parse gate, application quality eval when relevant, and strict LaTeX only when a full TeX plus Perl toolchain is expected.
 - Non-physics analyst roles: present David as a quantitative Python analyst with a physics Ph.D. research background; translate scientific work into business-readable data work without inventing direct domain ownership.
-- Application voice: apply `applications/common/cover_letter_voice_guide.md` and the resume/cover-letter templates; David prefers grounded first-person prose, concrete technical evidence, candid transition language when needed, and restrained confidence rather than generic job-application polish.
+- Application style: apply `applications/common/application_style_calibration.md`, `applications/common/cover_letter_voice_guide.md`, and the resume/cover-letter templates; David prefers practical, concrete, evidence-based materials, contact line with location last, no resume target-role header line, uppercase plain resume section headings for one-page technical resumes, candid training-area language when needed, and restrained confidence rather than generic job-application polish.
 
 ## Non-negotiable rules
 
@@ -68,9 +68,9 @@ Use exact job-title and company terminology where natural. Do not keyword-stuff.
 
 For roles outside a direct academic physics lane, including analytics, data analyst, data science, technical analyst, and People Analytics roles, use employer language as target context. Do not convert role-domain keywords into candidate experience unless the evidence matrix directly supports them.
 
-Write application materials in David's grounded, first-person, evidence-based voice by default. The prose should sound like David explaining his background to a technical hiring manager: direct, modest, analytical, and specific about tools, systems, debugging, repositories, tests, documentation, instrumentation, and outputs. Do not use detached resume-template language in summaries or cover letters when first person would be clearer.
+Write application materials in David's grounded, evidence-based voice by default. Cover letters should use clear first person. Resumes should not default to first person; use a compact professional profile unless David asks for first person or the transition would otherwise sound artificial. The prose should sound like David explaining his background to a technical hiring manager: direct, modest, analytical, and specific about tools, systems, debugging, repositories, tests, documentation, instrumentation, and outputs.
 
-For transition roles, name the transition directly. Do not pretend physics research, research software, QA-adjacent work, data analysis, or teaching experience is the same as direct product, enterprise, QA, data, sales, or engineering employment. Instead, explain which habits and evidence transfer and what the main domain transition would be.
+For transition roles, name the boundary directly. Do not pretend physics research, research software, QA-adjacent work, data analysis, teaching, or laboratory instrumentation is the same as direct product, enterprise, QA, data, sales, reactor, or engineering employment. For direct gaps, prefer language such as `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence].`
 
 
 ## Source precedence and conflict handling
@@ -505,15 +505,23 @@ Graceful application writing means:
 
 Default voice:
 
-`Grounded, first-person, technically precise, modest, analytical, and concrete. David should sound like he is explaining his background to a technical hiring manager who needs evidence, not polish.`
+`Grounded, technically precise, modest, analytical, and concrete. David should sound like he is explaining his background to a technical hiring manager who needs evidence, not polish.`
 
+Current resume calibration from David's edited MURR materials:
+
+- Contact line: `David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt | Columbia, MO`.
+- Do not add a resume `Target role:` header line unless David asks.
+- For one-page technical resumes, use uppercase plain headings such as `SUMMARY`, `CORE SKILLS`, `TECHNICAL EXPERIENCE`, `APPLIED RESEARCH TOOLS`, `TEACHING AND TECHNICAL COMMUNICATION`, and `EDUCATION`.
+- Use a two-part practical summary: current identity and hands-on evidence, then strengths such as careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed behavior with expected physical behavior.
+- Use label-led `CORE SKILLS` lines instead of generic skill bullets when the role is practical or technical.
+- Compress academic details that do not support the posting. Omit awards, full presentation lists, publication sections, and service leadership from one-page nonacademic resumes unless directly relevant.
 
 David's current application-material preference:
 
 - Start cover letters with David's current identity and directly relevant experience, not a generic application statement.
-- Prefer clear first-person ownership when supported: `I build`, `I maintain`, `I operate`, `I have tested`, `I have not held a formal [title] title, but...`.
-- Explain fit through concrete evidence: tools used, systems maintained, workflows validated, problems debugged, repositories owned, documentation written, instruments operated, students taught, and outputs produced.
-- For adjacent-fit cases, state the boundary once in plain language. Name the transition from physics, research software, instrumentation, teaching, or QA-adjacent work into the target role rather than hiding it or overstating direct experience.
+- Prefer clear first-person ownership when supported: `I build`, `I maintain`, `I operate`, `I diagnose`, `I document`, `I have also worked with...`.
+- Explain fit through concrete evidence: tools used, systems maintained, workflows validated, problems diagnosed, documentation written, instruments operated, students taught, and outputs produced.
+- For adjacent-fit cases, state the boundary once in plain language. Prefer `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence].`
 - Put the strongest role-relevant technical evidence early, but do not label it with template phrases such as `My strongest direct evidence is`.
 - Use a practical close that says what David is prepared to apply in the role. Do not promise transformation, uniqueness, or immediate industry equivalence.
 - Do not turn the letter into a values statement, a sales pitch, a compressed academic biography, or a marketing rewrite of the job ad.
@@ -1688,9 +1696,10 @@ For each application, complete this workflow before drafting.
    - CV only when the employer asks for a CV and David has not requested a resume; if David requests a resume, produce the resume and note that a CV may still be required.
 
 8. Choose section order.
-   - Technical roles: Summary, Technical Skills, Research or Technical Experience, Projects, Publications or Selected Presentations, Education.
-   - Data science roles: Summary, Technical Skills, Data Science Projects, Research Experience, Publications or Selected Presentations, Education.
-   - Industry analyst and People Analytics roles: Header, Targeted Summary, Skills, Data Projects, Research and Technical Experience, Communication and Leadership, Education.
+   - Practical technical, instrumentation, facility, and metrology-adjacent roles: SUMMARY, CORE SKILLS, TECHNICAL EXPERIENCE, APPLIED RESEARCH TOOLS or PROJECTS, TEACHING AND TECHNICAL COMMUNICATION when useful, EDUCATION.
+   - Research-heavy technical roles: Summary, Technical Skills, Research or Technical Experience, Projects, Publications or Selected Presentations, Education.
+   - Data science roles: SUMMARY, CORE SKILLS or TECHNICAL SKILLS, DATA SCIENCE PROJECTS, RESEARCH EXPERIENCE, TECHNICAL COMMUNICATION, EDUCATION.
+   - Industry analyst and People Analytics roles: SUMMARY, CORE SKILLS, DATA PROJECTS, RESEARCH AND TECHNICAL EXPERIENCE, COMMUNICATION, EDUCATION.
    - Scientific sales roles: Summary, Technical Expertise, Communication and Customer-Relevant Experience, Research Experience, Leadership and Teaching, Education.
    - Teaching-focused lecturer one-page resumes: Summary, Education, Teaching Experience, Research and Undergraduate Project Fit, Service and Outreach, Selected Skills.
    - Other teaching roles: Summary, Education, Teaching Experience, Course Coverage, Teaching Methods and Student Support, Research or Technical Expertise, Outreach and Service, Awards, Skills.
@@ -1744,7 +1753,7 @@ For each application, complete this workflow before drafting.
 
 ## Cover letter workflow
 
-A cover letter should be one page. Use 3 or 4 concise paragraphs. A 5-paragraph letter is acceptable when an industry transition needs one short, honest transition paragraph. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
+A cover letter should be one page. Use 4 concise paragraphs for direct matches. A 5-paragraph letter is acceptable for adjacent technical roles when one short paragraph is needed to name training areas. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
 
 Every substantive cover-letter paragraph must map to one or more claim IDs. Do not use the letter to hide unsupported knockout requirements or to convert adjacent experience into direct experience.
 
@@ -1752,8 +1761,8 @@ Paragraph 1:
 
 - Start with David's compact professional identity and the most relevant experience.
 - Name the role and company naturally in the paragraph, but do not default to `I am applying for...`.
-- State the broad fit with cautious mapping language such as `I believe that experience maps well to...`.
-- Include one company-specific reason for interest when it is grounded in the posting or primary company material.
+- State role alignment through concrete duties, using language such as `My work experience is closely aligned with what this position demands involving...` only when the evidence supports it.
+- Include one company-specific reason for interest when it is grounded in the posting or primary company material, but do not overfill the paragraph with posting statistics.
 
 Paragraph 2:
 
@@ -1774,13 +1783,13 @@ Paragraph 4:
 - Keep it direct.
 - Do not use exaggerated enthusiasm.
 
-Industry analyst and People Analytics transition paragraph:
+Transition or direct-gap paragraph:
 
-- Acknowledge the domain transition without underselling.
-- Prefer: `I have not held a formal [job title] title, but I do bring the core habits [employer] is asking for: [supported habits].`
-- Also acceptable: `The main transition for me would be from [current domain] into [target domain].`
+- Acknowledge the domain boundary without underselling.
+- Preferred direct-gap pattern: `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence], [supported evidence], and [supported evidence].`
+- Also acceptable for title transitions: `I have not held a formal [job title] title, but I do bring the core habits [employer] is asking for: [supported habits].`
 - Do not write a self-defeating gap statement such as `I lack HR experience`.
-- Pair the transition with supported evidence in Python, messy data, model development, visualization, documentation, and communication.
+- Pair the boundary with supported evidence in Python, data, model development, visualization, documentation, instrument care, measurement validation, troubleshooting, teaching, or communication.
 
 Avoid:
 
@@ -2116,7 +2125,7 @@ Scientific sales skills:
 
 `Technical domains: X-ray diffraction, reflectivity, GIWAXS, thin-film characterization, CVD, PLD, Raman spectroscopy, SEM/EDS`
 
-`Customer-relevant strengths: technical presentations, workshops, teaching, scientific writing, cross-disciplinary communication, instrument-user perspective`
+`Customer-relevant strengths: technical presentations, workshops, teaching, scientific writing, cross-disciplinary communication, instrumentation experience, measurement systems, troubleshooting, and documentation`
 
 `Software and analysis: Python, NumPy, SciPy, Matplotlib, Plotly, Jupyter, Git`
 

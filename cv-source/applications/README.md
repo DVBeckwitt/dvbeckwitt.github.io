@@ -6,12 +6,12 @@ Use this order for each application:
 
 1. Put the job title, company, posting URL or text, and application requirements into `common/job_posting_intake.md`.
 2. Use `common/evidence_matrix_template.md` to create `outputs/<company>/<role>/evidence_matrix.docx` and complete it before drafting.
-3. Start from the closest job-family `resume_format.md` and `cover_letter_format.md`, and apply `common/cover_letter_voice_guide.md` for grounded first-person application voice.
+3. Start from `common/application_style_calibration.md`, then use the closest job-family `resume_format.md` and `cover_letter_format.md`. Apply `common/cover_letter_voice_guide.md` for grounded first-person cover-letter voice.
    - For teaching roles, first choose the branch inside `job_families/teaching/resume_format.md` instead of assuming every teaching resume is a lecturer resume.
 4. Save finished application documents as simple `.docx` files in `outputs/<company>/<role>/`.
 5. Check all claims against `../data/cv_master.json`, the LaTeX CV, teaching documents, or a user-provided update.
 
-Temporary Markdown drafts are acceptable while writing. Convert final drafts with `python scripts/application_docx.py <draft.md> <output.docx>` and keep the final package one-column, AI-legible, and free of text boxes, images, tracked changes, comments, and decorative layout.
+Temporary Markdown drafts are acceptable while writing. Convert final drafts with `python scripts/application_docx.py <draft.md> <output.docx>` and keep the final package one-column, AI-legible, and free of text boxes, images, tracked changes, comments, and decorative layout. For one-page technical resumes, use the current calibrated style: no target-role header line, contact line with location last, uppercase plain section headings, concise role-relevant technical bullets, and compressed academic details.
 
 Common files:
 
@@ -19,6 +19,7 @@ Common files:
 - `common/evidence_matrix_template.md`
 - `common/resume_base_format.md`
 - `common/cover_letter_base_format.md`
+- `common/application_style_calibration.md`
 - `common/cover_letter_voice_guide.md`
 - `common/screening_notes_template.md`
 - `common/application_quality_checklist.md`

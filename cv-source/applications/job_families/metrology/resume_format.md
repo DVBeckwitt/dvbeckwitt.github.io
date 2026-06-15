@@ -9,11 +9,29 @@ Email | LinkedIn | GitHub | optional location
 
 ## Summary
 
+For practical technical roles, prefer the summary frame in the instrumentation and facility variant above. For research-heavy metrology roles, use:
+
 Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.
 
 Adjust the second sentence to the posting: instrument operation, detector geometry, thin-film characterization, quantitative parameter extraction, or Python analysis.
 
 ## Metrology boundary
+
+## Practical instrumentation and facility variant
+
+Use this branch for instrumentation technician, facility instrumentation, controls-adjacent, laboratory systems, reactor-adjacent, maintenance-oriented, or hands-on equipment-support roles.
+
+Default section order:
+
+`SUMMARY`, `CORE SKILLS`, `TECHNICAL EXPERIENCE`, `APPLIED RESEARCH TOOLS`, `TEACHING AND TECHNICAL COMMUNICATION`, `EDUCATION`.
+
+Default summary frame:
+
+`Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems, designing and building laboratory hardware, and developing software for automated hardware and scientific data workflows.`
+
+`Strengths are experience with careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed system behavior with expected physical behavior.`
+
+For roles that mention PLCs, reactor I&C, control systems, calibrated facility electronics, work orders, schematic troubleshooting, conduit, cable pulls, or equipment wiring, use the evidence boundary clearly. David can claim laboratory instrumentation, custom XRD/XRR operation and maintenance, PLD system build experience, automated hardware-system software, measurement validation, documentation, and software-supported troubleshooting. Do not claim direct PLC programming, reactor instrumentation, control-blade drive work, nuclear facility maintenance, electrician work, conduit installation, or calibration-program ownership unless David provides direct evidence.
 
 David has strong measurement-science and instrumentation evidence. Frame him as metrology-adjacent or metrology-ready for regulated production roles unless direct regulated metrology evidence is supplied.
 
@@ -26,6 +44,8 @@ Avoid unsupported production-metrology frames:
 Calibration-program owner, ISO quality-system owner, Gage R&R, SPC, wafer metrology, fab process-control owner, or high-throughput lab service owner.
 
 ## Technical skills
+
+For practical technical roles, use `CORE SKILLS` with label-led lines. For research-heavy metrology roles, use:
 
 Measurement and characterization: XRD, XRR, GIWAXS, area detectors, detector geometry, Raman spectroscopy, SEM/EDS, profilometry, CVD, PLD
 
@@ -69,7 +89,7 @@ Use this section for roles that value instrumentation software or reproducible a
 
 ## Publications and presentations
 
-Include the planned 2026 quantitative X-ray diffraction publication and selected presentations when the role is research-heavy.
+Include the planned 2026 quantitative X-ray diffraction publication and selected presentations when the role is research-heavy. Omit full presentation lists and awards from one-page practical technical resumes unless the posting makes them relevant.
 
 ## Education
 

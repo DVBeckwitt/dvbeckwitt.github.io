@@ -2,7 +2,29 @@
 
 Use one page for most roles. Use 1 to 1.5 pages only for academic teaching roles when the posting expects a formal job letter and the extra length adds specific evidence.
 
-Always apply `cover_letter_voice_guide.md`. The default letter should be grounded, first-person, concrete, and modestly confident. It should sound like David explaining supported evidence to a technical reader, not like a generic application template.
+Always apply `application_style_calibration.md` and `cover_letter_voice_guide.md`. The default letter should be grounded, first-person, concrete, and modestly confident. It should sound like David explaining supported evidence to a technical reader, not like a generic application template.
+
+## Header and recipient block
+
+Use this contact order by default:
+
+`David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt | Columbia, MO`
+
+Use a formal recipient block when details are available:
+
+`[Date]`
+
+`Hiring Committee` or named recipient
+
+`[Department]`
+
+`[Employer]`
+
+`[City, State]`
+
+`Re: [Exact role title]`
+
+Do not add private phone numbers or addresses unless David provides them for that application.
 
 ## CV-aligned proof selection
 
@@ -25,45 +47,51 @@ Secondary proof options:
 - PAGSA, PhysAssist, STEM outreach, workshops, or public science communication.
 - Green Chalk Teaching Award or research/scattering awards when relevant.
 
-The cover letter should not read like a generic application letter. It should make one clear argument: this role needs [specific employer need], and David has [specific supported evidence] that transfers to that need.
+The cover letter should make one clear argument: this role needs specific work, and David has specific supported evidence that transfers to that work.
 
 When the match is adjacent, name the boundary once and then return to evidence.
 
-## Paragraph 1: identity, role, and evidence mapping
+## Paragraph 1: identity, role alignment, and direct evidence
 
-Start with David's current professional identity and directly relevant experience. Name the role and employer naturally in the opening paragraph, but do not default to a generic `I am applying for...` sentence. Then explain how the evidence maps to the role or what transition it would require.
+Start with David's current professional identity and directly relevant experience. Name the role through the recipient block or naturally in the paragraph, but do not default to a generic `I am applying for...` sentence.
 
-Good pattern:
+Preferred practical opening:
 
-`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with [directly relevant evidence]. I am interested in [employer]'s [role] because [specific role context]. I believe my experience with [supported evidence] maps well to [role need].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence]. My work experience is closely aligned with what this position demands involving [role duty], [role duty], [role duty], and [role duty].`
+
+Use `closely aligned` only when the supporting evidence is real. Otherwise use a more cautious sentence and name the training area later.
 
 For roles with a known local connection, advisor connection, laboratory connection, teaching connection, or user-community connection, include it only if David provided the fact for that application and it helps the reader understand the fit.
 
-## Paragraph 2: primary proof
+## Paragraph 2: current direct proof
 
 Use one concrete example from the CV or a user-provided update that maps to the core responsibility. Write in first person where natural: `I operate`, `I build`, `I analyze`, `I teach`, or `I support`.
 
-Include methods, tools, instruments, data types, students, users, or outputs only when they support the role. Put the strongest technical evidence here rather than saving it for the end.
+Include methods, tools, instruments, data types, students, users, or outputs only when they support the role. Put the strongest practical evidence here rather than saving it for the end.
 
-When the match is adjacent rather than direct, name the boundary once in neutral language and connect the transferable evidence. Do not apologize for the boundary and do not overstate it.
+Good pattern:
 
-Useful transition patterns:
+`In my graduate research, I [direct work]. I also [workflow or secondary method]. That work has trained me to [role-relevant habit].`
 
-`The main transition for me would be from [current domain] into [target domain].`
-
-`I have not held a formal [job title] title, but I do bring the core habits [employer] is asking for: [supported habits].`
-
-## Paragraph 3: secondary proof
+## Paragraph 3: secondary proof and boundary
 
 Choose one secondary proof point: software, instrumentation, hardware-adjacent work, teaching, communication, leadership, outreach, or interdisciplinary work.
 
-Use this paragraph to show breadth only when the breadth matters for the role. Avoid a resume-like dump of every tool, method, or project.
+When the match is adjacent rather than direct, name the boundary in neutral language and connect the transferable evidence. Do not apologize for the boundary and do not overstate it.
 
-## Paragraph 4: reader-facing contribution
+Preferred adjacent-fit pattern:
+
+`That experience is adjacent rather than direct [target-domain work]. Those would be training areas for me. I do bring a base in [supported evidence], [supported evidence], and [supported evidence].`
+
+Use this pattern for requirements such as direct reactor I&C, PLC programming, control-blade drive work, regulated calibration ownership, production metrology, direct beamline support, quota-carrying sales, HR-domain analytics, or instructor-of-record ownership when David has not provided direct evidence.
+
+## Paragraph 4: employer environment and contribution
 
 Connect David's evidence to the people, equipment, data, or students the role supports. This paragraph should answer: `Who would be helped by this background, and how?`
 
-For scientific sales, translate technical credibility into customer-facing support. For teaching, translate methods into student-facing value. For facility, beamline, metrology, and instrumentation roles, connect measurement discipline, software habits, and user communication to reliable instrument support.
+Use one employer-specific sentence when it is grounded in the posting or primary employer material. Do not overfill the paragraph with statistics from the posting.
+
+For scientific sales, translate technical credibility into customer-facing support. For teaching, translate methods into student-facing value. For facility, beamline, metrology, and instrumentation roles, connect measurement discipline, software habits, documentation, communication, and respect for site-specific procedures to reliable support.
 
 ## Close
 
@@ -81,5 +109,6 @@ Preferred pattern:
 - No private phone/address unless approved.
 - Ph.D. status remains expected July 2026 unless updated.
 - The letter can be pasted into a plain-text application field without losing meaning.
-- The voice matches `cover_letter_voice_guide.md`: grounded first person, concrete technical evidence, honest adjacent-fit language, and restrained close.
+- The voice matches `cover_letter_voice_guide.md` and `application_style_calibration.md`.
 - The opening starts from identity and evidence, not `I am applying for...`.
+- Adjacent requirements are named as training areas when David has not directly done them.
