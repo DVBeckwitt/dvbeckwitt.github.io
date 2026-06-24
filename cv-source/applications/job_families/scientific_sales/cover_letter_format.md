@@ -10,13 +10,13 @@ Start with David's current identity and technical credibility evidence. Name the
 
 Template:
 
-I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. I am interested in [company]'s [role] because [company-specific sentence tied to the product or customer workflow]. I believe that experience maps well to [customer training, applications support, or technical sales need].
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience in X-ray diffraction and reflectivity instrumentation, thin-film characterization, Python-based analysis, and technical communication through teaching, workshops, invited talks, and outreach. I am interested in [company]'s [role] because [company-specific sentence tied to the product or customer workflow].
 
 ## Paragraph 2
 
-Primary proof point: instrument-user perspective.
+Primary proof point: hands-on instrument operation, maintenance, troubleshooting, and workflow explanation.
 
-Use operation and maintenance of custom XRD/XRR systems, GIWAXS modeling, detector-data tools, and thin-film characterization. Translate this into understanding user pain points, onboarding, troubleshooting, and workflow explanation.
+Use operation and maintenance of custom XRD/XRR systems, GIWAXS modeling, detector-data tools, and thin-film characterization. Describe troubleshooting and workflow explanation directly. Do not infer customer onboarding or commercial support unless David provides that evidence.
 
 ## Paragraph 3
 
@@ -24,9 +24,9 @@ Secondary proof point: communication and teaching.
 
 Use teaching assistant work, tutoring, workshops, invited talks, public STEM events, PhysAssist, and adapting explanations to varied audiences.
 
-## Paragraph 4
+## Optional supporting-evidence paragraph
 
-Close by connecting scientific credibility, practical lab-user empathy, and communication to customer training, applications support, or technical sales.
+Use this paragraph only when scientific credibility, practical instrument experience, communication, or supported customer-facing evidence materially helps the role.
 
 ## Cautions
 

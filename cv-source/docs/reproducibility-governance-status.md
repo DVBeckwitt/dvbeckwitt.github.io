@@ -1,6 +1,6 @@
 # Reproducibility and Governance Status
 
-Last reviewed: 2026-04-22.
+Last reviewed: 2026-06-24.
 
 ## What changed
 
@@ -27,6 +27,9 @@ Last reviewed: 2026-04-22.
 - Evidence-control rules now explicitly block unsupported People Analytics, compensation, labor capitalization, workforce planning, quality-of-hire, employee-listening, HR dashboard, R programming, and advanced-professional-SQL-duration claims.
 - EquipmentShare Data Analyst - People positioning and screening-answer cautions are recorded for future application work.
 - Project status docs now explicitly record the completed agent-guidance update, controlled bug/error/feature status, validation result, and known local-tool limitations.
+- Active application-voice guidance now treats user-edited application documents as authoritative for voice, density, structure, and degree of self-promotion, while keeping factual claims governed by the CV evidence rules.
+- Older mandatory mapping patterns are deprecated: `I believe ... maps well ...`, default `Re:` subject lines, target-role banners, and contribution sentences after every evidence paragraph are now optional exceptions rather than required structure.
+- ADR 0004 records the application-voice style precedence and migration decision.
 
 ## Bug, error, and feature status
 
@@ -51,6 +54,9 @@ Last reviewed: 2026-04-22.
 | Feature: industry analytics application-agent guidance | Added | `AGENTS.md`, data-science resume and cover-letter formats, the application README, and the application quality checklist now carry the People Analytics and evidence-control update. |
 | Error status: unsupported HR-domain claims in future applications | Controlled | Agent rules now require those claims to remain gaps unless David provides direct evidence. |
 | Feature: project documentation status checkpoint | Added | `changes_summary.md` and this governance status file now record what changed, current validation, controlled risks, and remaining local limitations. |
+| Feature: concise evidence-first application voice | Added | Cover letters and resume summaries default to direct first person; body paragraphs may end on evidence; tailoring happens primarily through evidence selection and ordering. |
+| Error status: old mapping and contribution boilerplate in active guidance | Fixed | Active guidance no longer recommends `I believe ... maps well ...`, default `Re:` subject lines, target-role banners, or mandatory contribution sentences. Teaching-specific `Target Role` exceptions remain allowed. |
+| Deprecation: over-interpretive application style | Advisory migration complete | Existing examples remain style references only. New materials should follow the current common guides and job-family templates. |
 
 ## Latest local verification
 
@@ -67,6 +73,11 @@ Last reviewed: 2026-04-22.
 - PASS: `git diff --check`
 - PASS: `python scripts/check_repo.py` after the industry analytics and People Analytics agent-guidance update, with LaTeX skipped for missing Perl.
 - PASS: `git diff --name-only -- bib sections exports settings.sty main.tex data` returned no CV source, bibliography, settings, data, or generated-export churn.
+- PASS: `python scripts/check_repo.py` after the concise evidence-first application-voice update; LaTeX compile passed on the current Windows machine.
+- PASS: `python -m pytest -q` after the concise evidence-first application-voice update; 28 tests passed.
+- PASS: targeted scans found the old `maps well` pattern only in prohibited-language guidance, and `Target Role` only in teaching-specific exception guidance.
+- PASS: `git diff --check` after the concise evidence-first application-voice update.
+- PASS: `git diff --name-only` contained only planned `cv-source` guidance and documentation files for this change.
 - SKIP local execution: `make check`, `make build`, `make coverage`, and `make typecheck` because `make` is not installed on the current Windows PATH.
 - SKIP local execution: `docker run --rm -v "$PWD:/repo" -w /repo ghcr.io/gitleaks/gitleaks:v8.30.1 dir --redact --verbose --config .gitleaks.toml .` because Docker is not installed on the current Windows PATH.
 - SKIP local execution: `actionlint .github/workflows/gitleaks.yml` because `actionlint` is not installed on the current Windows PATH.

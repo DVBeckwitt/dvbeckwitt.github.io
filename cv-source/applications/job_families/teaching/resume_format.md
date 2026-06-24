@@ -82,15 +82,15 @@ Use 2 to 3 compact lines. Name the teaching context, strongest student-facing ev
 
 Lecturer example:
 
-Physics Ph.D. candidate, University of Missouri, expected July 2026, with undergraduate physics teaching and tutoring experience. Taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. X-ray and detector-data research can support undergraduate-accessible computational and materials-physics projects.
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with undergraduate physics teaching and tutoring experience. I have taught and assisted introductory algebra- and calculus-based mechanics, electricity and magnetism, and classical mechanics using active-learning practices and student support. My X-ray and detector-data research can support undergraduate-accessible computational and materials-physics projects.
 
 Tutoring or learning-support example:
 
-Physics Ph.D. candidate and undergraduate physics tutor with experience supporting students across mechanics, electricity and magnetism, and problem-solving courses. Uses background-aware explanations, office-hour-style support, and active-learning habits to make physics concepts more accessible.
+I am a Physics Ph.D. candidate and undergraduate physics tutor with experience supporting students across mechanics, electricity and magnetism, and problem-solving courses. I use background-aware explanations, office-hour-style support, and active-learning habits to make physics concepts more accessible.
 
 Outreach or education-program example:
 
-Physics educator and scientific communicator with undergraduate teaching, tutoring, workshop, and public STEM outreach experience. Translates physics, X-ray scattering, and materials-analysis concepts for students and mixed-experience audiences.
+I am a physics educator and scientific communicator with undergraduate teaching, tutoring, workshop, and public STEM outreach experience. I translate physics, X-ray scattering, and materials-analysis concepts for students and mixed-experience audiences.
 
 Avoid dissertation-first framing, dense technical research language, independent faculty course ownership claims, and unsupported advising or retention claims.
 

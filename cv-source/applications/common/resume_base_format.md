@@ -11,7 +11,7 @@ David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt | 
 
 Do not include private phone numbers or addresses unless David provides them for the specific application.
 
-Do not add a `Target role:` line to the resume header unless David asks for it. Use the exact role title in the file name and cover letter `Re:` line instead.
+Do not add a `Target role:` line to the resume header unless David asks for it. Use the exact role title in the file name and, if useful, in the cover letter opening. Add a cover-letter subject line only when the employer requires it or David requests it.
 
 ## Section-heading style
 
@@ -30,13 +30,13 @@ For academic teaching CVs or formal academic dossiers, use the teaching job-fami
 
 Use 2 to 4 compact lines. Name David's current identity, strongest role-relevant evidence, and practical strengths. Do not use generic adjectives.
 
-For resumes, do not default to first person. Use first person only when David requests it or when a transition summary would otherwise sound artificial. Cover letters should use first person.
+Use first person by default in resume summaries and cover letters. Use a third-person or fragment-style resume summary only when David requests it or a specific document convention justifies it.
 
 Default practical technical frame:
 
-`Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct technical evidence], [secondary evidence], and [software or workflow evidence].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct technical evidence], [secondary evidence], and [software or workflow evidence].`
 
-`Strengths are experience with [practical habit], [validation habit], [documentation habit], and troubleshooting by comparing observed system behavior with expected physical or technical behavior.`
+`I bring experience with [practical habit], [validation habit], [documentation habit], and troubleshooting by comparing observed system behavior with expected physical or technical behavior.`
 
 For AI or ML claims, lead with the scientific workflow, simulation, validation, and research outcome rather than the tool name.
 
@@ -50,23 +50,23 @@ Use one of these default frames and adjust to the posting:
 
 Scientific or metrology:
 
-Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom X-ray diffraction and reflectivity systems, building Python-based detector-data workflows, and validating measurements against physical models.
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom X-ray diffraction and reflectivity systems, building Python-based detector-data workflows, and validating measurements against physical models.
 
 Data, ML, or analyst:
 
-Quantitative physicist with 7+ years of Python experience building simulation, optimization, visualization, and scientific ML workflows for complex detector data.
+I am a quantitative physicist with 7+ years of Python experience building simulation, optimization, visualization, and scientific ML workflows for complex detector data.
 
 AI-assisted scientific computing:
 
-Physics Ph.D. candidate using AI-assisted scientific-computing workflows for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning, with interpretation checked against physical simulation, detector geometry, and scattering constraints.
+I am a Physics Ph.D. candidate using AI-assisted scientific-computing workflows for code scaffolding, documentation, literature triage, reproducibility checks, and validation planning, with interpretation checked against physical simulation, detector geometry, and scattering constraints.
 
 Teaching:
 
-Physics Ph.D. candidate with undergraduate physics teaching and tutoring experience, active-learning methods, and student-support practices across mechanics, electricity and magnetism, and classical mechanics.
+I am a Physics Ph.D. candidate with undergraduate physics teaching and tutoring experience, active-learning methods, and student-support practices across mechanics, electricity and magnetism, and classical mechanics.
 
 Applications or scientific sales:
 
-Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience, Python analysis, teaching, workshops, invited talks, and public-facing technical communication.
+I am a Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience, Python analysis, teaching, workshops, invited talks, and public-facing technical communication.
 
 Avoid summaries that imply direct industry ownership not shown in the CV, such as production ML engineer, commercial AI product owner, QA engineer, metrology engineer with regulated calibration ownership, sales professional, People Analytics specialist, or instructor of record.
 
@@ -101,7 +101,7 @@ For practical technical roles, prefer concise bullets that emphasize operation, 
 Strong practical bullet patterns:
 
 - `Operate and maintain [system] for [purpose], supporting stable data collection and reproducible measurements.`
-- `Build Python-based [workflow] that convert, inspect, simulate, and analyze [data type].`
+- `Build Python-based [workflows] that convert, inspect, simulate, and analyze [data type].`
 - `Diagnose unexpected [system or measurement] behavior using [evidence], [model], [context], and model-data comparisons before drawing conclusions.`
 - `Use documentation, code repositories, and validation planning to keep [workflow] reproducible and reviewable.`
 

@@ -9,7 +9,7 @@ Email | LinkedIn | GitHub | optional location
 
 ## Summary
 
-Quantitative physicist and scientific data practitioner with 7+ years of Python experience, combining simulation, optimization, scientific ML, AI-assisted scientific-computing workflows, and visualization to extract structure-property information from complex detector data.
+I am a quantitative physicist and scientific data practitioner with 7+ years of Python experience, combining simulation, optimization, scientific ML, AI-assisted scientific-computing workflows, and visualization to extract structure-property information from complex detector data.
 
 Adjust toward the posting: scientific ML, image-like detector data, modeling, analytics, visualization, research software, or AI-assisted workflow automation.
 

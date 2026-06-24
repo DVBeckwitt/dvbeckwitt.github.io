@@ -47,6 +47,15 @@
 - Added explicit banned language for inflated or template-like phrasing such as `I am applying for...`, `uniquely qualified`, `proven track record`, `passionate about`, `leverage my skills`, `strong fit`, and `hit the ground running`.
 - Updated the common resume and cover-letter formats, job-family cover-letter templates, application checklist, nested README, and Beamport voice example to reflect the grounded first-person style.
 
+## Concise evidence-first application voice update
+
+- Migrated active application guidance away from mandatory mapping language, default `Re:` subject lines, target-role banners, and required contribution sentences after each evidence paragraph.
+- Added a David-specific override in `AGENTS.md`: user-edited application documents control voice, density, structure, and degree of self-promotion, but not factual claims, grammar mistakes, or job-specific terminology.
+- Updated common and job-family resume guidance so first person is the default for resume summaries, with teaching-specific `Target Role` exceptions preserved.
+- Updated data science, metrology, scientific sales, and neutron/X-ray scattering cover-letter formats so the old `I believe ... maps well ...` pattern is no longer recommended.
+- Status: feature complete. The old over-interpretive style is deprecated in active guidance; examples remain style references only and are not evidence sources.
+- Verification complete on 2026-06-24: `python scripts/check_repo.py`, `python -m pytest -q`, `git diff --check`, and planned-file boundary checks passed.
+
 ## Evidence-control note
 
 The example resume and cover-letter files are treated as archived writing samples. New application materials should be drafted from `data/cv_master.json`, the source CV, the teaching documents, user-provided updates, and the job posting. Unsupported claims should be listed as gaps rather than reused.

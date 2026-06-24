@@ -8,11 +8,11 @@ Apply `../../common/cover_letter_voice_guide.md`. The letter should be direct, f
 
 Start with David's current scattering identity and directly relevant experience. Name the role and organization naturally in the opening paragraph. Position David as a scattering-focused Physics Ph.D. candidate with quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, area-detector analysis, and thin-film disorder expertise.
 
-For beamport, beamline, neutron-scattering, synchrotron, reactor, or user-facility roles, explain how his experience maps to the role: keeping instruments useful, turning detector data into reliable structural information, building analysis software, supporting measurements, or communicating with scientific users.
+For beamport, beamline, neutron-scattering, synchrotron, reactor, or user-facility roles, use evidence such as keeping instruments useful, turning detector data into reliable structural information, building analysis software, supporting measurements, or communicating with scientific users.
 
 Preferred pattern:
 
-`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, and area-detector scattering analysis. I am interested in [organization]'s [role] because [specific role context]. I believe my experience with [supported scattering, instrumentation, or detector-data evidence] maps well to [role need].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, specializing in quantitative X-ray diffraction, reflectivity instrumentation, GIWAXS modeling, and area-detector scattering analysis. I am interested in [organization]'s [role] because [specific role context].`
 
 ## Paragraph 2: primary proof from scattering measurements
 
@@ -38,13 +38,13 @@ Keep this paragraph readable. It can contain tool names, but it should still mak
 
 Use teaching, tutoring, workshops, invited presentations, manuscripts, public STEM engagement, or collaboration when the posting involves facility users, scientists, students, training, documentation, or support.
 
-Preferred frame:
+Possible frame:
 
-`The role also depends on communication with [scientists/users/students]. I have explained [relevant topics] through [supported settings]. I would bring [organization] a scientist-user's perspective, practical software habits, and a measured approach to troubleshooting instrument and analysis problems.`
+`The role also depends on communication with [scientists/users/students]. I have explained [relevant topics] through [supported settings].`
 
 ## Close
 
-Close by connecting scattering instrumentation, scientific programming, detector-data analysis, and communication to the team.
+Close with a restrained sentence naming the scattering instrumentation, scientific programming, detector-data analysis, or communication evidence David would bring.
 
 Preferred pattern:
 

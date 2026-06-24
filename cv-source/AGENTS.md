@@ -68,7 +68,7 @@ Use exact job-title and company terminology where natural. Do not keyword-stuff.
 
 For roles outside a direct academic physics lane, including analytics, data analyst, data science, technical analyst, and People Analytics roles, use employer language as target context. Do not convert role-domain keywords into candidate experience unless the evidence matrix directly supports them.
 
-Write application materials in David's grounded, evidence-based voice by default. Cover letters should use clear first person. Resumes should not default to first person; use a compact professional profile unless David asks for first person or the transition would otherwise sound artificial. The prose should sound like David explaining his background to a technical hiring manager: direct, modest, analytical, and specific about tools, systems, debugging, repositories, tests, documentation, instrumentation, and outputs.
+Write application materials in David's grounded, evidence-based voice by default. Cover letters and resume summaries should use clear first person unless David requests another convention or a specific document type makes first person inappropriate. The prose should sound like David explaining his background to a technical hiring manager: direct, modest, analytical, and specific about tools, systems, debugging, repositories, tests, documentation, instrumentation, and outputs.
 
 For transition roles, name the boundary directly. Do not pretend physics research, research software, QA-adjacent work, data analysis, teaching, or laboratory instrumentation is the same as direct product, enterprise, QA, data, sales, reactor, or engineering employment. For direct gaps, prefer language such as `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence].`
 
@@ -143,7 +143,7 @@ Role translation rules:
 - For metrology roles, lead with XRD/XRR operation, detector geometry, quantitative scattering, Python analysis, reproducibility, and thin-film characterization. Treat regulated production metrology, ISO/IEC 17025, Gage R&R, Six Sigma, SPC, wafer CD, overlay, ellipsometry, and semiconductor fab ownership as unsupported unless David provides evidence.
 - For data science or analyst roles, lead with Python, scientific data, simulation, optimization, detector-image workflows, parameter extraction, visualization, validation, and communication. Treat the employer domain as target context, not prior experience.
 - For AI-related roles, lead with AI-assisted scientific-computing workflows only when the posting values research automation, coding assistance, documentation, validation, or scientific ML. Keep the scientific validation boundary explicit.
-- For scientific sales, applications scientist, or field application roles, lead with instrument-user perspective, technical communication, workshops, presentations, teaching, troubleshooting habits, and materials-characterization credibility. Do not claim quotas, CRM ownership, revenue, renewals, or formal product demos for paying customers.
+- For scientific sales, applications scientist, or field application roles, lead with hands-on instrument operation and maintenance, troubleshooting, analysis-workflow explanation, technical communication, workshops, presentations, teaching, and materials-characterization credibility. Do not claim quotas, CRM ownership, revenue, renewals, customer onboarding, or formal product demos for paying customers.
 - For neutron roles, David has scattering physics, ACNS/NSSA exposure, detector-data analysis, and X-ray instrumentation experience. Direct neutron beamline operation is not supported.
 - For teaching roles, lead with teaching assistant work, tutoring, active-learning methods, course coverage, student-support practices, outreach, and Green Chalk Teaching Award. Research should support undergraduate-accessible projects, not dominate the document unless the posting asks for a research-teaching CV.
 
@@ -507,12 +507,104 @@ Default voice:
 
 `Grounded, technically precise, modest, analytical, and concrete. David should sound like he is explaining his background to a technical hiring manager who needs evidence, not polish.`
 
-Current resume calibration from David's edited MURR materials:
+## David-specific resume and cover-letter style override
+
+These rules override generic application-writing, marketing, and
+`role need -> evidence -> contribution` patterns.
+
+Style precedence:
+
+1. David's current explicit instruction.
+2. David's most recent manually edited resume or cover letter.
+3. Preferred-voice examples stored in `applications/examples/`.
+4. Job-family formats.
+5. Common templates and generic writing guidance.
+
+A user-edited application document is authoritative for voice, density,
+structure, and degree of self-promotion. It remains non-authoritative for
+factual claims, grammar mistakes, and job-specific terminology.
+
+General writing rule:
+
+Underwrite rather than oversell. State the evidence clearly and stop when
+the point is apparent. Do not add a sentence merely to tell the reader how
+to interpret the preceding evidence.
+
+Prefer:
+
+- Direct first person in cover letters and resume summaries.
+- Concrete descriptions of work performed.
+- Shorter paragraphs.
+- Plain statements of relevant experience.
+- One candid statement of an experience gap or transition when needed.
+- Natural contractions when appropriate.
+- Whitespace and readability over maximum keyword density.
+
+Avoid:
+
+- Paragraph-ending sentences that exist only to say the preceding evidence
+  is relevant, transferable, impressive, or useful.
+- Repeated statements that the evidence is transferable.
+- Rhetorical lists written primarily for polish.
+- Speculative claims about mindset, comfort, readiness, or future behavior.
+- Rephrasing the job description as a statement about David.
+- Adding a contribution sentence after every evidence paragraph.
+- Resume taglines that restate the role or summary.
+- Expanding a concise user-edited draft during the polishing pass.
+
+Resume defaults:
+
+- Default to one page for industry applications.
+- Begin with name, contact information, and a two-sentence first-person
+  summary.
+- Do not include a visible target-role or branding banner below the header
+  unless David explicitly requests one.
+- Tailor primarily through evidence selection, ordering, section names, and
+  keyword choice, not through marketing language.
+- Keep experience bullets factual, technical, and independently defensible.
+- Include employer terminology only when it accurately describes supported
+  work.
+- Do not add a sentence to the summary merely to characterize David as
+  ready, well suited, or a strong fit.
+
+Cover-letter defaults:
+
+- Target 250 to 325 words excluding the address block and signature.
+- Omit a `Re:` or subject line unless required by the employer or requested
+  by David.
+- Use short evidence paragraphs followed by a separate restrained close.
+- Opening: current identity, directly relevant experience, reason for
+  interest, and, when needed, one plain statement of the experience boundary.
+- Technical paragraph: describe the strongest relevant work without
+  appending an employer-mapping sentence.
+- Supporting paragraph: describe related materials, software, hardware,
+  teaching, or communication evidence only when it helps the role.
+- Close: use one restrained sentence naming the experience David would
+  bring.
+- The opening and closing may connect the evidence to the employer. Body
+  paragraphs may end directly on evidence.
+
+Deletion-biased editing:
+
+The human-editor pass must shorten before it polishes.
+
+Delete a sentence when it:
+
+- Repeats an idea already visible in the evidence.
+- Exists only to say that the evidence is relevant or transferable.
+- Restates job-posting language without adding candidate evidence.
+- Makes an unsupported inference about David's mindset or capability.
+- Adds rhetorical polish without improving factual understanding.
+
+Do not restore language David removed from a previous draft unless a
+factual, grammatical, or application-compliance issue requires it.
+
+Current resume calibration from David's manually edited technical application materials:
 
 - Contact line: `David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt | Columbia, MO`.
 - Do not add a resume `Target role:` header line unless David asks.
 - For one-page technical resumes, use uppercase plain headings such as `SUMMARY`, `CORE SKILLS`, `TECHNICAL EXPERIENCE`, `APPLIED RESEARCH TOOLS`, `TEACHING AND TECHNICAL COMMUNICATION`, and `EDUCATION`.
-- Use a two-part practical summary: current identity and hands-on evidence, then strengths such as careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed behavior with expected physical behavior.
+- Use a two-part practical first-person summary: current identity and hands-on evidence, then strengths such as careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed behavior with expected physical behavior.
 - Use label-led `CORE SKILLS` lines instead of generic skill bullets when the role is practical or technical.
 - Compress academic details that do not support the posting. Omit awards, full presentation lists, publication sections, and service leadership from one-page nonacademic resumes unless directly relevant.
 
@@ -530,7 +622,7 @@ Do not write in a grandiose or inflated voice. Avoid language that makes David s
 
 Prefer human sentences like:
 
-`My research has focused on turning difficult X-ray scattering measurements into quantitative structural information. That is the experience I would bring to this role.`
+`My research has focused on turning difficult X-ray scattering measurements into quantitative structural information.`
 
 Avoid template sentences like:
 
@@ -804,7 +896,7 @@ Rules:
 - Remove formulaic AI language.
 - Vary sentence length.
 - Use transitions that show thought, not boilerplate.
-- Make paragraphs flow from role need to evidence to contribution.
+- Use the opening and close to connect David's evidence to the employer. Body paragraphs may end directly on evidence; do not require a separate contribution or interpretation sentence.
 - Do not add new claims, metrics, tools, credentials, publications, or outcomes.
 
 ### 5. Skeptical reviewer agent
@@ -1111,15 +1203,15 @@ Use examples like these as style anchors, not as mandatory text.
 
 Metrology cover letter sentence:
 
-`My research has centered on extracting reliable structural information from complex X-ray scattering data. That work has required both hands-on instrument operation and Python-based analysis, which makes the measurement focus of this role a strong match.`
+`My research has centered on extracting reliable structural information from complex X-ray scattering data. That work has required both hands-on instrument operation and Python-based analysis.`
 
 Data science summary sentence:
 
-`Quantitative physicist with 7+ years of Python experience building simulation, optimization, and machine-learning workflows for image-like scientific detector data.`
+`I am a quantitative physicist with 7+ years of Python experience building simulation, optimization, and machine-learning workflows for image-like scientific detector data.`
 
 Industry analytics summary sentence:
 
-`Quantitative Python analyst with a physics Ph.D. research background in modeling, exploratory analysis, data wrangling, visualization, and extracting interpretable metrics from complex scientific data.`
+`I am a quantitative Python analyst with a physics Ph.D. research background in modeling, exploratory analysis, data wrangling, visualization, and extracting interpretable metrics from complex scientific data.`
 
 Scientific sales sentence:
 
@@ -1131,7 +1223,7 @@ Teaching cover letter sentence:
 
 Scattering sentence:
 
-`My strongest fit is in quantitative X-ray diffraction and GIWAXS analysis, especially where area-detector patterns need to be converted into defensible structural parameters.`
+`My work centers on quantitative X-ray diffraction and GIWAXS analysis, especially converting area-detector patterns into defensible structural parameters.`
 
 ## Stop conditions for refinement
 
@@ -1185,11 +1277,11 @@ David Beckwitt is a Physics Ph.D. candidate at the University of Missouri, expec
 
 Default technical positioning:
 
-`Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based modeling, and machine-learning-assisted structure analysis.`
+`I am a Physics Ph.D. candidate specializing in quantitative X-ray scattering, thin-film materials characterization, instrument operation, Python-based modeling, and machine-learning-assisted structure analysis.`
 
 Use shorter positioning for non-research roles:
 
-`Quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, materials characterization, and technical communication.`
+`I am a quantitative physicist with experience in X-ray scattering instrumentation, Python data analysis, materials characterization, and technical communication.`
 
 ### Education
 
@@ -1494,7 +1586,7 @@ Lead with:
 - Ability to translate complex science for different audiences.
 - Teaching, tutoring, workshops, invited talks, and outreach.
 - Technical writing and presentations.
-- Lab-user perspective on instrument pain points.
+- Hands-on instrument operation, maintenance, troubleshooting, and analysis-workflow experience.
 - Software tools that solve practical analysis and workflow problems.
 - Leadership through PAGSA, PhysAssist, workshops, and outreach.
 
@@ -1516,12 +1608,12 @@ Be careful with:
 - Product demos for paying customers.
 - Formal business development experience.
 
-Do not claim sales performance unless David provides evidence. For sales roles, position David as a technical credibility hire who can become effective in customer-facing scientific sales, especially for instruments, materials characterization, analysis software, and laboratory workflows.
+Do not claim sales performance unless David provides evidence. For sales roles, position David as a technically credible applicant transitioning toward customer-facing scientific sales, especially for instruments, materials characterization, analysis software, and laboratory workflows.
 
 Example scientific sales resume bullets:
 
 - Communicate advanced X-ray diffraction, detector analysis, and thin-film characterization concepts through invited presentations, workshops, teaching, and public STEM engagement.
-- Bring hands-on user knowledge of X-ray diffraction and reflectivity instrumentation, including operation, maintenance, analysis pain points, and custom Python tooling.
+- Operate and maintain X-ray diffraction and reflectivity instrumentation, and describe troubleshooting, analysis constraints, and custom Python tooling directly.
 - Translate complex scientific workflows into practical explanations for students, researchers, and interdisciplinary audiences across teaching, workshops, and conference settings.
 
 ### Teaching roles
@@ -1753,7 +1845,7 @@ For each application, complete this workflow before drafting.
 
 ## Cover letter workflow
 
-A cover letter should be one page. Use 4 concise paragraphs for direct matches. A 5-paragraph letter is acceptable for adjacent technical roles when one short paragraph is needed to name training areas. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
+A cover letter should be one page. Use short evidence paragraphs and a separate restrained close. A supporting communication, teaching, or secondary-evidence paragraph is optional and should appear only when it helps the role. A 5-paragraph letter is acceptable for adjacent technical roles when one short paragraph is needed to name training areas. For academic teaching jobs that expect a formal job letter, 1 to 1.5 pages is acceptable when every paragraph adds evidence and fit.
 
 Every substantive cover-letter paragraph must map to one or more claim IDs. Do not use the letter to hide unsupported knockout requirements or to convert adjacent experience into direct experience.
 
@@ -1761,25 +1853,23 @@ Paragraph 1:
 
 - Start with David's compact professional identity and the most relevant experience.
 - Name the role and company naturally in the paragraph, but do not default to `I am applying for...`.
-- State role alignment through concrete duties, using language such as `My work experience is closely aligned with what this position demands involving...` only when the evidence supports it.
+- Connect David's evidence to the role through one specific duty, product, facility, user group, or technical problem. Prefer `I am interested in [employer]'s [role] because [specific context].` Avoid generic alignment claims.
 - Include one company-specific reason for interest when it is grounded in the posting or primary company material, but do not overfill the paragraph with posting statistics.
 
 Paragraph 2:
 
 - Give one technical proof point.
-- Connect it directly to a job responsibility.
 - Use concrete methods from the CV.
 
 Paragraph 3:
 
 - Give one complementary proof point.
 - Choose from communication, leadership, teaching, software, instrumentation, or interdisciplinary work.
-- For scientific sales, this paragraph should translate technical credibility into customer-facing value.
-- For teaching roles, this paragraph should translate teaching methods into student-facing value and institutional fit.
+- Use this paragraph only when the evidence helps the role.
 
 Paragraph 4:
 
-- Close with the contribution David can make.
+- Use a separate restrained close naming the evidence David would bring.
 - Keep it direct.
 - Do not use exaggerated enthusiasm.
 
@@ -1804,10 +1894,10 @@ Human voice rules for cover letters:
 - The opening should feel specific to the role, not like a mail-merge template.
 - The opening should begin from David's identity and evidence, not from a generic application sentence.
 - Use one sentence of company or institution fit, grounded in the posting or primary company material.
-- Use one concrete proof story with a beginning, method, and relevance to the role.
+- Use one concrete proof story with a beginning, method, and clear evidence.
 - Keep enthusiasm understated. Interest is shown by fit, preparation, and specificity.
 - Avoid starting with `I am applying for...` or `I am excited to apply`.
-- End with the contribution David can make, not a generic statement of passion.
+- End with a restrained close, not a generic statement of passion.
 
 Cover letter revision tests:
 
@@ -2063,31 +2153,31 @@ Screening notes should be candid. They may be more direct than the resume or cov
 
 Use one of these as a starting point and tailor to the job.
 
-Resume summaries may use first person when it improves authenticity, especially for transition roles. Keep them short, technical, and evidence-based. A good transition summary can say what David has not formally done yet, then name the supported habits and tools he brings.
+Resume summaries should use first person by default unless David requests another convention or a specific document type justifies a more formal profile. Keep them short, technical, and evidence-based. A good transition summary can say what David has not formally done yet, then name the supported habits and tools he brings.
 
 Metrology:
 
-`Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.`
+`I am a Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.`
 
 Data science:
 
-`Quantitative physicist and scientific data practitioner with 7+ years of Python experience, combining simulation, optimization, machine learning, and visualization to extract structure-property information from complex detector data.`
+`I am a quantitative physicist and scientific data practitioner with 7+ years of Python experience, combining simulation, optimization, machine learning, and visualization to extract structure-property information from complex detector data.`
 
 Industry analytics and People Analytics:
 
-`Quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication, translating complex measurement data into interpretable, decision-ready analysis.`
+`I am a quantitative Python analyst with a physics Ph.D. research background, strong modeling and scientific-data experience, and disciplined communication. I translate complex measurement data into interpretable, decision-ready analysis.`
 
 Scientific sales:
 
-`Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience, strong technical communication skills, and a record of translating complex materials-characterization workflows through teaching, workshops, invited talks, and outreach.`
+`I am a Physics Ph.D. candidate with hands-on X-ray scattering instrumentation experience and technical communication experience through teaching, workshops, invited talks, and outreach.`
 
 Teaching:
 
-`Physics Ph.D. candidate and physics educator with experience teaching and tutoring undergraduate physics courses from small sections to 200+ student courses, using active-learning methods, student support practices, and research-informed examples from X-ray scattering and materials physics.`
+`I am a Physics Ph.D. candidate and physics educator with experience teaching and tutoring undergraduate physics courses from small sections to courses with 200+ students. I use active-learning methods, student-support practices, and research-informed examples from X-ray scattering and materials physics.`
 
 Neutron and X-ray scattering:
 
-`Scattering-focused Physics Ph.D. candidate specializing in quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, diffuse scattering, and thin-film disorder in van der Waals materials.`
+`I am a scattering-focused Physics Ph.D. candidate specializing in quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, diffuse scattering, and thin-film disorder in van der Waals materials.`
 
 ## Skills-section templates
 

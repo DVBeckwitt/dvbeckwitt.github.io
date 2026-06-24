@@ -13,10 +13,10 @@ The current calibrated style is practical rather than academic. It favors phrase
 ## Preferred structure
 
 1. Opening: start with David's current identity and directly relevant experience, then connect to the role's concrete duties.
-2. Current proof: describe one direct project or work area that maps to the job.
+2. Current proof: describe one direct project or work area relevant to the job.
 3. Secondary proof and boundary: use graduate research, software, instrumentation, teaching, documentation, or communication to support broader credibility, and name direct gaps plainly.
-4. Employer environment and contribution: connect the background to the equipment, data, students, customers, or facility being supported.
-5. Close: restrained, specific, and evidence-based.
+4. Optional supporting evidence or employer context: include communication, teaching, customer support, documentation, or interdisciplinary work only when it helps the role.
+5. Close: separate, restrained, specific, and evidence-based.
 
 A 5-paragraph letter is acceptable for adjacent technical roles when one short paragraph is needed to separate secondary evidence from the direct-gap statement.
 
@@ -24,13 +24,17 @@ A 5-paragraph letter is acceptable for adjacent technical roles when one short p
 
 Use first person without apology when the evidence supports it: `I operate`, `I build`, `I diagnose`, `I document`, `I teach`, `I have also worked with...`.
 
-Use moderate confidence. `My work experience is closely aligned with what this position demands involving...` is usually better than `this makes me an ideal candidate`.
+Use moderate confidence. Connect the role through a specific reason for interest, such as `I am interested in [employer]'s [role] because [specific duty, product, facility, user group, or technical problem].` Avoid generic alignment claims.
 
 Keep technical lists controlled. A list of methods or tools is useful only when it clarifies the role fit.
 
 Use employer-specific context without flattery. One concise sentence about the employer's facility, mission, product, students, or users is usually enough.
 
-Prefer `I would bring...` for contribution statements. Avoid promising immediate equivalence in a domain where David is transitioning.
+Use `I would bring...` sparingly in the close when it names supported evidence. Avoid promising immediate equivalence in a domain where David is transitioning.
+
+## Deletion-biased review
+
+Before finalizing, delete sentences that only restate fit, transferability, relevance, or the interpretation of evidence already presented. Body paragraphs may end directly on evidence. Do not restore promotional language that David removed unless factual accuracy, grammar, or application requirements make it necessary.
 
 ## Transition and adjacent-fit language
 
@@ -54,7 +58,7 @@ Avoid these patterns unless David explicitly asks for a different style:
 - `My strongest direct evidence is...`
 - `The role is close to work I already do...`
 - `research background built around...`
-- `I believe that experience maps well to...`, unless a more direct sentence would overstate the fit
+- `I believe that experience maps well to...`
 - `The main transition for me would be...`, unless the shorter training-area sentence would be unclear
 - `instrument-user perspective`, when concrete wording such as `instrumentation`, `measurement systems`, `documentation`, or `troubleshooting` is better
 - `uniquely qualified`

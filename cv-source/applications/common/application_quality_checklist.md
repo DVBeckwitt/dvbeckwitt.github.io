@@ -9,7 +9,7 @@ Use this before finalizing a job-specific package.
 - Resume top third matches the job family and posting.
 - For one-page technical, instrumentation, facility, metrology-adjacent, analyst, and nonacademic resumes, section headings are uppercase plain headings such as `SUMMARY`, `CORE SKILLS`, and `TECHNICAL EXPERIENCE`.
 - Resume summary is practical and concrete. It uses `Physics Ph.D. candidate at the University of Missouri, expected July 2026` and emphasizes role-relevant hands-on evidence.
-- Resume uses first person only when David asks for it or when it materially improves clarity.
+- Resume summary uses first person by default unless David requests another convention or a specific document type justifies it.
 - Core skills are grouped by employer need. For practical technical resumes, label-led skill lines are preferred over generic skill bullets.
 - Research details are compressed when they do not serve the posting.
 - Awards, full presentation lists, publication sections, and service leadership are omitted from one-page nonacademic technical resumes unless directly relevant.
@@ -26,10 +26,12 @@ Use this before finalizing a job-specific package.
 - No unsupported metrology/example claims were used, including sample throughput, number of users, same-day turnaround, hBN calibration procedures, vacuum leaks, alignment drift, electronics faults, motor step loss, SOP ownership, MCMC refinement, 20+ parameter fits, ALD, TEM, Bi2Se3/Bi2Te3, Visual Basic Script, C production software, oven interlocks, deployed safety systems, or production biomedical manufacturing claims.
 - No unsupported teaching/example claims were used, including instructor-of-record status, modern physics or optics teaching ownership, academic advising, faculty committee service, external funding plans stated as experience, Excellence in Undergraduate Teaching Award, direct neutron-scattering operation, Monte Carlo simulation claims, student-success metrics, or curriculum ownership.
 - Cover letter uses the exact role and employer name.
-- Cover letter includes a formal recipient block and `Re:` line when enough information is available.
+- Cover letter includes a formal recipient block when enough information is available. A `Re:` line appears only when required by the employer, expected by the application channel, or requested by David.
 - Cover letter gives one employer-specific reason, not generic praise and not a long restatement of the posting.
 - Cover letter voice follows `common/application_style_calibration.md` and `common/cover_letter_voice_guide.md`: grounded first person, concrete evidence, candid training-area language when needed, and restrained confidence.
 - Cover letter opening starts from David's identity and directly relevant experience, not a generic `I am applying for...` sentence.
+- Cover letter body paragraphs may end directly on evidence; they do not require repeated mapping or contribution sentences.
+- A deletion pass removed sentences that only restate fit, transferability, relevance, or the interpretation of evidence already presented.
 - Adjacent requirements are named directly and neutrally. Use language such as `That experience is adjacent rather than direct [requirement]. Those would be training areas for me.` when accurate.
 - Transition roles name the domain shift directly and do not imply direct industry, QA, product, sales, data, reactor, or engineering experience beyond the evidence.
 - Final prose avoids banned template language such as `uniquely qualified`, `proven track record`, `passionate about`, `leverage my skills`, `dynamic team`, `strong fit`, `hit the ground running`, and role-fit phrases that sound like a template.

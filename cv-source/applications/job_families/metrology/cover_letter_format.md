@@ -10,11 +10,11 @@ Start with David's current identity and measurement evidence. Name the role and 
 
 Template for research-heavy metrology roles:
 
-I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. My work experience is closely aligned with what this position demands involving [specific measurement, troubleshooting, validation, or documentation need].
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with experience operating custom X-ray diffraction and reflectivity systems, building Python-based analysis workflows, and using quantitative scattering methods to characterize thin-film materials. I am interested in [company]'s [role] because [specific measurement, troubleshooting, validation, or documentation need].
 
 Template for practical instrumentation or facility roles:
 
-I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems. My work experience is closely aligned with what this position demands involving keeping technical equipment working, interpreting instrument diagnostics, testing expected behavior against observed data, and communicating technical issues.
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems. I am interested in [company]'s [role] because it involves keeping technical equipment working, interpreting instrument diagnostics, testing expected behavior against observed data, and communicating technical issues.
 
 ## Paragraph 2
 
@@ -28,9 +28,9 @@ Secondary proof point: software, automation, hardware-adjacent work, and materia
 
 Use 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Python, NumPy/SciPy/pandas, PyTorch, CVD, PLD, Raman, SEM/EDS, profilometry, PLD system construction, and automated hardware-system software only as relevant. For direct gaps, use the calibrated boundary pattern: `That experience is adjacent rather than direct [target work]. Those would be training areas for me. I do bring a base in [supported evidence].`
 
-## Paragraph 4
+## Optional supporting-evidence paragraph
 
-Close by connecting measurement discipline, instrument care, documentation, software-supported troubleshooting, site-specific procedures, and technical communication to the employer's need. Prefer concrete language over `instrument-user perspective` when space is tight.
+Use this paragraph only when measurement discipline, instrument care, documentation, software-supported troubleshooting, site-specific procedures, technical communication, or employer context materially helps the role. Prefer concrete language over `instrument-user perspective` when space is tight.
 
 ## Cautions
 

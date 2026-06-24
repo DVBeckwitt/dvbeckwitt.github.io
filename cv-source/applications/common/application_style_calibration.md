@@ -1,6 +1,6 @@
 # Application Style Calibration
 
-Use this guide with `AGENTS.md`, `resume_base_format.md`, `cover_letter_base_format.md`, and the job-family templates. It captures David's current preferred style from the edited MURR Instrumentation & Control Technician I resume and cover letter.
+Use this guide with `AGENTS.md`, `resume_base_format.md`, `cover_letter_base_format.md`, and the job-family templates. It captures David's current preferred style from his manually edited technical application materials.
 
 ## Overall style
 
@@ -28,7 +28,7 @@ Use this contact order by default for both resumes and cover letters:
 
 `David.Beckwitt@proton.me | linkedin.com/in/dvbeckwitt | github.com/DVBeckwitt | Columbia, MO`
 
-Do not add a `Target role:` line to resumes unless David asks for it. Put the role title in the file name and, for cover letters, in the `Re:` line.
+Do not add a `Target role:` line to resumes unless David asks for it. Put the role title in the file name and, when useful, in the cover letter opening. Add a cover-letter subject line only when the employer requires it or David requests it.
 
 ## Resume style
 
@@ -53,11 +53,11 @@ Use a compact two-part summary when the role is practical or technical:
 
 Default technical summary frame:
 
-`Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence], [secondary evidence], and [software or workflow evidence].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence], [secondary evidence], and [software or workflow evidence].`
 
-`Strengths are experience with [practical habit], [validation habit], [documentation habit], and troubleshooting by comparing observed system behavior with expected physical or technical behavior.`
+`I bring experience with [practical habit], [validation habit], [documentation habit], and troubleshooting by comparing observed system behavior with expected physical or technical behavior.`
 
-For resumes, do not default to first person. Use a sentence-fragment or third-person profile unless David specifically asks for first person or the transition would otherwise sound artificial.
+Use first person by default in resume summaries. Use a sentence-fragment or third-person profile only when David asks for it or a specific document convention justifies it.
 
 Use `CORE SKILLS` as label-led lines instead of generic bullet groups when possible:
 
@@ -84,7 +84,7 @@ Education should be compact. Bullet education lines are acceptable on one-page r
 
 Use a formal but simple letter block when information is available:
 
-`June 15, 2026`
+`[Date]`
 
 `Hiring Committee`
 
@@ -94,23 +94,23 @@ Use a formal but simple letter block when information is available:
 
 `[City, State]`
 
-`Re: [Exact role title]`
+Add `Re: [Exact role title]` only when the employer requires a subject line, the application channel expects one, or David requests it.
 
 Start with identity and direct evidence:
 
 `I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence].`
 
-Then connect to the role using concrete duties:
+Then give one specific reason for interest grounded in the role:
 
-`My work experience is closely aligned with what this position demands involving [duty], [duty], [duty], and [duty].`
+`I am interested in [employer]'s [role] because [specific duty, product, facility, user group, or technical problem].`
 
 Use four or five short paragraphs for adjacent technical roles:
 
-1. Identity and role alignment.
+1. Identity, direct evidence, and one specific reason for interest.
 2. Current direct evidence.
 3. Earlier or secondary evidence plus explicit boundary.
-4. Employer environment and contribution.
-5. Restrained close.
+4. Optional supporting evidence or employer context, only when it helps the role.
+5. Separate restrained close.
 
 Preferred adjacent-fit language:
 
@@ -118,7 +118,7 @@ Preferred adjacent-fit language:
 
 Use `training areas for me` when the posting includes requirements such as PLC programming, reactor instrumentation, production quality systems, regulated calibration ownership, direct beamline work, direct sales ownership, or formal instructor-of-record experience that David does not have.
 
-Prefer concrete contribution language:
+Use restrained close language that names supported evidence:
 
 `I would bring a technical background in [evidence], [evidence], [evidence], and communication while building the [role-specific] skills required by the facility.`
 

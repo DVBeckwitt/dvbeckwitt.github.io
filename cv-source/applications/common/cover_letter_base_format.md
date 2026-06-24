@@ -22,7 +22,7 @@ Use a formal recipient block when details are available:
 
 `[City, State]`
 
-`Re: [Exact role title]`
+Add `Re: [Exact role title]` only when the employer requires a subject line, the application channel expects one, or David requests it.
 
 Do not add private phone numbers or addresses unless David provides them for that application.
 
@@ -55,11 +55,11 @@ When the match is adjacent, name the boundary once and then return to evidence.
 
 Start with David's current professional identity and directly relevant experience. Name the role through the recipient block or naturally in the paragraph, but do not default to a generic `I am applying for...` sentence.
 
-Preferred practical opening:
+Possible practical opening:
 
-`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence]. My work experience is closely aligned with what this position demands involving [role duty], [role duty], [role duty], and [role duty].`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience [direct evidence]. I am interested in [employer]'s [role] because [specific reason tied to the posting, product, facility, students, or users].`
 
-Use `closely aligned` only when the supporting evidence is real. Otherwise use a more cautious sentence and name the training area later.
+Make the role connection through the opening and close when needed. Do not add a separate mapping sentence after every evidence paragraph.
 
 For roles with a known local connection, advisor connection, laboratory connection, teaching connection, or user-community connection, include it only if David provided the fact for that application and it helps the reader understand the fit.
 
@@ -71,7 +71,7 @@ Include methods, tools, instruments, data types, students, users, or outputs onl
 
 Good pattern:
 
-`In my graduate research, I [direct work]. I also [workflow or secondary method]. That work has trained me to [role-relevant habit].`
+`In my graduate research, I [direct work]. I also [workflow or secondary method].`
 
 ## Paragraph 3: secondary proof and boundary
 
@@ -85,17 +85,17 @@ Preferred adjacent-fit pattern:
 
 Use this pattern for requirements such as direct reactor I&C, PLC programming, control-blade drive work, regulated calibration ownership, production metrology, direct beamline support, quota-carrying sales, HR-domain analytics, or instructor-of-record ownership when David has not provided direct evidence.
 
-## Paragraph 4: employer environment and contribution
+## Optional supporting-evidence paragraph
 
-Connect David's evidence to the people, equipment, data, or students the role supports. This paragraph should answer: `Who would be helped by this background, and how?`
+Use this paragraph only when communication, teaching, customer support, documentation, interdisciplinary work, or employer context is material to the role.
+
+State the evidence directly. Do not add an inferred conclusion about David's personality, comfort level, or likely future performance.
 
 Use one employer-specific sentence when it is grounded in the posting or primary employer material. Do not overfill the paragraph with statistics from the posting.
 
-For scientific sales, translate technical credibility into customer-facing support. For teaching, translate methods into student-facing value. For facility, beamline, metrology, and instrumentation roles, connect measurement discipline, software habits, documentation, communication, and respect for site-specific procedures to reliable support.
-
 ## Close
 
-Use a restrained close. State the contribution David can discuss. Do not restate the resume and do not use broad claims about passion, innovation, or transformative impact.
+Use a restrained close. Name the experience David can discuss. Do not restate the resume and do not use broad claims about passion, innovation, or transformative impact.
 
 Preferred pattern:
 

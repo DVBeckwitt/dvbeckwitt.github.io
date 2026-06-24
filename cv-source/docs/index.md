@@ -37,6 +37,7 @@ Compact map for maintainers and agents.
 - [0001: Evidence-Controlled Generated Outputs](decisions/0001-evidence-controlled-generated-outputs.md).
 - [0002: Repository Validation Design](decisions/0002-repository-validation-design.md).
 - [0003: Application Output Evidence Control](decisions/0003-application-output-evidence-control.md).
+- [0004: Application Voice Style Precedence](decisions/0004-application-voice-style-precedence.md).
 
 ## Common commands
 

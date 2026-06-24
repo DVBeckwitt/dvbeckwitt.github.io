@@ -11,7 +11,7 @@ Email | LinkedIn | GitHub | optional location
 
 For practical technical roles, prefer the summary frame in the instrumentation and facility variant above. For research-heavy metrology roles, use:
 
-Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.
+I am a Physics Ph.D. candidate specializing in quantitative X-ray diffraction, reflectivity instrumentation, detector-data analysis, and Python-based modeling for thin-film materials characterization.
 
 Adjust the second sentence to the posting: instrument operation, detector geometry, thin-film characterization, quantitative parameter extraction, or Python analysis.
 
@@ -27,9 +27,9 @@ Default section order:
 
 Default summary frame:
 
-`Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems, designing and building laboratory hardware, and developing software for automated hardware and scientific data workflows.`
+`I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with hands-on experience operating and maintaining custom-built X-ray diffraction and reflectivity systems, designing and building laboratory hardware, and developing software for automated hardware and scientific data workflows.`
 
-`Strengths are experience with careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed system behavior with expected physical behavior.`
+`I bring experience with careful instrument care, measurement validation, documentation, and troubleshooting by comparing observed system behavior with expected physical behavior.`
 
 For roles that mention PLCs, reactor I&C, control systems, calibrated facility electronics, work orders, schematic troubleshooting, conduit, cable pulls, or equipment wiring, use the evidence boundary clearly. David can claim laboratory instrumentation, custom XRD/XRR operation and maintenance, PLD system build experience, automated hardware-system software, measurement validation, documentation, and software-supported troubleshooting. Do not claim direct PLC programming, reactor instrumentation, control-blade drive work, nuclear facility maintenance, electrician work, conduit installation, or calibration-program ownership unless David provides direct evidence.
 

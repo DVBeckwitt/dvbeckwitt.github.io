@@ -9,7 +9,7 @@ Email | LinkedIn | GitHub | ResearchGate | optional location
 
 ## Summary
 
-Scattering-focused Physics Ph.D. candidate specializing in quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, diffuse scattering, and thin-film disorder in van der Waals materials.
+I am a scattering-focused Physics Ph.D. candidate specializing in quantitative X-ray diffraction, GIWAXS modeling, area-detector analysis, diffuse scattering, and thin-film disorder in van der Waals materials.
 
 Adjust toward the posting: beamline support, diffraction, detector data, user support, modeling, materials characterization, or scientific software.
 

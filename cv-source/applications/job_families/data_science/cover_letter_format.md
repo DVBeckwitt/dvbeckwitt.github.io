@@ -12,7 +12,7 @@ For industry analyst or People Analytics roles, position David as a quantitative
 
 Template:
 
-I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with 7+ years of Python experience and work in simulation, optimization, machine learning, and visualization for complex detector data. I am interested in [company]'s [role] because [company-specific sentence tied to the data type, model type, or mission in the posting]. I believe that experience maps well to [specific role need].
+I am a Physics Ph.D. candidate at the University of Missouri, expected July 2026, with 7+ years of Python experience and work in simulation, optimization, machine learning, and visualization for complex detector data. I am interested in [company]'s [role] because [company-specific sentence tied to the data type, model type, or mission in the posting].
 
 ## Paragraph 2
 
@@ -26,9 +26,9 @@ Secondary proof point: machine learning or software tools.
 
 Use PyTorch CNNs trained on simulated GIWAXS data, 2D Powder Simulator, 2D Powder Visualizer, Detector Data Pipeline, Git, Jupyter, Matplotlib, Plotly, and Dash as relevant.
 
-## Paragraph 4
+## Optional supporting-evidence paragraph
 
-Close by connecting scientific rigor, data quality, modeling judgment, and communication to the employer's data work.
+Use this paragraph only when scientific rigor, data quality, modeling judgment, communication, or employer context materially helps the role.
 
 For People Analytics or other career-transition analyst letters, include a short honest-transition paragraph when useful. Preferred frame: David has not held a formal [job title] title, but he brings supported habits in Python analysis, validation, reproducible workflows, documentation, and technical communication. Do not write this as a self-defeating `I lack HR experience` paragraph.
 
